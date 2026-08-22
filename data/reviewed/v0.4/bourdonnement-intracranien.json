@@ -1,0 +1,25 @@
+{
+  "id": "nova.bourdonnement_intracranien",
+  "term": "Bourdonnement intracrânien",
+  "annotation_lux_v0_4": {
+    "types": ["phenomenon"],
+    "modalities": ["auditory", "somatosensory"],
+    "phases": ["threshold", "separation"],
+    "selfhood_dimensions": [],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"phenomenon","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"auditory","epistemic_status":"proposed","basis":"Le noyau de la fiche est un son interne fort."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"La fiche mentionne aussi une sensation de pression."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"threshold","epistemic_status":"proposed","basis":"La définition situe explicitement le phénomène dans la zone de bascule."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"separation","epistemic_status":"proposed","basis":"Les signes indiquent qu’il peut précéder le décrochage."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.etat_vibratoire","target_term":"État vibratoire","epistemic_status":"source_explicit","basis":"La définition indique que le bourdonnement survient souvent avec des vibrations."},
+      {"kind":"relation","predicate":"precedes","target_id":"nova.decrochage","target_term":"Décrochage","epistemic_status":"source_explicit","basis":"Les signes indiquent explicitement qu’il précède souvent le décrochage."},
+      {"kind":"source_statement","predicate":"described_as","value":"sons internes forts, parfois intracrâniens, avec possible sensation de pression","epistemic_status":"phenomenological_observation","basis":"Description directe de la fiche source."}
+    ],
+    "notes": ["La sensation de pression justifie une composante somatosensorielle secondaire.", "Le lien avec le décrochage est conservé comme précédent fréquent rapporté, pas comme causalité."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": []
+  }
+}
