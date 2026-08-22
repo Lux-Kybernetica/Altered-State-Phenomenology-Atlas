@@ -1,0 +1,29 @@
+{
+  "id": "nova.retour_progressif",
+  "term": "Retour progressif",
+  "annotation_lux_v0_4": {
+    "types": ["transition", "phenomenon"],
+    "modalities": ["visual", "somatosensory", "proprioceptive"],
+    "phases": ["return", "awakening"],
+    "selfhood_dimensions": ["self_location", "body_boundaries"],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"La fiche décrit explicitement une transition de retour en plusieurs étapes."},
+      {"kind":"classification","predicate":"has_type","value":"phenomenon","epistemic_status":"proposed","basis":"Le retour est également décrit par une séquence perceptive observable."},
+      {"kind":"classification","predicate":"has_modality","value":"visual","epistemic_status":"proposed","basis":"La perte du décor et le flou sont explicitement mentionnés."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"Les sensations corporelles reviennent progressivement."},
+      {"kind":"classification","predicate":"has_modality","value":"proprioceptive","epistemic_status":"proposed","basis":"La fiche décrit une sensation de replongée/relocalisation corporelle."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"return","epistemic_status":"proposed","basis":"Le terme appartient explicitement à la phase de retour."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"awakening","epistemic_status":"proposed","basis":"La séquence décrite se termine par le réveil."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"self_location","epistemic_status":"proposed","basis":"Le vécu de retour implique une relocalisation subjective."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"body_boundaries","epistemic_status":"proposed","basis":"Le retour des sensations corporelles correspond au rétablissement des frontières corporelles ordinaires."},
+      {"kind":"relation","predicate":"distinguish_from","target_id":"nova.endormissement","target_term":"Endormissement","epistemic_status":"source_explicit","basis":"La fiche distingue explicitement le retour progressif de l’endormissement par le maintien de la conscience et la mémoire du retour."},
+      {"kind":"source_statement","predicate":"described_as","value":"perte progressive du décor, retour des sensations corporelles puis réveil","epistemic_status":"phenomenological_observation","basis":"Paraphrase directe de la définition et des signes."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"replongée dans le corps / conscience qui réatterrit","epistemic_status":"operational_definition","basis":"Ces expressions décrivent le modèle phénoménologique interne de Nova et sont distinguées des observables."}
+    ],
+    "notes": ["Le terme comporte une séquence perceptive observable et une interprétation de 'retour dans le corps'.", "La continuité de conscience est un critère distinctif explicite dans la fiche."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": []
+  }
+}
