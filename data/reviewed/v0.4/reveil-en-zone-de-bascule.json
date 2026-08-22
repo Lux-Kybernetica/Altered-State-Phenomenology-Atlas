@@ -1,0 +1,27 @@
+{
+  "id": "nova.reveil_en_zone_de_bascule",
+  "term": "Réveil en zone de bascule",
+  "annotation_lux_v0_4": {
+    "types": ["transition", "situation"],
+    "modalities": ["cognitive", "somatosensory"],
+    "phases": ["awakening", "threshold"],
+    "selfhood_dimensions": [],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_type","value":"situation","epistemic_status":"proposed","basis":"La fiche décrit une configuration précise de réveil dans la zone de bascule."},
+      {"kind":"classification","predicate":"has_modality","value":"cognitive","epistemic_status":"proposed","basis":"La clarté de l’esprit et la lucidité sont centrales dans la fiche."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"La fiche inclut l’immobilité corporelle et la stase."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"awakening","epistemic_status":"proposed","basis":"Le terme commence par un réveil explicite."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"threshold","epistemic_status":"proposed","basis":"La fiche situe explicitement le sujet dans la zone de bascule."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.stase","target_term":"Stase","epistemic_status":"source_explicit","basis":"La définition dit explicitement que l’esprit se réveille clair tandis que le corps est en stase."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.etat_vibratoire","target_term":"État vibratoire","epistemic_status":"source_explicit","basis":"La fiche précise que l’état vibratoire peut surgir spontanément."},
+      {"kind":"source_statement","predicate":"described_as","value":"réveil avec esprit clair et corps immobile/en stase dans la zone de bascule","epistemic_status":"phenomenological_observation","basis":"Synthèse des signes et de la définition source."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"accès direct possible à une sortie","epistemic_status":"source_explicit","basis":"La fiche affirme que la sortie est accessible directement ; ce point reste une affirmation interne au modèle Nova."}
+    ],
+    "notes": ["Le terme est mieux représenté comme situation transitionnelle que comme phénomène perceptif.", "La mention WBTB dans les équivalents ne suffit pas à rendre les deux notions strictement identiques."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": ["immobility", "atonia"]
+  }
+}
