@@ -1,0 +1,28 @@
+{
+  "id": "nova.endormissement_conscient",
+  "term": "Endormissement conscient",
+  "annotation_lux_v0_4": {
+    "types": ["transition", "concept"],
+    "modalities": ["cognitive", "interoceptive"],
+    "phases": ["sleep_onset", "threshold"],
+    "selfhood_dimensions": ["agency"],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_type","value":"concept","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"cognitive","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"interoceptive","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"sleep_onset","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la temporalité de la fiche Nova."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"threshold","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la temporalité de la fiche Nova."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"agency","epistemic_status":"proposed","basis":"Le terme implique le maintien volontaire de la conscience pendant la transition."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.hypnagogie","target_term":"Hypnagogie","epistemic_status":"source_explicit","basis":"La fiche cite l’hypnagogie parmi les signes typiques."},
+      {"kind":"relation","predicate":"precedes","target_id":"nova.zone_de_bascule","target_term":"Zone de bascule","epistemic_status":"source_explicit","basis":"La définition décrit le maintien de la conscience jusqu’à l’apparition de la zone de bascule."},
+      {"kind":"source_statement","predicate":"described_as","value":"maintien de la conscience pendant l’endormissement jusqu’à la zone de bascule","epistemic_status":"operational_definition","basis":"Paraphrase fidèle de la définition Nova."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"le corps s’endort tandis que la conscience reste active","epistemic_status":"interpretation","basis":"Cette séparation conceptuelle corps/conscience appartient au cadre opératoire de la fiche et ne constitue pas à elle seule une observation brute."}
+    ],
+    "notes": ["Le terme décrit à la fois un processus de transition et une consigne/catégorie opératoire.", "La formulation corps endormi / conscience active est conservée mais traitée comme interprétation de cadre."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": []
+  }
+}
