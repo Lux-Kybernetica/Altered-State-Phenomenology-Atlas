@@ -1,0 +1,29 @@
+{
+  "id": "nova.retour_brusque",
+  "term": "Retour brusque",
+  "annotation_lux_v0_4": {
+    "types": ["transition"],
+    "modalities": ["somatosensory", "interoceptive", "affective"],
+    "phases": ["return", "awakening"],
+    "selfhood_dimensions": ["self_location", "body_boundaries"],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"La fiche décrit une claque de réintégration et un retour corporel net."},
+      {"kind":"classification","predicate":"has_modality","value":"interoceptive","epistemic_status":"proposed","basis":"L’accélération cardiaque est explicitement mentionnée."},
+      {"kind":"classification","predicate":"has_modality","value":"affective","epistemic_status":"proposed","basis":"Peur, excitation, surprise et frustration sont liées au phénomène décrit."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"return","epistemic_status":"proposed","basis":"Le terme appartient explicitement à la phase de retour."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"awakening","epistemic_status":"proposed","basis":"Le réveil net fait partie des signes typiques."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"self_location","epistemic_status":"proposed","basis":"Le retour implique un changement de localisation subjective vers le corps perçu."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"body_boundaries","epistemic_status":"proposed","basis":"La réintégration décrite implique le rétablissement des frontières corporelles ordinaires."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.excitation","target_term":"Excitation","epistemic_status":"source_explicit","basis":"La définition cite explicitement l’excitation parmi les facteurs fréquemment associés au retour brusque."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.pression_emotionnelle","target_term":"Pression émotionnelle","epistemic_status":"source_supported","basis":"La fiche 'Pression émotionnelle' décrit une montée émotionnelle pouvant provoquer un retour brusque."},
+      {"kind":"source_statement","predicate":"described_as","value":"retour soudain avec sensation de réintégration, réveil net et activation corporelle","epistemic_status":"phenomenological_observation","basis":"Synthèse directe de la définition et des signes."},
+      {"kind":"source_statement","predicate":"associated_with","value":"peur, excitation, surprise, pleurs ou perte de stabilité","epistemic_status":"source_explicit","basis":"La source les mentionne comme causes fréquentes ; le modèle Lux ne les convertit pas ici en causalités démontrées."}
+    ],
+    "notes": ["La fiche mêle description du retour et facteurs déclenchants rapportés ; les deux sont séparés en assertions.", "Le terme 'réintégration' est gardé comme langage opératoire de la source."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": []
+  }
+}
