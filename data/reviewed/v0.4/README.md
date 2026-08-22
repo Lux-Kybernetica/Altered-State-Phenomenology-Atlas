@@ -36,10 +36,28 @@ This directory contains the manually reviewed Lux annotations currently consider
 - Retour brusque
 - Retour progressif
 
+## Reviewed states batch 3
+
+- Lucidité
+- Conscience de soi
+- Semi-lucidité
+- Lucidité intermittente
+- Lucidité continue
+- Pilotage automatique
+- Clarté mentale
+- Confusion mentale
+- Rêve lucide
+- Rappel stable
+
+`Projection lucide` was already reviewed in batch 1, so the **États & lucidité** family is now fully covered.
+
 ## Progress
 
-**25 / 92 terms manually reviewed. 67 remain.**
+**35 / 92 terms manually reviewed. 57 remain.**
 
-The **Transitions** family is now fully covered by reviewed annotations: its 15 source terms are either part of the initial pilot/batch 1 or transitions batch 2.
+Completed source families:
+
+- **Transitions: 15 / 15**
+- **États & lucidité: 11 / 11**
 
 The source definitions are not duplicated in these files. They live under `data/source/terms-*.json`, while this directory stores the Lux semantic layer only. This separation is deliberate: source and analysis must never become indistinguishable.
