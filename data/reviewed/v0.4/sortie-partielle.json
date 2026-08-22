@@ -1,0 +1,27 @@
+{
+  "id": "nova.sortie_partielle",
+  "term": "Sortie partielle",
+  "annotation_lux_v0_4": {
+    "types": ["transition", "situation"],
+    "modalities": ["somatosensory", "proprioceptive"],
+    "phases": ["separation"],
+    "selfhood_dimensions": ["body_ownership", "body_boundaries"],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"La fiche décrit explicitement une étape de passage incomplète."},
+      {"kind":"classification","predicate":"has_type","value":"situation","epistemic_status":"proposed","basis":"Elle décrit une configuration particulière de séparation partielle."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"La fiche rapporte légèreté, torsion et sensations corporelles partielles."},
+      {"kind":"classification","predicate":"has_modality","value":"proprioceptive","epistemic_status":"proposed","basis":"La position et la liberté relative de différentes parties du corps sont au cœur de la description."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"separation","epistemic_status":"proposed","basis":"La fiche dit explicitement que la sortie partielle est déjà le passage."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"body_ownership","epistemic_status":"proposed","basis":"Le terme suppose la perception d’un 'corps de sortie' partiellement distinct."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"body_boundaries","epistemic_status":"proposed","basis":"La séparation partielle modifie les frontières corporelles perçues."},
+      {"kind":"relation","predicate":"follows","target_id":"nova.stase","target_term":"Stase","epistemic_status":"source_explicit","basis":"La fiche indique explicitement que la stase précède et que la sortie partielle est déjà le passage."},
+      {"kind":"relation","predicate":"associated_with","target_id":"nova.corps_de_sortie","target_term":"Corps de sortie","epistemic_status":"source_supported","basis":"La définition repose sur la perception d’une partie du 'corps de sortie' comme libre."},
+      {"kind":"source_statement","predicate":"described_as","value":"dissociation perçue comme incomplète, avec seulement une partie du corps de sortie ressentie comme libre","epistemic_status":"operational_definition","basis":"Paraphrase fidèle de la définition Nova ; le vocabulaire de dissociation/corps de sortie appartient à son cadre."}
+    ],
+    "notes": ["Le terme décrit une configuration de séparation incomplète plus qu’un simple stimulus sensoriel.", "La notion de 'corps de sortie' doit rester reliée à son statut de perception, non de preuve ontologique."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": []
+  }
+}
