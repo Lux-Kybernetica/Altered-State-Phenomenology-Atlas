@@ -1,0 +1,98 @@
+source_id,source_terme,source_famille,cible_id,cible_terme,cible_famille
+t0,Lucidité,États & lucidité,t1,Conscience de soi,États & lucidité
+t0,Lucidité,États & lucidité,t2,Semi-lucidité,États & lucidité
+t0,Lucidité,États & lucidité,t3,Lucidité intermittente,États & lucidité
+t0,Lucidité,États & lucidité,t4,Lucidité continue,États & lucidité
+t0,Lucidité,États & lucidité,t7,Confusion mentale,États & lucidité
+t0,Lucidité,États & lucidité,t8,Rêve lucide,États & lucidité
+t0,Lucidité,États & lucidité,t9,Projection lucide,États & lucidité
+t0,Lucidité,États & lucidité,t15,Réveil en zone de bascule,Transitions
+t0,Lucidité,États & lucidité,t17,Stase,Transitions
+t0,Lucidité,États & lucidité,t25,Fenêtre de sortie,Transitions
+t0,Lucidité,États & lucidité,t34,Dissolution des frontières,Phénomènes perceptifs
+t0,Lucidité,États & lucidité,t51,Stabilisation,Navigation
+t0,Lucidité,États & lucidité,t52,Se calmer,Navigation
+t0,Lucidité,États & lucidité,t55,Rappel d'intention,Navigation
+t0,Lucidité,États & lucidité,t58,Rotation volontaire,Navigation
+t0,Lucidité,États & lucidité,t66,Test de cohérence,Navigation
+t0,Lucidité,États & lucidité,t70,Endormissement,Obstacles
+t0,Lucidité,États & lucidité,t71,Somnolence,Obstacles
+t0,Lucidité,États & lucidité,t78,Glissement onirique,Obstacles
+t0,Lucidité,États & lucidité,t81,Auto-sabotage cognitif,Obstacles
+t1,Conscience de soi,États & lucidité,t5,Pilotage automatique,États & lucidité
+t1,Conscience de soi,États & lucidité,t6,Clarté mentale,États & lucidité
+t1,Conscience de soi,États & lucidité,t9,Projection lucide,États & lucidité
+t5,Pilotage automatique,États & lucidité,t55,Rappel d'intention,Navigation
+t5,Pilotage automatique,États & lucidité,t70,Endormissement,Obstacles
+t2,Semi-lucidité,États & lucidité,t3,Lucidité intermittente,États & lucidité
+t2,Semi-lucidité,États & lucidité,t7,Confusion mentale,États & lucidité
+t3,Lucidité intermittente,États & lucidité,t5,Pilotage automatique,États & lucidité
+t4,Lucidité continue,États & lucidité,t70,Endormissement,Obstacles
+t70,Endormissement,Obstacles,t87,Dérégulation du sommeil,Sécurité
+t6,Clarté mentale,États & lucidité,t11,Endormissement conscient,Transitions
+t6,Clarté mentale,États & lucidité,t90,Pause stratégique,Sécurité
+t7,Confusion mentale,États & lucidité,t70,Endormissement,Obstacles
+t8,Rêve lucide,États & lucidité,t9,Projection lucide,États & lucidité
+t8,Rêve lucide,États & lucidité,t22,Sortie complète,Transitions
+t11,Endormissement conscient,Transitions,t12,Zone de bascule,Transitions
+t11,Endormissement conscient,Transitions,t13,Hypnagogie,Transitions
+t11,Endormissement conscient,Transitions,t26,Lourdeur,Phénomènes perceptifs
+t11,Endormissement conscient,Transitions,t70,Endormissement,Obstacles
+t12,Zone de bascule,Transitions,t15,Réveil en zone de bascule,Transitions
+t12,Zone de bascule,Transitions,t16,Paralysie du sommeil,Transitions
+t12,Zone de bascule,Transitions,t18,État vibratoire,Transitions
+t12,Zone de bascule,Transitions,t19,Bourdonnement intracrânien,Transitions
+t12,Zone de bascule,Transitions,t25,Fenêtre de sortie,Transitions
+t12,Zone de bascule,Transitions,t26,Lourdeur,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t28,Balancement,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t36,Bourdonnement,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t39,Voix hypnagogiques,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t40,Musique hypnagogique,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t46,Flash lumineux,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t48,Pression émotionnelle,Phénomènes perceptifs
+t12,Zone de bascule,Transitions,t56,Lâcher-prise,Navigation
+t12,Zone de bascule,Transitions,t70,Endormissement,Obstacles
+t12,Zone de bascule,Transitions,t73,Effort musculaire,Obstacles
+t12,Zone de bascule,Transitions,t87,Dérégulation du sommeil,Sécurité
+t13,Hypnagogie,Transitions,t14,Hypnopompie,Transitions
+t15,Réveil en zone de bascule,Transitions,t17,Stase,Transitions
+t15,Réveil en zone de bascule,Transitions,t18,État vibratoire,Transitions
+t17,Stase,Transitions,t21,Sortie partielle,Transitions
+t18,État vibratoire,Transitions,t20,Décrochage,Transitions
+t18,État vibratoire,Transitions,t36,Bourdonnement,Phénomènes perceptifs
+t16,Paralysie du sommeil,Transitions,t17,Stase,Transitions
+t16,Paralysie du sommeil,Transitions,t76,Panique,Obstacles
+t20,Décrochage,Transitions,t27,Flottement,Phénomènes perceptifs
+t20,Décrochage,Transitions,t29,Rotation,Phénomènes perceptifs
+t20,Décrochage,Transitions,t31,Traction,Phénomènes perceptifs
+t20,Décrochage,Transitions,t56,Lâcher-prise,Navigation
+t20,Décrochage,Transitions,t57,Intention de séparation,Navigation
+t20,Décrochage,Transitions,t73,Effort musculaire,Obstacles
+t19,Bourdonnement intracrânien,Transitions,t20,Décrochage,Transitions
+t27,Flottement,Phénomènes perceptifs,t28,Balancement,Phénomènes perceptifs
+t27,Flottement,Phénomènes perceptifs,t57,Intention de séparation,Navigation
+t21,Sortie partielle,Transitions,t35,Corps de sortie,Phénomènes perceptifs
+t23,Retour brusque,Transitions,t48,Pression émotionnelle,Phénomènes perceptifs
+t23,Retour brusque,Transitions,t52,Se calmer,Navigation
+t23,Retour brusque,Transitions,t67,Retour volontaire,Navigation
+t23,Retour brusque,Transitions,t74,Excitation,Obstacles
+t24,Retour progressif,Transitions,t70,Endormissement,Obstacles
+t28,Balancement,Phénomènes perceptifs,t29,Rotation,Phénomènes perceptifs
+t29,Rotation,Phénomènes perceptifs,t58,Rotation volontaire,Navigation
+t29,Rotation,Phénomènes perceptifs,t76,Panique,Obstacles
+t31,Traction,Phénomènes perceptifs,t57,Intention de séparation,Navigation
+t31,Traction,Phénomènes perceptifs,t59,Suivre la traction,Navigation
+t39,Voix hypnagogiques,Phénomènes perceptifs,t65,Communication,Navigation
+t41,Images hypnagogiques,Phénomènes perceptifs,t42,Phosphènes,Phénomènes perceptifs
+t41,Images hypnagogiques,Phénomènes perceptifs,t70,Endormissement,Obstacles
+t44,Flou perceptif,Phénomènes perceptifs,t51,Stabilisation,Navigation
+t51,Stabilisation,Navigation,t62,Changement de scène,Navigation
+t48,Pression émotionnelle,Phénomènes perceptifs,t74,Excitation,Obstacles
+t48,Pression émotionnelle,Phénomènes perceptifs,t76,Panique,Obstacles
+t53,Point focal,Navigation,t73,Effort musculaire,Obstacles
+t57,Intention de séparation,Navigation,t73,Effort musculaire,Obstacles
+t58,Rotation volontaire,Navigation,t76,Panique,Obstacles
+t61,Déplacement,Navigation,t62,Changement de scène,Navigation
+t64,Questionnement direct,Navigation,t65,Communication,Navigation
+t75,Peur de la zone de bascule,Obstacles,t76,Panique,Obstacles
+t47,Présence perçue,Phénomènes perceptifs,t75,Peur de la zone de bascule,Obstacles

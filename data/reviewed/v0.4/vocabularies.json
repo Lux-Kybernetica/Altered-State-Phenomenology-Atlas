@@ -1,0 +1,9 @@
+{
+  "types": ["state","phenomenon","transition","action","obstacle","safety","concept","situation","condition"],
+  "modalities": ["visual","auditory","somatosensory","proprioceptive","vestibular","interoceptive","affective","cognitive","temporal","social_presence"],
+  "phases": ["wake","sleep_onset","awakening","threshold","separation","experience","return","post_experience"],
+  "selfhood_dimensions": ["self_location","body_ownership","first_person_perspective","agency","body_boundaries"],
+  "epistemic_status": ["source_explicit","source_supported","phenomenological_observation","operational_definition","interpretation","hypothesis","proposed"],
+  "relation_types": ["is_a","part_of","precedes","follows","co_occurs_with","facilitates","inhibits","distinguish_from","may_trigger","may_contain","associated_with"],
+  "motor_states": ["normal","reduced","immobility","atonia","perceived_paralysis","involuntary_movement","motor_effort"]
+}

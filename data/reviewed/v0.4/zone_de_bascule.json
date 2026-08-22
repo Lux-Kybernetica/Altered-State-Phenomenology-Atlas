@@ -1,0 +1,24 @@
+{
+  "id":"nova.zone_de_bascule","term":"Zone de bascule",
+  "annotation_lux_v0_4":{
+    "types":["transition","concept"],"modalities":["somatosensory","proprioceptive","auditory","visual"],"phases":["threshold"],"selfhood_dimensions":["body_boundaries"],
+    "assertions":[
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"Annotation analytique Lux v0.2 ; la formulation source reste conservée séparément."},
+      {"kind":"classification","predicate":"has_type","value":"concept","epistemic_status":"proposed","basis":"Annotation analytique Lux v0.2 ; la formulation source reste conservée séparément."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"has_modality","value":"proprioceptive","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"has_modality","value":"auditory","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"has_modality","value":"visual","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"threshold","epistemic_status":"proposed","basis":"Position temporelle proposée à partir de la définition et des signes source."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"body_boundaries","epistemic_status":"proposed","basis":"Axe embodiment/selfhood ajouté en v0.2 pour distinguer localisation, perspective, agentivité et frontières corporelles."},
+      {"kind":"relation","predicate":"co_occurs_with","target_id":"nova.etat_vibratoire","target_term":"État vibratoire","epistemic_status":"source_explicit","basis":"La fiche 'Zone de bascule' cite les vibrations parmi les signes possibles."},
+      {"kind":"relation","predicate":"co_occurs_with","target_id":"nova.flottement","target_term":"Flottement","epistemic_status":"proposed","basis":"À tester dans le corpus ; pas de relation formelle explicite dans la source."},
+      {"kind":"relation","predicate":"co_occurs_with","target_id":"nova.rotation","target_term":"Rotation","epistemic_status":"proposed","basis":"À tester dans le corpus ; pas de relation formelle explicite dans la source."},
+      {"kind":"relation","predicate":"co_occurs_with","target_id":"nova.traction","target_term":"Traction","epistemic_status":"proposed","basis":"À tester dans le corpus ; pas de relation formelle explicite dans la source."},
+      {"kind":"source_statement","predicate":"described_as","value":"zone entre sommeil et éveil où la conscience peut rester présente","epistemic_status":"source_explicit","basis":"Paraphrase fidèle de la définition Nova originale."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"désaccouplement somato-conscience","epistemic_status":"interpretation","basis":"La formulation causale/ontologique est explicitement présente dans la définition source."}
+    ],
+    "notes":["Fonctionne comme zone/phase opératoire regroupant plusieurs phénomènes.","La formulation source 'désaccouplement somato-conscience' est conservée comme texte original et séparée de l'annotation phénoménologique."],
+    "annotation_method":"manual_pilot","annotation_confidence":1.0,"review_status":"reviewed_pilot","motor_states":[]
+  }
+}

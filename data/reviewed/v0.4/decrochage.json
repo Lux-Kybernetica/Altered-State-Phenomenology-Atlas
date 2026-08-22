@@ -1,0 +1,28 @@
+{
+  "id": "nova.decrochage",
+  "term": "Décrochage",
+  "annotation_lux_v0_4": {
+    "types": ["transition", "phenomenon"],
+    "modalities": ["vestibular", "proprioceptive", "somatosensory"],
+    "phases": ["separation"],
+    "selfhood_dimensions": ["self_location", "first_person_perspective", "body_boundaries"],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"transition","epistemic_status":"proposed","basis":"Annotation analytique Lux v0.2 ; la formulation source reste conservée séparément."},
+      {"kind":"classification","predicate":"has_type","value":"phenomenon","epistemic_status":"proposed","basis":"Annotation analytique Lux v0.2 ; la formulation source reste conservée séparément."},
+      {"kind":"classification","predicate":"has_modality","value":"vestibular","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"has_modality","value":"proprioceptive","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"Modalité analytique assignée à partir de la description phénoménologique de la fiche source."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"separation","epistemic_status":"proposed","basis":"Position temporelle proposée à partir de la définition et des signes source."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"self_location","epistemic_status":"proposed","basis":"Axe embodiment/selfhood ajouté en v0.2 pour distinguer localisation, perspective, agentivité et frontières corporelles."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"first_person_perspective","epistemic_status":"proposed","basis":"Axe embodiment/selfhood ajouté en v0.2 pour distinguer localisation, perspective, agentivité et frontières corporelles."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"body_boundaries","epistemic_status":"proposed","basis":"Axe embodiment/selfhood ajouté en v0.2 pour distinguer localisation, perspective, agentivité et frontières corporelles."},
+      {"kind":"source_statement","predicate":"described_as","value":"bascule, glissement ou désaxage du centre de perception","epistemic_status":"phenomenological_observation","basis":"Description issue des signes et de la définition source."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"séparation du centre de perception du corps","epistemic_status":"operational_definition","basis":"Le terme fonctionne ici comme définition opératoire interne à la nomenclature."}
+    ],
+    "notes": ["La source définit explicitement le décrochage comme le passage, non la destination.", "Le langage de séparation du 'centre de perception' reste conservé comme formulation source."],
+    "annotation_method": "manual_pilot",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_pilot",
+    "motor_states": []
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "key": "etats",
+    "label": "États & lucidité",
+    "base": "#1B3A5C",
+    "accent": "#6FA8D8"
+  },
+  {
+    "key": "transitions",
+    "label": "Transitions",
+    "base": "#1E4A25",
+    "accent": "#6FB87A"
+  },
+  {
+    "key": "phenomenes",
+    "label": "Phénomènes perceptifs",
+    "base": "#5C2D00",
+    "accent": "#D98C5F"
+  },
+  {
+    "key": "actions",
+    "label": "Navigation",
+    "base": "#3D1A5C",
+    "accent": "#A87FD8"
+  },
+  {
+    "key": "obstacles",
+    "label": "Obstacles",
+    "base": "#5C1A1A",
+    "accent": "#D86F6F"
+  },
+  {
+    "key": "securite",
+    "label": "Sécurité",
+    "base": "#1A4A4A",
+    "accent": "#5FB8B8"
+  }
+]

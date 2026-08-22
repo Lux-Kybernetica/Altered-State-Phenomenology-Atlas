@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/nova-annotation-v0.4.schema.json",
+  "title": "NC × Lux reviewed annotation v0.4",
+  "type": "object",
+  "required": ["id", "term", "annotation_lux_v0_4"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"},
+    "term": {"type": "string", "minLength": 1},
+    "annotation_lux_v0_4": {
+      "type": "object",
+      "required": ["types", "modalities", "phases", "selfhood_dimensions", "assertions", "notes", "annotation_method", "annotation_confidence", "review_status", "motor_states"],
+      "properties": {
+        "types": {"type": "array", "uniqueItems": true, "items": {"enum": ["state","phenomenon","transition","action","obstacle","safety","concept","situation","condition"]}},
+        "modalities": {"type": "array", "uniqueItems": true, "items": {"enum": ["visual","auditory","somatosensory","proprioceptive","vestibular","interoceptive","affective","cognitive","temporal","social_presence"]}},
+        "phases": {"type": "array", "uniqueItems": true, "items": {"enum": ["wake","sleep_onset","awakening","threshold","separation","experience","return","post_experience"]}},
+        "selfhood_dimensions": {"type": "array", "uniqueItems": true, "items": {"enum": ["self_location","body_ownership","first_person_perspective","agency","body_boundaries"]}},
+        "motor_states": {"type": "array", "uniqueItems": true, "items": {"enum": ["normal","reduced","immobility","atonia","perceived_paralysis","involuntary_movement","motor_effort"]}},
+        "assertions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["kind", "predicate", "epistemic_status", "basis"],
+            "properties": {
+              "kind": {"enum": ["classification","relation","source_statement"]},
+              "predicate": {"type": "string", "minLength": 1},
+              "value": {},
+              "target_id": {"type": "string"},
+              "target_term": {"type": "string"},
+              "epistemic_status": {"enum": ["source_explicit","source_supported","phenomenological_observation","operational_definition","interpretation","hypothesis","proposed"]},
+              "basis": {"type": "string", "minLength": 1}
+            },
+            "additionalProperties": false
+          }
+        },
+        "notes": {"type": "array", "items": {"type": "string"}},
+        "annotation_method": {"type": "string"},
+        "annotation_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "review_status": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

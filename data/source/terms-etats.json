@@ -1,0 +1,48 @@
+{
+  "family": "etats",
+  "count": 11,
+  "terms": [
+    {
+      "terme": "Lucidité",
+      "categorie": "état",
+      "famille": "etats",
+      "definition": "Capacité à savoir que l'on est en expérience, à observer avec recul, et à choisir une action, même minimale. Conscience de soi au présent.",
+      "signes": "« Je me vois penser », recul émotionnel, capacité à se rappeler un objectif",
+      "confusions": "Clarté visuelle (voir net ≠ penser net), intensité émotionnelle (fort ≠ clair)",
+      "equivalents": "Lucid projection (Vieira)",
+      "id": "t0",
+      "famille_label": "États & lucidité",
+      "relations": ["Conscience de soi","Semi-lucidité","Lucidité intermittente","Lucidité continue","Confusion mentale","Rêve lucide","Projection lucide","Réveil en zone de bascule","Stase","Fenêtre de sortie","Dissolution des frontières","Stabilisation","Se calmer","Rappel d'intention","Rotation volontaire","Test de cohérence","Endormissement","Somnolence","Glissement onirique","Auto-sabotage cognitif"]
+    },
+    {
+      "terme": "Conscience de soi","categorie": "état (auto-observation)","famille": "etats","definition": "Le sujet observe avec clarté qu'il est en train de vivre une expérience. Je réalise que je suis celui qui observe sa propre expérience.","signes": "« Je me vois penser », recul émotionnel, continuité de la mémoire","confusions": "Conscience visuelle (voir ≠ s'observer), pilotage automatique confondu avec présence","equivalents": "Self-awareness / Conscential lucidity (Vieira)","id": "t1","famille_label": "États & lucidité","relations": ["Lucidité","Pilotage automatique","Clarté mentale","Projection lucide"]
+    },
+    {
+      "terme": "Semi-lucidité","categorie": "état","famille": "etats","definition": "Lucidité partielle : on sait un peu, mais on se laisse encore porter par la scène. La lucidité clignote. Exemple typique : aller naïvement parler aux personnages oniriques comme s'ils étaient de vraies personnes.","signes": "Moments de lucidité suivis d'oubli, « je comprends puis je replonge », décisions faibles","confusions": "Lucidité totale (non, c'est partiel), confusion avec le rêve normal","equivalents": "Pre-lucid (Vieira)","id": "t2","famille_label": "États & lucidité","relations": ["Lucidité","Lucidité intermittente","Confusion mentale"]
+    },
+    {
+      "terme": "Lucidité intermittente","categorie": "état","famille": "etats","definition": "Conscience fluctuante : alternance entre observation lucide et immersion, compréhension partielle qui cède encore le pas à l'expérience.","signes": "« Je reviens à moi » plusieurs fois, trous de mémoire à l'intérieur de l'expérience, instabilité du récit","confusions": "Semi-lucidité (ici les vagues sont plus nettes), pilotage automatique (différent : pas d'alternance)","equivalents": "","id": "t3","famille_label": "États & lucidité","relations": ["Lucidité","Semi-lucidité","Pilotage automatique"]
+    },
+    {
+      "terme": "Lucidité continue","categorie": "état","famille": "etats","definition": "Capacité à maintenir un fil de conscience à travers plusieurs phases : veille → endormissement → expérience non-physique → retour, sans trou noir complet.","signes": "Continuité temporelle, transitions mémorisées, récit cohérent de bout en bout","confusions": "Lucidité stable (ici l'accent est sur la continuité entre phases, pas la qualité dans une phase)","equivalents": "Continuous awareness (Monroe)","id": "t4","famille_label": "États & lucidité","relations": ["Lucidité","Endormissement"]
+    },
+    {
+      "terme": "Pilotage automatique","categorie": "état","famille": "etats","definition": "L'expérience se déroule sans que le « Je » puisse contrôler sa propre expérience, comme une scène qui te tire.","signes": "Actions non choisies, réactions émotionnelles subies, oubli de l'objectif initial","confusions": "Endormissement (ici la conscience est présente mais non dirigée), rêve normal","equivalents": "","id": "t5","famille_label": "États & lucidité","relations": ["Conscience de soi","Lucidité intermittente","Rappel d'intention","Endormissement"]
+    },
+    {
+      "terme": "Clarté mentale","categorie": "état","famille": "etats","definition": "Qualité de pensée et de discernement pendant l'expérience : esprit net vs brouillard. Se distingue de la conscience de soi : la clarté mentale porte sur la qualité du raisonnement, pas sur l'auto-observation.","signes": "Raisonnement simple possible, repérage de ses émotions, capacité à nommer ce qui se passe","confusions": "Clarté visuelle (voir net ≠ penser net), intensité émotionnelle (fort ≠ clair)","equivalents": "Conscential clarity (Vieira)","id": "t6","famille_label": "États & lucidité","relations": ["Conscience de soi","Endormissement conscient","Pause stratégique"]
+    },
+    {
+      "terme": "Confusion mentale","categorie": "état","famille": "etats","definition": "Présence affaiblie : tu perçois, mais sans recul. La pensée est lente, confuse.","signes": "Difficulté à se souvenir de l'objectif, confusion des scènes, attention engourdie","confusions": "Endormissement (ici il reste une présence), semi-lucidité (différent niveau)","equivalents": "Obnubilation (Vieira)","id": "t7","famille_label": "États & lucidité","relations": ["Lucidité","Semi-lucidité","Endormissement"]
+    },
+    {
+      "terme": "Rêve lucide","categorie": "état","famille": "etats","definition": "Lucidité apparaissant dans un environnement onirique : tu sais que tu rêves, et tu peux parfois agir.","signes": "Décor très malléable, transitions floues, symbolisme fort, contrôle variable","confusions": "Sortie hors du corps (dans le RL le décor est onirique et malléable, dans la SHC le décor tend à être plus stable et physique-like)","equivalents": "Lucid dream (EN) / Sonho lúcido (Vieira)","id": "t8","famille_label": "États & lucidité","relations": ["Lucidité","Projection lucide","Sortie complète"]
+    },
+    {
+      "terme": "Projection lucide","categorie": "état / situation","famille": "etats","definition": "Expérience non-physique vécue avec lucidité : tu te perçois hors du corps et tu gardes une conscience de soi suffisante pour observer et agir.","signes": "Bascule de point de vue, autonomie d'action, scène relativement stable, mémoire structurée","confusions": "Rêve lucide confondu, hallucination de seuil sans navigation","equivalents": "Lucid projection / Projection (Vieira)","id": "t9","famille_label": "États & lucidité","relations": ["Lucidité","Conscience de soi","Rêve lucide"]
+    },
+    {
+      "terme": "Rappel stable","categorie": "état (post-expérience)","famille": "etats","definition": "Capacité à ramener une expérience sous forme de récit cohérent, sans perte majeure des séquences.","signes": "Ordre des événements conservé, détails sensoriels, fil narratif","confusions": "Impression d'avoir eu une expérience forte (ne garantit pas le rappel), noter dans les 3 min réduit la perte","equivalents": "","id": "t10","famille_label": "États & lucidité","relations": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "nova.projection_lucide",
+  "term": "Projection lucide",
+  "annotation_lux_v0_4": {
+    "types": ["state","situation"],
+    "modalities": ["visual","cognitive"],
+    "phases": ["separation","experience"],
+    "selfhood_dimensions": ["self_location","first_person_perspective","agency"],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"state","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_type","value":"situation","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"visual","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"cognitive","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la fiche Nova."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"separation","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la temporalité explicitée par Nova."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"experience","epistemic_status":"proposed","basis":"Révision manuelle NC × Lux v0.4 à partir de la temporalité explicitée par Nova."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"self_location","epistemic_status":"proposed","basis":"Révision manuelle de l’axe embodiment/selfhood."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"first_person_perspective","epistemic_status":"proposed","basis":"Révision manuelle de l’axe embodiment/selfhood."},
+      {"kind":"classification","predicate":"involves_selfhood_dimension","value":"agency","epistemic_status":"proposed","basis":"Révision manuelle de l’axe embodiment/selfhood."}
+    ],
+    "notes": ["La catégorie Nova « état / situation » mérite un type situation propre plutôt qu’un rabattement artificiel vers concept."],
+    "annotation_method":"manual_review_batch1","annotation_confidence":1.0,"review_status":"reviewed_batch1","motor_states":[]
+  }
+}
