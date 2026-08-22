@@ -22,9 +22,10 @@
 - Used as a review aid only, not as authoritative classification.
 
 ### Manual review v0.4
-- 25 terms manually reviewed in total.
-- 67 remain.
-- The **Transitions** family is now fully reviewed (15/15 source terms covered across pilot, batch 1 and transitions batch 2).
+- 35 terms manually reviewed in total.
+- 57 remain.
+- **Transitions complete: 15 / 15.**
+- **États & lucidité complete: 11 / 11.**
 
 Important corrections identified during review:
 
@@ -35,11 +36,12 @@ Important corrections identified during review:
 - reduced lexical overclassification of modalities;
 - treat `Stase` primarily as a state/condition even though Nova places it in Transitions;
 - distinguish phenomenological descriptions from operational claims such as direct access to a sortie;
-- model return phenomena with explicit self-location/body-boundary dimensions where justified.
+- model return phenomena with explicit self-location/body-boundary dimensions where justified;
+- added `cognitive_dimensions[]` to distinguish meta-awareness, reasoning clarity, memory continuity, goal maintenance, executive control, attention stability, temporal continuity and reality monitoring.
 
 ## Next review target
 
-**States & lucidity** (`data/source/terms-etats.json`).
+**Phénomènes perceptifs** (`data/source/terms-phenomenes.json`).
 
 ## Not done yet
 
