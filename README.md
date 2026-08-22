@@ -14,14 +14,16 @@ Three layers must never be confused:
 2. **ANALYSIS** — how Lux classifies or interprets that material.
 3. **PROPOSAL** — hypotheses, relations or structural changes that may later be suggested.
 
-The original text is preserved under `source_original` whenever it is embedded in working data.
+The original source material is preserved separately from Lux annotations.
 
 ## Current state
 
 - Nova source extracted: **92 terms / 6 families**.
 - Initial pilot: **10 manually enriched terms**.
 - Full heuristic pre-annotation: **92 terms**.
-- Manual review: **18 terms reviewed**, **74 remaining**.
+- Manual review: **35 terms reviewed**, **57 remaining**.
+- **Transitions complete: 15 / 15.**
+- **États & lucidité complete: 11 / 11.**
 - Knowledge graph generation is intentionally postponed until the semantic model is stable enough.
 
 ## Current model
@@ -32,6 +34,7 @@ Each concept can be represented through several independent axes:
 - `modalities[]`
 - `phases[]`
 - `selfhood_dimensions[]`
+- `cognitive_dimensions[]`
 - `motor_states[]`
 - `assertions[]`
 
@@ -45,17 +48,17 @@ Assertions can carry their own epistemic status so that a phenomenological obser
 ├── schemas/       # JSON schemas and controlled vocabularies
 ├── docs/          # method, decisions, roadmap, status
 ├── audit/         # human review reports and queues
-├── third_party/   # private source snapshot; do not republish casually
+├── third_party/   # provenance / third-party notes
 └── archive/       # superseded working artifacts when needed
 ```
 
 ## Immediate next step
 
-Finish the manual semantic review of the remaining 74 entries, by conceptual groups:
+Continue the manual semantic review by conceptual group:
 
-1. Transitions
-2. States & lucidity
-3. Perceptual phenomena
+1. ~~Transitions~~ ✅
+2. ~~States & lucidity~~ ✅
+3. **Perceptual phenomena** ← next
 4. Actions / navigation
 5. Obstacles
 6. Safety
