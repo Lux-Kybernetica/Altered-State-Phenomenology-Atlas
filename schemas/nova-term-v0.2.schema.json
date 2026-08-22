@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/nova-term-v0.2.schema.json",
+  "title": "Nova Conscientia × Lux — Term Schema v0.2",
+  "type": "object",
+  "required": ["id", "term", "source_original", "annotation_lux_v0_2"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"},
+    "term": {"type": "string", "minLength": 1},
+    "source_original": {"type": "object"},
+    "annotation_lux_v0_2": {
+      "type": "object",
+      "required": ["types", "modalities", "phases", "selfhood_dimensions", "assertions"],
+      "properties": {
+        "types": {"type": "array", "uniqueItems": true, "items": {"enum": ["state", "phenomenon", "transition", "action", "obstacle", "safety", "concept"]}},
+        "modalities": {"type": "array", "uniqueItems": true, "items": {"enum": ["visual", "auditory", "somatosensory", "proprioceptive", "vestibular", "interoceptive", "affective", "cognitive", "temporal", "social_presence"]}},
+        "phases": {"type": "array", "uniqueItems": true, "items": {"enum": ["wake", "sleep_onset", "threshold", "separation", "experience", "return", "post_experience"]}},
+        "selfhood_dimensions": {"type": "array", "uniqueItems": true, "items": {"enum": ["self_location", "body_ownership", "first_person_perspective", "agency", "body_boundaries"]}},
+        "assertions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["kind", "predicate", "epistemic_status", "basis"],
+            "properties": {
+              "kind": {"enum": ["classification", "relation", "source_statement"]},
+              "predicate": {"type": "string"},
+              "value": {},
+              "target_id": {"type": "string"},
+              "target_term": {"type": "string"},
+              "epistemic_status": {"enum": ["source_explicit", "source_supported", "phenomenological_observation", "operational_definition", "interpretation", "hypothesis", "proposed"]},
+              "basis": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "notes": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
