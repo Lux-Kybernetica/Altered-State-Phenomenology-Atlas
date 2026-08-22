@@ -1,0 +1,27 @@
+{
+  "id": "nova.stase",
+  "term": "Stase",
+  "annotation_lux_v0_4": {
+    "types": ["state", "condition"],
+    "modalities": ["somatosensory", "cognitive"],
+    "phases": ["awakening", "threshold"],
+    "selfhood_dimensions": [],
+    "assertions": [
+      {"kind":"classification","predicate":"has_type","value":"state","epistemic_status":"proposed","basis":"Le noyau décrit une configuration stable corps immobile + conscience active."},
+      {"kind":"classification","predicate":"has_type","value":"condition","epistemic_status":"proposed","basis":"La stase fonctionne aussi comme condition de transition dans le cadre Nova."},
+      {"kind":"classification","predicate":"has_modality","value":"somatosensory","epistemic_status":"proposed","basis":"Immobilité, lourdeur et atonie sont centrales dans la fiche."},
+      {"kind":"classification","predicate":"has_modality","value":"cognitive","epistemic_status":"proposed","basis":"La conscience vive/lucide est explicitement mentionnée."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"awakening","epistemic_status":"proposed","basis":"La fiche indique que la stase peut survenir lors d’un réveil en pleine nuit."},
+      {"kind":"classification","predicate":"occurs_in_phase","value":"threshold","epistemic_status":"proposed","basis":"Elle est décrite comme propice à la bascule."},
+      {"kind":"relation","predicate":"distinguish_from","target_id":"nova.paralysie_du_sommeil","target_term":"Paralysie du sommeil","epistemic_status":"source_explicit","basis":"La fiche distingue explicitement la stase de la paralysie du sommeil par la peur/lucidité et la disponibilité pour la sortie."},
+      {"kind":"relation","predicate":"precedes","target_id":"nova.sortie_partielle","target_term":"Sortie partielle","epistemic_status":"source_explicit","basis":"La fiche 'Sortie partielle' précise que la stase précède la sortie partielle."},
+      {"kind":"source_statement","predicate":"described_as","value":"corps immobile avec conscience active, parfois lors d’un réveil nocturne","epistemic_status":"phenomenological_observation","basis":"Paraphrase directe de la définition et des signes."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"état très propice à la sortie","epistemic_status":"source_explicit","basis":"Cette efficacité supposée est une affirmation opératoire de Nova, non une propriété phénoménologique brute."}
+    ],
+    "notes": ["La catégorie source 'transition' est conservée dans la couche source, mais l’analyse Lux traite le noyau comme état/condition.", "Ne pas fusionner avec la paralysie du sommeil : Nova les distingue explicitement."],
+    "annotation_method": "manual_review_transitions_batch2",
+    "annotation_confidence": 1.0,
+    "review_status": "reviewed_transitions_batch2",
+    "motor_states": ["immobility", "atonia"]
+  }
+}
