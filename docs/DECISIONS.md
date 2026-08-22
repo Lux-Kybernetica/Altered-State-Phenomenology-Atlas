@@ -46,3 +46,12 @@
 **Decision:** Treat the repository as private research material.
 
 **Reason:** It contains or derives from third-party Nova Conscientia material. Public redistribution should wait for a clearer collaboration/reuse framework.
+
+---
+
+## D008 — Add cognitive dimensions
+**Decision:** Add an optional `cognitive_dimensions[]` axis with controlled values: `meta_awareness`, `reasoning_clarity`, `memory_continuity`, `goal_maintenance`, `executive_control`, `attention_stability`, `temporal_continuity`, `reality_monitoring`.
+
+**Reason:** The Nova family `États & lucidité` already distinguishes several cognitive functions that cannot be represented adequately by the single modality label `cognitive`. Lucidity, mental clarity, memory continuity and executive control are related but not interchangeable.
+
+**Constraint:** The axis identifies which cognitive dimension is involved; it does not yet impose a universal numeric scale or severity level. Qualitative state remains expressed through assertions until the corpus justifies a stronger dimensional model.
