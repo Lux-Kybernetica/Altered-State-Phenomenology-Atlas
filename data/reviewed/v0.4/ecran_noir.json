@@ -1,0 +1,10 @@
+{
+  "id":"nova.ecran_noir","term":"Écran noir",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["visual"],"phases":["threshold","experience"],
+    "selfhood_dimensions":[],"cognitive_dimensions":["meta_awareness"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"absence de contenu visuel malgré le maintien d'un état modifié et de la conscience","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["L'absence d'image est modélisée comme état de la modalité visuelle, pas comme absence d'expérience."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
