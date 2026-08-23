@@ -19,11 +19,11 @@ The original source material is preserved separately from Lux annotations.
 ## Current state
 
 - Nova source extracted: **92 terms / 6 families**.
-- Initial pilot: **10 manually enriched terms**.
 - Full heuristic pre-annotation: **92 terms**.
-- Manual review: **35 terms reviewed**, **57 remaining**.
+- Manual review: **52 terms reviewed**, **40 remaining**.
 - **Transitions complete: 15 / 15.**
 - **États & lucidité complete: 11 / 11.**
+- **Phénomènes perceptifs complete: 25 / 25.**
 - Knowledge graph generation is intentionally postponed until the semantic model is stable enough.
 
 ## Current model
@@ -58,8 +58,8 @@ Continue the manual semantic review by conceptual group:
 
 1. ~~Transitions~~ ✅
 2. ~~States & lucidity~~ ✅
-3. **Perceptual phenomena** ← next
-4. Actions / navigation
+3. ~~Perceptual phenomena~~ ✅
+4. **Actions / navigation** ← next
 5. Obstacles
 6. Safety
 
