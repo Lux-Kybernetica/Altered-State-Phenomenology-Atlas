@@ -1,0 +1,10 @@
+{
+  "id":"nova.integration","term":"Intégration",
+  "annotation_lux_v0_4":{
+    "types":["safety","action","concept"],"modalities":[],"phases":["post_experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["reasoning_clarity","reality_monitoring","memory_continuity"],"action_functions":["integration"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"mettre l'expérience en perspective en distinguant ce qu'elle change de ce qu'elle ne change pas","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["L'intégration est méthodologique et post-expérientielle ; elle ne valide aucune interprétation particulière du vécu."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
