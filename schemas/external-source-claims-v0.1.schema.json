@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/external-source-claims-v0.1.schema.json",
+  "title": "NC × Lux external source claims v0.1",
+  "type": "object",
+  "required": ["id", "source_tradition", "version", "claims"],
+  "properties": {
+    "id": {"type": "string"},
+    "source_tradition": {"type": "string"},
+    "version": {"type": "string"},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "subject_id", "claim_type", "statement", "source_basis", "import_policy"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
+          "subject_id": {"type": "string"},
+          "claim_type": {"enum": ["program_definition", "procedural_instruction", "participant_report_generalization", "interpretive_claim", "metaphysical_claim"]},
+          "statement": {"type": "string"},
+          "source_basis": {"type": "array", "items": {"type": "string"}},
+          "import_policy": {"enum": ["crosswalk_eligible", "context_only", "do_not_import_as_fact"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
