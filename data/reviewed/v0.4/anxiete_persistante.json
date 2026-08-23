@@ -1,0 +1,10 @@
+{
+  "id":"nova.anxiete_persistante","term":"Anxiété persistante",
+  "annotation_lux_v0_4":{
+    "types":["safety","condition"],"modalities":["affective","interoceptive"],"phases":["wake","sleep_onset"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["attention_stability","reality_monitoring"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"peur ou stress qui se prolonge dans le quotidien et anticipe notamment le coucher","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Signal d'alerte interne à la nomenclature ; aucune conclusion diagnostique n'est ajoutée."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
