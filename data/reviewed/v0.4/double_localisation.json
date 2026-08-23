@@ -1,0 +1,10 @@
+{
+  "id":"nova.double_localisation","term":"Double localisation",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["proprioceptive","visual"],"phases":["separation","experience"],
+    "selfhood_dimensions":["self_location","first_person_perspective"],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"sensation simultanée d'être dans le corps et ailleurs, avec deux points de vue coexistants","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Cas central pour l'axe selfhood : la caractéristique discriminante est la coexistence de deux localisations/perspectives."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
