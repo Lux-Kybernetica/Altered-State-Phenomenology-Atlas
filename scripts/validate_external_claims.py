@@ -12,8 +12,8 @@ CROSSWALKS = ROOT / "crosswalks"
 AUDIT = ROOT / "audit"
 
 VALID_TYPES = {
-    "program_definition", "procedural_instruction", "participant_report_generalization",
-    "interpretive_claim", "metaphysical_claim",
+    "program_definition", "framework_definition", "procedural_instruction",
+    "participant_report_generalization", "interpretive_claim", "metaphysical_claim",
 }
 VALID_IMPORT = {"crosswalk_eligible", "context_only", "do_not_import_as_fact"}
 
