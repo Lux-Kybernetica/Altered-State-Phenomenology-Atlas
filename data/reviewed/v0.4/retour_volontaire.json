@@ -1,0 +1,10 @@
+{
+  "id":"nova.retour_volontaire","term":"Retour volontaire",
+  "annotation_lux_v0_4":{
+    "types":["action","transition"],"modalities":[],"phases":["return"],"selfhood_dimensions":["agency","self_location","body_boundaries"],
+    "cognitive_dimensions":["goal_maintenance","executive_control"],"action_functions":["return","intention_control"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"décider intentionnellement de revenir ou de se reconnecter au corps","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Action et transition sont distinguées mais coexistent dans l'entrée : la décision vise une relocalisation du soi."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
