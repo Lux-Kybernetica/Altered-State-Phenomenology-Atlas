@@ -1,0 +1,10 @@
+{
+  "id":"nova.effort_musculaire","term":"Effort musculaire",
+  "annotation_lux_v0_4":{
+    "types":["action","obstacle"],"modalities":[],"phases":["threshold","separation"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["executive_control"],"action_functions":[],"motor_states":["motor_effort"],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"tentative de mouvement physique pendant la zone de bascule, décrite comme interrompant la transition","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova ; l'effet est conservé comme proposition pratique du système."}],
+    "notes":["C'est une action motrice classée comme obstacle relativement au protocole Nova."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
