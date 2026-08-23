@@ -12,6 +12,7 @@ on:
       - 'reports/**'
       - 'crosswalks/**'
       - 'sources/**'
+      - 'evidence/**'
       - 'analysis/**'
       - 'schemas/**'
       - 'scripts/build_v05.py'
@@ -22,6 +23,7 @@ on:
       - 'scripts/validate_crosswalks.py'
       - 'scripts/validate_external_claims.py'
       - 'scripts/validate_convergences.py'
+      - 'scripts/validate_scientific_evidence.py'
       - '.github/workflows/build-v05.yml'
   pull_request:
     branches: [main]
@@ -66,16 +68,19 @@ jobs:
       - name: Validate cross-tradition convergence analysis
         run: python scripts/validate_convergences.py
 
+      - name: Validate scientific evidence layer
+        run: python scripts/validate_scientific_evidence.py
+
       - name: Commit generated artifacts when changed
         if: github.event_name != 'pull_request'
         shell: bash
         run: |
-          if git diff --quiet -- data/v0.5 graph/v0.5 analysis audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md audit/pathway-report-analysis-qa.md audit/crosswalk-qa.md audit/external-source-claims-qa.md audit/cross-tradition-convergence-qa.md; then
+          if git diff --quiet -- data/v0.5 graph/v0.5 analysis audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md audit/pathway-report-analysis-qa.md audit/crosswalk-qa.md audit/external-source-claims-qa.md audit/cross-tradition-convergence-qa.md audit/scientific-evidence-qa.md; then
             echo 'Generated NC × Lux artifacts are already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/v0.5 graph/v0.5 analysis audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md audit/pathway-report-analysis-qa.md audit/crosswalk-qa.md audit/external-source-claims-qa.md audit/cross-tradition-convergence-qa.md
+          git add data/v0.5 graph/v0.5 analysis audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md audit/pathway-report-analysis-qa.md audit/crosswalk-qa.md audit/external-source-claims-qa.md audit/cross-tradition-convergence-qa.md audit/scientific-evidence-qa.md
           git commit -m 'build: regenerate NC × Lux derived artifacts'
           git push
