@@ -1,0 +1,10 @@
+{
+  "id":"nova.suspension_du_jugement","term":"Suspension du jugement",
+  "annotation_lux_v0_4":{
+    "types":["action","concept"],"modalities":[],"phases":["threshold","experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["meta_awareness","reasoning_clarity","reality_monitoring","attention_stability"],"action_functions":["epistemic_monitoring","attention_regulation"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"observer les phénomènes sans les nommer, les valider ou leur projeter immédiatement un sens","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova et de sa posture du Témoin."}],
+    "notes":["Entrée méthodologiquement importante : elle formalise une discipline épistémique interne au protocole."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
