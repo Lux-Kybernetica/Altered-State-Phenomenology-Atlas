@@ -9,18 +9,6 @@
 
 ## Lux semantic layer
 
-### Pilot v0.2
-- 10 concepts manually enriched.
-- Multiple types allowed.
-- Explicit modality arrays.
-- Phase model.
-- Embodiment/selfhood axis.
-- Assertion-level epistemic status.
-
-### Full pre-annotation v0.3
-- 92 concepts heuristically pre-annotated.
-- Used as a review aid only, not as authoritative classification.
-
 ### Manual review v0.4 — COMPLETE
 
 - **92 / 92 terms manually reviewed.**
@@ -31,17 +19,22 @@
 - **Obstacles: 13 / 13.**
 - **Sécurité: 9 / 9.**
 
-## Model changes discovered during review
+## Relation layer v0.5 — REVIEW COMPLETE
 
-- `awakening` phase added for hypnopompic material;
-- `situation` and `condition` logical types added;
-- motor state separated from perceptual modality;
-- `selfhood_dimensions[]` retained for self-location, body ownership, perspective, agency and body boundaries;
-- `cognitive_dimensions[]` added for meta-awareness, reasoning clarity, memory continuity, goal maintenance, executive control, attention stability, temporal continuity and reality monitoring;
-- `action_functions[]` added to distinguish stabilization, regulation, separation, navigation, interaction, epistemic monitoring, return, memory consolidation and integration;
-- source category mismatches are preserved rather than silently corrected;
-- absence of perceptual content can still be a state of a modality (`Écran noir`);
-- source recommendations and causal claims remain separate from observations, especially in the safety layer.
+Nova v1 produced **97 unique lexical resonance pairs**.
+
+Semantic review outcome:
+
+- **92 pairs** produce at least one accepted typed semantic edge;
+- **5 pairs** are explicitly rejected as lexical/context artifacts;
+- **96 typed edges** are accepted in total because some pairs legitimately encode more than one relation.
+
+Accepted edge provenance:
+
+- `source_explicit`: 56
+- `source_supported`: 40
+
+No accepted v0.5 edge is currently `proposed`; Lux pathway hypotheses remain separated from the Nova semantic graph.
 
 ## Current model axes
 
@@ -54,21 +47,39 @@
 - `motor_states[]`
 - `assertions[]` with assertion-level epistemic status
 
-## Next phase — v0.5
+## Graph topology before generated export
 
-1. Consolidate the 92 reviewed annotations into one normalized dataset.
-2. Validate all records against the current schema / controlled vocabularies.
-3. Systematically review typed relation candidates.
-4. Separate explicit-source relations from inferred/proposed relations.
-5. Generate the first knowledge-graph export only after relation review.
-6. Build the first explicit pathway model separately from the ontology.
+- Nodes: 92
+- Typed edges: 96
+- Connected components in undirected projection: 29
+- Largest component: 64 nodes
+- Isolated concepts: 28
+- Main hubs: `Lucidité` (17), `Zone de bascule` (16), `Endormissement` (9), `Décrochage` (8)
+
+Isolation is not automatically repaired. A concept stays isolated until a justified relation source exists.
+
+## Build automation
+
+The repository now contains reproducible builders for:
+
+- normalized v0.5 consolidation (`scripts/build_v05.py`);
+- conservative lexical-resonance candidate generation (`scripts/suggest_relations.py`);
+- graph export + QA (`scripts/build_graph_v05.py`).
+
+A GitHub Actions workflow is configured to regenerate `data/v0.5`, `graph/v0.5`, and QA artifacts. At the time of this status update, the connector has not exposed a successful generated-artifact commit, so reviewed data files remain the authoritative relation layer while CI execution is investigated.
+
+## Next phase
+
+1. Get/verify the generated v0.5 consolidated node export.
+2. Validate GraphML/JSON graph artifacts against the reviewed 96-edge layer.
+3. Introduce the **Phosphenic Pathway** as a separate experimental sequence model.
+4. Add scientific-source and Monroe/Vieira mapping layers only after pathway provenance is explicit.
 
 ## Not done yet
 
-- consolidated v0.5 dataset;
-- systematic relation review;
-- knowledge-graph export;
-- pathway model;
+- verified generated consolidated v0.5 artifact;
+- verified generated GraphML export;
+- Phosphenic Pathway data model;
 - scientific source layer;
 - Monroe/Vieira crosswalks;
 - public application.
