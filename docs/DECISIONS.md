@@ -76,3 +76,26 @@
 **Decision:** A term such as `Écran noir` may use the `visual` modality even though the reported visual content is absence rather than presence.
 
 **Reason:** Future data modeling must distinguish whether a modality is relevant from what content that modality contains. Otherwise 'no image' becomes indistinguishable from 'visual modality not assessed'.
+
+---
+
+## D012 — Add action functions
+**Decision:** Add optional `action_functions[]` with controlled values: `stabilization`, `affect_regulation`, `attention_regulation`, `intention_control`, `separation`, `navigation`, `interaction`, `epistemic_monitoring`, `return`, `memory_consolidation`, `integration`.
+
+**Reason:** `action` tells us what kind of object an entry is, but not what the action is intended to do. `Se calmer`, `Point focal`, `Retour volontaire` and `Ancrage de mémoire` are all actions with different functions.
+
+**Constraint:** Action function does not imply demonstrated efficacy. It records the operational role attributed to the action in the source/model.
+
+---
+
+## D013 — Obstacle is a functional type, not a phenomenological dimension
+**Decision:** Do not create a separate obstacle-domain axis unless later data require it.
+
+**Reason:** Nova obstacles decompose adequately across cognition, affect, motor state, perception and memory. An item is an `obstacle` relative to the practice goal, while its underlying phenomenology is represented by the other axes.
+
+---
+
+## D014 — Safety guidance is not a clinical standard
+**Decision:** Preserve Nova safety thresholds and recommendations as operational guidance or interpretation unless independently sourced later.
+
+**Reason:** Statements such as the one-week pause rule for sleep disruption are useful as source content but must not be silently promoted into universal clinical thresholds. Warning entries are modeled without assigning diagnosis or etiology.
