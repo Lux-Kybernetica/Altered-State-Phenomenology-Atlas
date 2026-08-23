@@ -1,0 +1,10 @@
+{
+  "id":"nova.intention_de_separation","term":"Intention de séparation",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["separation"],"selfhood_dimensions":["agency","self_location"],
+    "cognitive_dimensions":["goal_maintenance","executive_control"],"action_functions":["separation","intention_control"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"donner une direction intentionnelle simple au déplacement hors du point corporel","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova, sans présumer la nature ontologique du déplacement."}],
+    "notes":["La fiche oppose intention et effort musculaire ; l'action est donc classée par agency/intention plutôt que motricité."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
