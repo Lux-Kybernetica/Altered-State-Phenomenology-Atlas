@@ -1,0 +1,10 @@
+{
+  "id":"nova.voix_hypnagogiques","term":"Voix hypnagogiques",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["auditory"],"phases":["threshold"],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"fragments de voix ou phrases brèves survenant dans la zone de bascule","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Nova recommande explicitement de ne pas conclure trop vite à une communication intentionnelle."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
