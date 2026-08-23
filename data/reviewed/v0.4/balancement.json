@@ -1,0 +1,10 @@
+{
+  "id":"nova.balancement","term":"Balancement",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["vestibular","proprioceptive"],"phases":["threshold","separation"],
+    "selfhood_dimensions":["self_location"],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"sensation rythmique de balancement gauche-droite ou avant-arrière","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Le noyau du phénomène est vestibulaire ; la classification source 'somatique' est trop large pour l'analyse."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
