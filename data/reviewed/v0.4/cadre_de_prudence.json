@@ -1,0 +1,10 @@
+{
+  "id":"nova.cadre_de_prudence","term":"Cadre de prudence",
+  "annotation_lux_v0_4":{
+    "types":["safety","concept"],"modalities":[],"phases":["wake","post_experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["reasoning_clarity","executive_control","reality_monitoring"],"action_functions":["integration"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"principe d'ajustement : réduire ou modifier la pratique lorsqu'elle fragilise la vie quotidienne","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Principe transversal de prudence, volontairement non rigide dans la formulation source."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
