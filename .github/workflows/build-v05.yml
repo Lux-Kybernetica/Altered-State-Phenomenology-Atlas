@@ -8,6 +8,7 @@ on:
       - 'data/reviewed/v0.4/**'
       - 'schemas/**'
       - 'scripts/build_v05.py'
+      - 'scripts/suggest_relations.py'
       - '.github/workflows/build-v05.yml'
   workflow_dispatch:
 
@@ -29,15 +30,18 @@ jobs:
       - name: Build and validate v0.5
         run: python scripts/build_v05.py
 
+      - name: Generate conservative relation candidates
+        run: python scripts/suggest_relations.py
+
       - name: Commit generated artifacts when changed
         shell: bash
         run: |
-          if git diff --quiet -- data/v0.5 audit/v0.5-qa-report.md; then
+          if git diff --quiet -- data/v0.5 audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md; then
             echo 'Generated v0.5 artifacts are already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/v0.5 audit/v0.5-qa-report.md
+          git add data/v0.5 audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md
           git commit -m 'build: regenerate NC v0.5 artifacts'
           git push
