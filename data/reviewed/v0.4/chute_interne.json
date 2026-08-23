@@ -1,0 +1,10 @@
+{
+  "id":"nova.chute_interne","term":"Chute interne",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["vestibular","proprioceptive"],"phases":["threshold"],
+    "selfhood_dimensions":["self_location"],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"sensation brève de chute alors que le corps reste immobile","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["À distinguer du sursaut myoclonique : Nova formule explicitement cette confusion."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
