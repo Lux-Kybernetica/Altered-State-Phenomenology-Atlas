@@ -1,0 +1,124 @@
+{
+  "id": "lux.sources.vieira_projectiology_claims.v0_1",
+  "source_tradition": "Waldo Vieira / Projeciologia / IIPC",
+  "version": "0.1",
+  "claims": [
+    {
+      "id": "vieira.claim.estado_vibracional.phenomenology",
+      "subject_id": "vieira.estado_vibracional",
+      "claim_type": "framework_definition",
+      "statement": "Within the Projectiology framework, estado vibracional denotes a vibration condition that may be perceptible to the practitioner and is used in projection techniques.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional", "Vieira, Projeciologia"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Only the reported vibration phenomenology and procedural role are eligible for NC alignment."
+    },
+    {
+      "id": "vieira.claim.estado_vibracional.mechanism",
+      "subject_id": "vieira.estado_vibracional",
+      "claim_type": "metaphysical_claim",
+      "statement": "The framework explains the vibrational state as acceleration of the energossoma and psicossoma in relation to the physical body, potentially producing projection.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Source-framework mechanism; excluded from Nova ontology and from independent scientific assertions."
+    },
+    {
+      "id": "vieira.claim.decolagem.definition",
+      "subject_id": "vieira.decolagem_psicossoma",
+      "claim_type": "framework_definition",
+      "statement": "Projectiology uses decolagem for the transition in which the projected consciousness/psychosome is described as leaving ordinary coincidence with the physical body.",
+      "source_basis": ["IIPC — Projeciologia overview", "IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional", "Vieira, Projeciologia"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The transition structure is eligible for comparison; the psychosome ontology is not."
+    },
+    {
+      "id": "vieira.claim.decolagem.psicossoma",
+      "subject_id": "vieira.decolagem_psicossoma",
+      "claim_type": "metaphysical_claim",
+      "statement": "The Projectiology framework interprets takeoff as the psychosome carrying consciousness away from the physical-body coincidence state.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Retained solely as Vieira/IIPC source framing."
+    },
+    {
+      "id": "vieira.claim.psicossoma.definition",
+      "subject_id": "vieira.psicossoma",
+      "claim_type": "framework_definition",
+      "statement": "The Projectiology/Conscientiology framework defines psicossoma as an emotional or extraphysical vehicle through which consciousness is said to manifest during many lucid projections.",
+      "source_basis": ["IIPC — Projeciologia / Veículos de Manifestação", "Vieira, Projeciologia"],
+      "import_policy": "context_only",
+      "notes": "Needed to understand Vieira terminology; not an NC ontology candidate."
+    },
+    {
+      "id": "vieira.claim.psicossoma.existence",
+      "subject_id": "vieira.psicossoma",
+      "claim_type": "metaphysical_claim",
+      "statement": "The framework treats the psicossoma as an objectively existing vehicle of consciousness capable of operating outside the physical body.",
+      "source_basis": ["IIPC — Projeciologia / Veículos de Manifestação", "IIPC — Waldo Vieira e a Conscienciologia"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Crosswalk may compare body-perception phenomenology without accepting this ontological claim."
+    },
+    {
+      "id": "vieira.claim.semiprojection.definition",
+      "subject_id": "vieira.semiprojection",
+      "claim_type": "framework_definition",
+      "statement": "IIPC describes semiprojection as a partial projection/exteriorization, with examples involving only a hand, arm, leg or other portion while the rest remains in coincidence.",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Strong operational comparison candidate for NC Sortie partielle."
+    },
+    {
+      "id": "vieira.claim.semiprojection.mechanism",
+      "subject_id": "vieira.semiprojection",
+      "claim_type": "interpretive_claim",
+      "statement": "The framework explains semiprojection as partial exteriorization of the psychosome.",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Mechanistic explanation excluded from NC."
+    },
+    {
+      "id": "vieira.claim.projecao_semiconsciente.definition",
+      "subject_id": "vieira.projecao_semiconsciente",
+      "claim_type": "framework_definition",
+      "statement": "Projectiology distinguishes semiconscious projection from semiprojection and characterizes it by discontinuity or partial/disordered lucidity during the projected experience.",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada", "IIPC educational material derived from Vieira"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The framework literature also places this near lucid-dream language, while NC separates lucidity degree from dream-state category."
+    },
+    {
+      "id": "vieira.claim.catalepsia.definition",
+      "subject_id": "vieira.catalepsia_projetiva",
+      "claim_type": "framework_definition",
+      "statement": "Vieira defines projective catalepsy as a temporary psychophysical condition in which a lucid person cannot move the physical body, with slowed respiration and motor/sensory dissociation.",
+      "source_basis": ["Vieira, Projeciologia — Catalepsia Projetiva", "IIPC — Fenômenos Parapsíquicos"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Phenomenological description is comparable to sleep paralysis; framework causation is separate."
+    },
+    {
+      "id": "vieira.claim.catalepsia.mechanism",
+      "subject_id": "vieira.catalepsia_projetiva",
+      "claim_type": "interpretive_claim",
+      "statement": "IIPC/Projectiology explains projective catalepsy through incomplete coincidence or communication among framework-defined vehicles and the physical body.",
+      "source_basis": ["IIPC — Fenômenos Parapsíquicos", "IIPC educational module on Catalepsia Projetiva"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Not imported into the NC phenomenon model."
+    },
+    {
+      "id": "vieira.claim.ballonnement.definition",
+      "subject_id": "vieira.ballonnement",
+      "claim_type": "framework_definition",
+      "statement": "IIPC describes ballonnement as a sensation of bodily swelling or expansion that may occur before or around the framework's takeoff phase.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "No direct canonical NC node currently captures this specific embodiment sensation."
+    },
+    {
+      "id": "vieira.claim.ballonnement.mechanism",
+      "subject_id": "vieira.ballonnement",
+      "claim_type": "interpretive_claim",
+      "statement": "The framework attributes ballonnement to exteriorization of the psychosome, often with greater energossoma ballast.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Source-specific explanatory model only."
+    }
+  ]
+}
