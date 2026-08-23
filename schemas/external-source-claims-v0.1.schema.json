@@ -16,7 +16,7 @@
         "properties": {
           "id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
           "subject_id": {"type": "string"},
-          "claim_type": {"enum": ["program_definition", "procedural_instruction", "participant_report_generalization", "interpretive_claim", "metaphysical_claim"]},
+          "claim_type": {"enum": ["program_definition", "framework_definition", "procedural_instruction", "participant_report_generalization", "interpretive_claim", "metaphysical_claim"]},
           "statement": {"type": "string"},
           "source_basis": {"type": "array", "items": {"type": "string"}},
           "import_policy": {"enum": ["crosswalk_eligible", "context_only", "do_not_import_as_fact"]},
