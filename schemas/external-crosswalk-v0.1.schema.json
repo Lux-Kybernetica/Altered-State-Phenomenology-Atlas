@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/external-crosswalk-v0.1.schema.json",
+  "title": "NC × Lux external terminology crosswalk v0.1",
+  "type": "object",
+  "required": ["id", "source_tradition", "version", "policy", "concepts", "mappings"],
+  "properties": {
+    "id": {"type": "string"},
+    "source_tradition": {"type": "string"},
+    "version": {"type": "string"},
+    "policy": {"type": "array", "items": {"type": "string"}},
+    "concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "kind", "source_basis"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
+          "label": {"type": "string"},
+          "kind": {"enum": ["state", "phenomenon", "technique", "transition", "practice", "interpretive_construct"]},
+          "source_basis": {"type": "array", "items": {"type": "string"}},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["external_id", "relation", "nc_refs", "status", "basis", "source_basis"],
+        "properties": {
+          "external_id": {"type": "string"},
+          "relation": {"enum": ["operationally_similar_to", "partial_overlap", "may_manifest_as", "technique_targets", "distinguish_from", "no_direct_equivalent"]},
+          "nc_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"}},
+          "status": {"enum": ["source_explicit", "source_supported", "crosswalk_inference", "rejected_identity"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "basis": {"type": "string"},
+          "source_basis": {"type": "array", "items": {"type": "string"}},
+          "warning": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
