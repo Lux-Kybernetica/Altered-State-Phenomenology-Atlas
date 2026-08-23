@@ -1,0 +1,10 @@
+{
+  "id":"nova.questionnement_direct","term":"Questionnement direct",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["goal_maintenance","executive_control"],"action_functions":["interaction","intention_control"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"poser une question ou une demande simple à l'expérience","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova sans présumer la source d'une éventuelle réponse."}],
+    "notes":["La fiche autorise des réponses non verbales ; l'action est donc plus large que la parole."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
