@@ -55,3 +55,24 @@
 **Reason:** The Nova family `États & lucidité` already distinguishes several cognitive functions that cannot be represented adequately by the single modality label `cognitive`. Lucidity, mental clarity, memory continuity and executive control are related but not interchangeable.
 
 **Constraint:** The axis identifies which cognitive dimension is involved; it does not yet impose a universal numeric scale or severity level. Qualitative state remains expressed through assertions until the corpus justifies a stronger dimensional model.
+
+---
+
+## D009 — A phenomenon need not have a sensory modality
+**Decision:** `modalities[]` may legitimately be empty when an entry is primarily a reorganization of selfhood rather than a sensory event.
+
+**Reason:** `Dissolution des frontières` is better represented by `self_location` and `body_boundaries` than by inventing a sensory modality merely to fill the field.
+
+---
+
+## D010 — Preserve source-category mismatches explicitly
+**Decision:** When Nova's source category conflicts with the semantic content of its own definition, preserve the category in the source layer but classify the Lux annotation from the definition rather than the label.
+
+**Reason:** `Pression émotionnelle` and `Distorsion du temps` are both filed under `présence perçue` in Nova v1, although their definitions describe affective/interoceptive and temporal phenomena respectively. The discrepancy is useful audit information and must not be silently normalized away.
+
+---
+
+## D011 — Absence of perceptual content can still be a modality state
+**Decision:** A term such as `Écran noir` may use the `visual` modality even though the reported visual content is absence rather than presence.
+
+**Reason:** Future data modeling must distinguish whether a modality is relevant from what content that modality contains. Otherwise 'no image' becomes indistinguishable from 'visual modality not assessed'.
