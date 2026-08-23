@@ -1,0 +1,13 @@
+{
+  "id":"nova.communication","term":"Communication",
+  "annotation_lux_v0_4":{
+    "types":["action","situation"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["meta_awareness","executive_control"],"action_functions":["interaction"],"motor_states":[],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"émettre une intention de communication verbalement, mentalement ou par impression directe","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."},
+      {"kind":"source_statement","predicate":"distinguish_from","value":"affirmation sur la nature de l'interlocuteur","epistemic_status":"source_explicit","basis":"Nova demande explicitement de ne pas présumer la nature de l'interlocuteur."}
+    ],
+    "notes":["La situation interactionnelle est distinguée de toute hypothèse ontologique sur l'agent perçu."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
