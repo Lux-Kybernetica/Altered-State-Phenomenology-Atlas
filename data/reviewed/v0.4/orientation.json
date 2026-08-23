@@ -1,0 +1,10 @@
+{
+  "id":"nova.orientation","term":"Orientation",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency","self_location"],
+    "cognitive_dimensions":["goal_maintenance","executive_control"],"action_functions":["navigation","intention_control"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"choisir une direction, une cible ou un repère intentionnel","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Orientation formalise le choix du but ; Déplacement formalise l'exécution du mouvement."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
