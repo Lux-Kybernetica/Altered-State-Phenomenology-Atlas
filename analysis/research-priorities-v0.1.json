@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "id": "lux.analysis.research_priorities.v0_1",
+    "version": "0.1",
+    "basis": [
+      "analysis/cross-tradition-convergences-v0.1.json",
+      "pathways/phosphenic-pathway-v0.1.json",
+      "schemas/experience-report-v0.2.schema.json"
+    ],
+    "principle": "Prioritize variables that can be described without requiring agreement about metaphysical mechanism, and record observations capable of weakening as well as supporting the working pathway."
+  },
+  "priorities": [
+    {
+      "rank": 1,
+      "nc_ref": "nova.etat_vibratoire",
+      "target_kind": "phenomenology",
+      "current_signal": "multi_tradition_convergence",
+      "research_question": "How often does a distinct internal/body-wide vibration-like phenomenon occur near threshold or separation-like transitions, and what is its temporal relation to Décrochage?",
+      "capture_variables": [
+        "presence_or_absence",
+        "body_distribution",
+        "continuous_vs_wavelike",
+        "subjective_intensity",
+        "perceived_frequency_or_speed",
+        "physical_shaking_present_or_absent",
+        "auditory_buzzing_cooccurrence",
+        "relative_order_to_decrochage",
+        "prior_vibratory_state_terminology_exposure"
+      ],
+      "neutral_prompts": [
+        "What bodily sensations, if any, changed before the shift?",
+        "Did the sensation stay in one place, spread, pulse, or move?",
+        "Was your physical body actually moving or did it only feel internally active?"
+      ],
+      "important_confounds": [
+        "physical tremor or muscle movement",
+        "auditory vibration interpreted as bodily vibration",
+        "expectation after Gateway/Projectiology training",
+        "retrospective relabeling using learned terminology"
+      ],
+      "weakening_observations": [
+        "Decrochage repeatedly occurs without any vibration-like cue in minimally prompted reports.",
+        "Reported vibration is strongly concentrated only among participants previously trained to expect it.",
+        "Vibration reports fail to precede or accompany transition events more often than unrelated sensations."
+      ]
+    },
+    {
+      "rank": 2,
+      "nc_ref": "nova.decrochage",
+      "target_kind": "transition",
+      "current_signal": "multi_tradition_convergence",
+      "research_question": "Can a reproducible phenomenological transition be identified between ordinary bodily self-location and separation-like experience without assuming what, if anything, literally separates?",
+      "capture_variables": [
+        "change_in_self_location",
+        "change_in_first_person_perspective",
+        "sense_of_discontinuity_vs_gradual_shift",
+        "body_ownership_change",
+        "physical_movement_attempt",
+        "transition_markers_before_and_after",
+        "scene_change",
+        "memory_continuity"
+      ],
+      "neutral_prompts": [
+        "Was there a point where your sense of where you were located changed?",
+        "Did the change happen gradually or suddenly?",
+        "What was the last thing you noticed before the change and the first thing after it?"
+      ],
+      "important_confounds": [
+        "ordinary dream-scene transition",
+        "memory gap or click-out",
+        "imagined movement without self-location change",
+        "post-hoc interpretation as separation"
+      ],
+      "weakening_observations": [
+        "Reports classified as Decrochage lack any consistent self-location or perspective change.",
+        "Most candidate transitions are better explained by memory discontinuity or dream-scene replacement.",
+        "Independent coders cannot reliably distinguish Decrochage descriptions from other transition categories."
+      ]
+    },
+    {
+      "rank": 3,
+      "nc_ref": "nova.sortie_partielle",
+      "target_kind": "embodiment_transition",
+      "current_signal": "multi_tradition_convergence",
+      "research_question": "Do minimally prompted reports contain a recurrent partial-body separation-like pattern, and is its body-part distribution/order stable or technique-dependent?",
+      "capture_variables": [
+        "affected_body_parts",
+        "physical_body_sensation_remaining",
+        "alternative_body_representation",
+        "body_ownership",
+        "body_boundary_change",
+        "order_of_body_part_changes",
+        "spontaneous_vs_induced",
+        "technique_used"
+      ],
+      "neutral_prompts": [
+        "Did the change involve your whole body representation at once or only part of it?",
+        "Which parts changed first, if any?",
+        "Could you still feel the corresponding physical body parts?"
+      ],
+      "important_confounds": [
+        "ordinary limb numbness",
+        "sleep-related paresthesia",
+        "motor imagery",
+        "technique instructions that prescribe a body-part sequence"
+      ],
+      "weakening_observations": [
+        "Partial-body reports occur only after techniques explicitly instruct partial-body movement.",
+        "Body-part order follows training instructions rather than appearing independently.",
+        "Descriptions map poorly or inconsistently to a distinct partial-exit category under blind coding."
+      ]
+    },
+    {
+      "rank": 4,
+      "nc_ref": "nova.rotation_volontaire",
+      "target_kind": "procedure",
+      "current_signal": "strong_single_tradition_procedural_redundancy",
+      "research_question": "Does deliberate rotation reliably change the probability or phenomenology of a subsequent transition compared with non-rotation attempts?",
+      "capture_variables": [
+        "rotation_attempted",
+        "rotation_spontaneous_before_attempt",
+        "subjective_rotation_strength",
+        "duration",
+        "forcing_vs_allowing",
+        "subsequent_decrochage",
+        "panique_or_lucidity_loss"
+      ],
+      "important_confounds": [
+        "selection of rotation only when transition already feels imminent",
+        "Gateway-specific training effects",
+        "vestibular imagery without transition"
+      ],
+      "weakening_observations": [
+        "Rotation attempts show no consistent relation to later transition events.",
+        "Comparable transitions occur at equal frequency without rotation in the same practitioners.",
+        "The procedure mainly increases disorientation or dream transition rather than a distinct Decrochage pattern."
+      ]
+    },
+    {
+      "rank": 5,
+      "nc_ref": "nova.flottement",
+      "target_kind": "phenomenology_and_induction_cue",
+      "current_signal": "strong_single_tradition_multiple_methods",
+      "research_question": "Is floating/rising sensation a recurrent spontaneous marker, a trainable imagery cue, or both, and does either form predict subsequent transition?",
+      "capture_variables": [
+        "spontaneous_vs_deliberately_evoked",
+        "vertical_vs_directionless_motion",
+        "self_location_change",
+        "physical_movement_absent_or_present",
+        "subsequent_decrochage",
+        "training_history"
+      ],
+      "important_confounds": [
+        "guided imagery compliance",
+        "vestibular sleep-onset sensations",
+        "dream flight imagery"
+      ],
+      "weakening_observations": [
+        "Floating is common but has no temporal association with separation-like transitions.",
+        "The phenomenon appears almost exclusively during scripts that explicitly suggest floating."
+      ]
+    },
+    {
+      "rank": 6,
+      "nc_ref": "nova.paralysie_du_sommeil",
+      "target_kind": "sleep_transition_phenomenology",
+      "current_signal": "strong_single_external_alignment",
+      "research_question": "How often do immobility-with-awareness episodes occur in the pathway, and are they functionally distinct from Stase or other non-movement descriptions?",
+      "capture_variables": [
+        "physical_movement_possible",
+        "movement_attempted",
+        "respiration_subjective_change",
+        "fear",
+        "presence_or_hallucination_like_content",
+        "timing_sleep_onset_vs_awakening",
+        "transition_after_immobility"
+      ],
+      "important_confounds": [
+        "voluntary stillness",
+        "failure to attempt movement",
+        "ordinary sleep paralysis at awakening",
+        "panic-driven retrospective interpretation"
+      ],
+      "weakening_observations": [
+        "Reports labeled paralysis do not document attempted inability to move.",
+        "Stase and sleep-paralysis descriptions cannot be reliably distinguished by blind coders."
+      ]
+    },
+    {
+      "rank": 7,
+      "nc_ref": "nova.lacher_prise",
+      "target_kind": "regulation_strategy",
+      "current_signal": "strong_single_tradition_repeated_support",
+      "research_question": "Does reducing deliberate control after threshold cues predict continuation of the transition compared with active forcing or monitoring?",
+      "capture_variables": [
+        "active_effort_level",
+        "monitoring_for_success",
+        "deliberate_release_of_control",
+        "muscular_effort",
+        "emotional_arousal",
+        "transition_continues_or_collapses"
+      ],
+      "important_confounds": [
+        "successful transitions retrospectively described as effortless",
+        "practitioner ideology favoring non-forcing",
+        "different techniques requiring different control levels"
+      ],
+      "weakening_observations": [
+        "Non-forcing does not predict continuation after controlling for initial transition intensity.",
+        "Active control performs equally or better across comparable attempts.",
+        "The effect disappears in minimally trained participants."
+      ]
+    },
+    {
+      "rank": 8,
+      "nc_ref": "nova.corps_de_sortie",
+      "target_kind": "embodiment_representation",
+      "current_signal": "ontologically_divergent_alignment",
+      "research_question": "What body-like representations are actually reported during separation-like experiences before any ontology is supplied?",
+      "capture_variables": [
+        "body_shape",
+        "body_ownership",
+        "visual_body_presence",
+        "somatosensory_body_presence",
+        "elasticity_or_distortion",
+        "overlap_with_physical_body",
+        "multiple_body_representations",
+        "framework_terms_used_spontaneously"
+      ],
+      "important_confounds": [
+        "learned subtle-body imagery",
+        "dream-body representation",
+        "autoscopic imagery",
+        "analyst translating neutral body descriptions into vehicle terminology"
+      ],
+      "weakening_observations": [
+        "Body-like representations vary too widely to support a coherent phenomenological category.",
+        "Specific vehicle-like features occur primarily in practitioners exposed to frameworks that teach them.",
+        "Independent coding does not reliably separate Corps de sortie from ordinary dream-body descriptions."
+      ]
+    }
+  ]
+}
