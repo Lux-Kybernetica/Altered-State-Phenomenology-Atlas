@@ -1,0 +1,10 @@
+{
+  "id":"nova.suivre_la_traction","term":"Suivre la traction",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["separation"],"selfhood_dimensions":["agency","self_location"],
+    "cognitive_dimensions":["attention_stability"],"action_functions":["separation"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"suivre une sensation de tirage ou d'aspiration au lieu de s'y opposer","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["La fiche décrit une stratégie vis-à-vis d'un phénomène vestibulo-proprioceptif, pas une nouvelle modalité."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
