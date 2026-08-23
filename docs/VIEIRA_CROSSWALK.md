@@ -46,7 +46,7 @@ The swelling/inflation embodiment sensation is specific enough that Nova current
 
 ## Source typing
 
-`source/vieira-projectiology-claims-v0.1.json` separates:
+`sources/vieira-projectiology-claims-v0.1.json` separates:
 
 - framework definitions that can support phenomenological comparison;
 - interpretive mechanism claims;
