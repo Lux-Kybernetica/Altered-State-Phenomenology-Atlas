@@ -1,0 +1,10 @@
+{
+  "id":"nova.dissociation_sensorielle","term":"Dissociation sensorielle",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["somatosensory","proprioceptive"],"phases":["threshold","separation"],
+    "selfhood_dimensions":["body_boundaries"],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"perte partielle ou totale des sensations physiques ordinaires","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["La perte de sensation corporelle n'implique pas à elle seule une perte de body ownership ; seul l'axe body_boundaries est retenu."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
