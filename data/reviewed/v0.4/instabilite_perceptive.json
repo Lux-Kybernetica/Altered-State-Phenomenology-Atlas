@@ -1,0 +1,10 @@
+{
+  "id":"nova.instabilite_perceptive","term":"Instabilité perceptive",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon","obstacle"],"modalities":["visual"],"phases":["experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["attention_stability"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"scène qui se brouille, se défait ou se reconfigure sans cesse","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Concept plus large que Flou perceptif : il inclut reconfiguration involontaire et perte de continuité du décor."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
