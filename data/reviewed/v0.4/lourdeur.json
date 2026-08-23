@@ -1,0 +1,15 @@
+{
+  "id":"nova.lourdeur","term":"Lourdeur",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],
+    "modalities":["somatosensory","proprioceptive"],
+    "phases":["threshold"],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":["reduced"],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"sensation de poids ou de densité corporelle avec impression d'enfoncement","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."},
+      {"kind":"relation","predicate":"distinguish_from","target_id":"nova.paralysie_du_sommeil","target_term":"Paralysie du sommeil","epistemic_status":"source_explicit","basis":"Nova précise que la lourdeur n'implique pas l'absence de mouvement possible."}
+    ],
+    "notes":["La difficulté à bouger est modélisée comme motricité réduite, pas comme paralysie."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
