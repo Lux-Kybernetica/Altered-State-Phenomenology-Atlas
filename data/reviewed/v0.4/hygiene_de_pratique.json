@@ -1,0 +1,10 @@
+{
+  "id":"nova.hygiene_de_pratique","term":"Hygiène de pratique",
+  "annotation_lux_v0_4":{
+    "types":["safety","concept"],"modalities":[],"phases":["wake","post_experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["reasoning_clarity","goal_maintenance"],"action_functions":["integration"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"ensemble de règles visant une pratique soutenable sans dégrader sommeil ni équilibre quotidien","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Concept-cadre de prévention et de soutenabilité, non phénomène expérientiel."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
