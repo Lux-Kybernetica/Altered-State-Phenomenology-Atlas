@@ -1,0 +1,10 @@
+{
+  "id":"nova.endormissement","term":"Endormissement",
+  "annotation_lux_v0_4":{
+    "types":["state","transition","obstacle"],"modalities":[],"phases":["sleep_onset"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["meta_awareness","memory_continuity","temporal_continuity"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"perte du fil conscient avec bascule vers un sommeil sans lucidité exploitable","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Le sommeil n'est pas un obstacle en soi ; il est classé obstacle ici relativement à l'objectif pratique de maintien de lucidité défini par Nova."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
