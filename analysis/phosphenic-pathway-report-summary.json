@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "pathway_id": "lux.phosphenic_pathway.v0_1",
+    "pathway_version": "0.1",
+    "report_files_total": 1,
+    "synthetic_reports_excluded": 1,
+    "empirical_reports": 0,
+    "warning": "Synthetic fixtures are validation-only and never contribute to empirical counts."
+  },
+  "stage_occurrence": [
+    {"stage_id":"p0_phosphene_entry","stage_label":"Phosphene entry","report_count":0},
+    {"stage_id":"p1_hypnagogic_structuring","stage_label":"Hypnagogic structuring","report_count":0},
+    {"stage_id":"p2_immersive_scene","stage_label":"Immersive scene formation","report_count":0},
+    {"stage_id":"p3_threshold","stage_label":"Threshold / zone de bascule","report_count":0},
+    {"stage_id":"p4_transition_markers","stage_label":"Optional transition markers","report_count":0},
+    {"stage_id":"p4b_regulation","stage_label":"Non-interruption / lâcher-prise","report_count":0},
+    {"stage_id":"p5_decrochage","stage_label":"Décrochage","report_count":0},
+    {"stage_id":"p6_outcome","stage_label":"Partial or complete exit-like outcome","report_count":0}
+  ],
+  "ordered_stage_pairs": [],
+  "report_stage_sequences": []
+}
