@@ -1,0 +1,333 @@
+{
+  "id": "lux.scientific_evidence.core.v0_1",
+  "version": "0.1",
+  "scope": "Conservative scientific evidence map for bodily self-consciousness, sleep-transition phenomena, sleep paralysis and lucid dreaming relevant to Nova Conscientia concepts. This layer provides analogues, mechanisms, clinical context and measurement precedents; it does not adjudicate metaphysical interpretations.",
+  "policy": [
+    "Scientific evidence is linked to Nova concepts by explicit role, never by identity.",
+    "Experimental analogues are not assumed to be identical to spontaneous experiences.",
+    "Mechanistic findings are treated as candidate explanatory context, not automatic exhaustive explanations.",
+    "Observational associations do not become causal claims.",
+    "Small-sample and case-study findings retain their limitations.",
+    "Later studies that weaken earlier interpretations are retained rather than harmonized away.",
+    "Every study records what it does not establish."
+  ],
+  "studies": [
+    {
+      "id": "science.blanke_2002_angular_gyrus",
+      "citation": "Blanke O, Ortigue S, Landis T, Seeck M. Stimulating illusory own-body perceptions. Nature. 2002;419:269-270.",
+      "year": 2002,
+      "evidence_class": "case_report",
+      "domain": ["bodily_self_consciousness", "out_of_body_experience", "vestibular", "somatosensory", "brain_stimulation"],
+      "source_locator": {"doi": "10.1038/419269a", "pmid": "12239558", "pmcid": null},
+      "design_summary": "Repeated focal electrical stimulation of the right angular gyrus during presurgical epilepsy evaluation in one patient, with elicitation of illusory own-body perceptions, whole-body displacement sensations and an OBE-like episode.",
+      "findings": [
+        "Stimulation could repeatedly alter perceived bodily location and perspective in this patient.",
+        "Somatosensory body transformations and vestibular whole-body displacement sensations were also elicited.",
+        "The authors proposed disturbed integration of somatosensory and vestibular information as a mechanism relevant to the induced OBE-like experience."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.decrochage", "relation": "mechanistic_context", "basis": "Nova Décrochage concerns a perceived shift in the center/point of perception; the case demonstrates that bodily self-location can be acutely altered by focal brain stimulation."},
+        {"nc_ref": "nova.flottement", "relation": "experimental_analogue", "basis": "The stimulation elicited whole-body displacement/vestibular sensations that overlap with Nova's vestibular-proprioceptive movement phenomena."},
+        {"nc_ref": "nova.corps_de_sortie", "relation": "alternative_explanation", "basis": "The case provides a neurophysiological route to altered own-body perception without requiring an ontological second body."},
+        {"nc_ref": "nova.double_localisation", "relation": "mechanistic_context", "basis": "The work is relevant to dissociations between perceived body position and self-location, although it is not a direct model of every double-localization report."}
+      ],
+      "limitations": [
+        "Single neurological patient with epilepsy undergoing invasive evaluation.",
+        "Stimulation-induced experience is not equivalent by default to spontaneous SHC/OBE reports.",
+        "The study cannot estimate prevalence or individual variability in the general population."
+      ],
+      "does_not_establish": [
+        "That all spontaneous OBE-like experiences are caused by right angular-gyrus dysfunction.",
+        "That non-neurological interpretations are logically impossible.",
+        "That an independently existing nonphysical body is present or absent."
+      ],
+      "notes": "High relevance to bodily-self mechanisms; low generalizability as a case report."
+    },
+    {
+      "id": "science.ehrsson_2007_obe_illusion",
+      "citation": "Ehrsson HH. The experimental induction of out-of-body experiences. Science. 2007;317:1048.",
+      "year": 2007,
+      "evidence_class": "primary_experimental",
+      "domain": ["bodily_self_consciousness", "self_location", "first_person_perspective", "multisensory_integration"],
+      "source_locator": {"doi": "10.1126/science.1142175", "pmid": "17717177", "pmcid": null},
+      "design_summary": "Healthy participants received manipulated visual perspective together with correlated multisensory bodily information to induce an illusion of being located outside the physical body.",
+      "findings": [
+        "Visual perspective combined with multisensory bodily information can shift experienced self-location.",
+        "An OBE-like illusion can be induced experimentally in healthy participants."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.decrochage", "relation": "experimental_analogue", "basis": "The experiment operationalizes a shift in experienced self-location/perspective analogous to one component of Nova Décrochage."},
+        {"nc_ref": "nova.corps_de_sortie", "relation": "experimental_analogue", "basis": "Participants experienced a displaced bodily perspective, relevant to alternative-body/self-location phenomenology without asserting an external body."},
+        {"nc_ref": "nova.double_localisation", "relation": "operationalization_support", "basis": "The paradigm demonstrates that self-location and seen-body location can be experimentally dissociated."}
+      ],
+      "limitations": [
+        "Laboratory illusion with controlled visual/multisensory conflict.",
+        "Not a reproduction of the full phenomenology or context of spontaneous SHC/OBE reports.",
+        "The study focuses primarily on self-location rather than transition sequences."
+      ],
+      "does_not_establish": [
+        "That every SHC/OBE is a visual-multisensory illusion.",
+        "That spontaneous reports share the same initiating mechanism.",
+        "Any metaphysical conclusion about consciousness outside the body."
+      ],
+      "notes": "Strong experimental analogue for the self-location dimension."
+    },
+    {
+      "id": "science.lenggenhager_2007_video_ergo_sum",
+      "citation": "Lenggenhager B, Tadi T, Metzinger T, Blanke O. Video ergo sum: manipulating bodily self-consciousness. Science. 2007;317:1096-1099.",
+      "year": 2007,
+      "evidence_class": "primary_experimental",
+      "domain": ["body_ownership", "self_location", "virtual_reality", "multisensory_integration"],
+      "source_locator": {"doi": "10.1126/science.1143439", "pmid": "17717189", "pmcid": null},
+      "design_summary": "Healthy participants experienced conflicting visual-somatosensory information in virtual reality while viewing a body in front of them.",
+      "findings": [
+        "Participants could identify with a seen virtual body under multisensory conflict.",
+        "Participants mislocalized themselves toward the seen body outside ordinary bodily borders.",
+        "Bodily self-consciousness can be manipulated experimentally through multisensory conflict."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.double_localisation", "relation": "experimental_analogue", "basis": "The experiment dissociates ordinary body position, seen-body representation and experienced self-location."},
+        {"nc_ref": "nova.corps_de_sortie", "relation": "mechanistic_context", "basis": "The study provides a multisensory model for experiencing an alternative body representation as self-related."},
+        {"nc_ref": "nova.decrochage", "relation": "mechanistic_context", "basis": "Self-location can shift toward an external body representation without requiring a literal physical displacement."}
+      ],
+      "limitations": [
+        "VR-induced full-body illusion rather than spontaneous altered-state transition.",
+        "Does not reproduce sleep-related or hypnagogic context.",
+        "Participants remain awake during the experimental manipulation."
+      ],
+      "does_not_establish": [
+        "That spontaneous exit-like experiences are identical to VR body illusions.",
+        "That all body-double reports derive from the same multisensory mechanism."
+      ],
+      "notes": "Useful for decomposing self-identification, body ownership and self-location."
+    },
+    {
+      "id": "science.ionta_2011_self_location_tpj",
+      "citation": "Ionta S, Heydrich L, Lenggenhager B, et al. Multisensory mechanisms in temporo-parietal cortex support self-location and first-person perspective. Neuron. 2011;70:363-374.",
+      "year": 2011,
+      "evidence_class": "primary_experimental",
+      "domain": ["self_location", "first_person_perspective", "temporo_parietal_junction", "fMRI", "lesion_analysis"],
+      "source_locator": {"doi": "10.1016/j.neuron.2011.03.009", "pmid": "21521620", "pmcid": null},
+      "design_summary": "Robotic multisensory-conflict experiments in healthy participants combined with fMRI and lesion analysis in neurological patients with abnormal self-location.",
+      "findings": [
+        "Experimentally induced self-location changes depended on visual-tactile and visual-vestibular conflict.",
+        "TPJ activity tracked changes in self-location and first-person perspective.",
+        "Lesion analysis linked abnormal self-location to TPJ damage, adding causal neurological evidence for this component."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.decrochage", "relation": "mechanistic_context", "basis": "Nova's perceived relocation/shift component can be decomposed into self-location and first-person-perspective variables that are experimentally tractable."},
+        {"nc_ref": "nova.double_localisation", "relation": "operationalization_support", "basis": "The work provides explicit measurable dimensions for abnormal or shifted self-location."},
+        {"nc_ref": "nova.corps_de_sortie", "relation": "alternative_explanation", "basis": "Altered bodily self-consciousness can arise through multisensory/TPJ mechanisms without resolving the ontology of reported alternative bodies."}
+      ],
+      "limitations": [
+        "The experimental manipulation isolates bodily-self components rather than recreating a complete OBE/SHC episode.",
+        "Clinical lesion findings concern neurological pathology and should not be generalized uncritically to healthy practitioners."
+      ],
+      "does_not_establish": [
+        "That TPJ activity is a complete explanation of all spontaneous OBE phenomenology.",
+        "That temporal sequences such as vibration → decrochage are generated by TPJ mechanisms."
+      ],
+      "notes": "Strong support for treating self-location and first-person perspective as independent analytic axes."
+    },
+    {
+      "id": "science.hayashi_1999_hypnagogic_imagery_eeg",
+      "citation": "Hayashi M, Katoh K, Hori T. Hypnagogic imagery and EEG activity. Percept Mot Skills. 1999;88:676-678.",
+      "year": 1999,
+      "evidence_class": "primary_observational",
+      "domain": ["hypnagogia", "sleep_onset", "EEG", "imagery"],
+      "source_locator": {"doi": "10.2466/pms.1999.88.2.676", "pmid": "10483662", "pmcid": null},
+      "design_summary": "Seven participants reported hypnagogic imagery content every minute while EEG during sleep onset was classified using a five-stage hypnagogic system.",
+      "findings": [
+        "Reported hypnagogic imagery content changed as a function of EEG-defined hypnagogic stages.",
+        "Phenomenological change across sleep onset can be related to physiological staging rather than treated as one undifferentiated threshold."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.hypnagogie", "relation": "measurement_precedent", "basis": "The study shows that sleep-onset phenomenology can be paired with EEG stage rather than relying only on retrospective labels."},
+        {"nc_ref": "nova.images_hypnagogiques", "relation": "phenomenology_context", "basis": "Hypnagogic imagery varies systematically with the electrophysiological progression of sleep onset."}
+      ],
+      "limitations": [
+        "Very small sample.",
+        "Brief repeated verbal reporting can itself influence the transition process.",
+        "The study addresses imagery content, not SHC/OBE transitions specifically."
+      ],
+      "does_not_establish": [
+        "A unique EEG signature for every Nova hypnagogic phenomenon.",
+        "That a given subjective image reliably identifies an exact sleep stage."
+      ],
+      "notes": "Important precedent for coupling phenomenology to objective sleep-onset staging."
+    },
+    {
+      "id": "science.sharpless_barber_2011_sleep_paralysis_prevalence",
+      "citation": "Sharpless BA, Barber JP. Lifetime prevalence rates of sleep paralysis: a systematic review. Sleep Med Rev. 2011;15:311-315.",
+      "year": 2011,
+      "evidence_class": "systematic_review",
+      "domain": ["sleep_paralysis", "epidemiology", "parasomnia"],
+      "source_locator": {"doi": "10.1016/j.smrv.2011.01.007", "pmid": "21571556", "pmcid": "PMC3156892"},
+      "design_summary": "Systematic review of 35 studies reporting lifetime sleep-paralysis rates, aggregating 36,533 participants.",
+      "findings": [
+        "Weighted lifetime prevalence was 7.6% in the general population in the included studies.",
+        "Higher prevalence estimates were reported in student and psychiatric samples.",
+        "Sleep paralysis is sufficiently common to require explicit differentiation from rarer or more interpretively loaded phenomena."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.paralysie_du_sommeil", "relation": "clinical_context", "basis": "Provides epidemiological context for a canonical NC transition phenomenon."}
+      ],
+      "limitations": [
+        "Substantial heterogeneity in assessment methods and sampled populations across included studies.",
+        "Prevalence estimates depend on study definitions and reporting methods.",
+        "A 2024 meta-analysis using a different study set and methods reported a substantially higher pooled prevalence, underscoring heterogeneity."
+      ],
+      "does_not_establish": [
+        "That sleep paralysis explains all SHC/OBE-like episodes.",
+        "That hallucinations occurring during sleep paralysis are equivalent to all reported sensed-presence or exit phenomena."
+      ],
+      "notes": "Use as clinical/epidemiological context, not as a causal model of all threshold experiences."
+    },
+    {
+      "id": "science.cheyne_girard_2009_body_unbound",
+      "citation": "Cheyne JA, Girard TA. The body unbound: vestibular-motor hallucinations and out-of-body experiences. Cortex. 2009;45:201-215.",
+      "year": 2009,
+      "evidence_class": "primary_observational",
+      "domain": ["sleep_paralysis", "vestibular_motor", "out_of_body_experience", "survey"],
+      "source_locator": {"doi": "10.1016/j.cortex.2007.05.002", "pmid": "18621363", "pmcid": null},
+      "design_summary": "Analysis of self-report data from two online surveys of sleep-paralysis-related vestibular-motor and OBE experiences.",
+      "findings": [
+        "Vestibular-motor sensations and OBEs formed a related but structured cluster within sleep-paralysis experiences.",
+        "Vestibular and motor experiences made partly independent contributions to OBE variance.",
+        "The results were consistent with, but did not by themselves prove, a model in which anomalous vestibular-motor experiences contribute to OBE-like phenomenology during sleep paralysis."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.paralysie_du_sommeil", "relation": "phenomenology_context", "basis": "The study maps bodily and OBE-like hallucinations specifically within sleep-paralysis episodes."},
+        {"nc_ref": "nova.flottement", "relation": "alternative_explanation", "basis": "Vestibular-motor hallucinations provide a sleep-related explanatory context for floating/flying/displacement sensations."},
+        {"nc_ref": "nova.decrochage", "relation": "alternative_explanation", "basis": "OBE-like shifts can co-occur with anomalous vestibular-motor sensations during sleep paralysis."},
+        {"nc_ref": "nova.double_localisation", "relation": "phenomenology_context", "basis": "Autoscopic and displaced-self experiences appear within the broader vestibular-motor/OBE cluster studied."
+      ],
+      "limitations": [
+        "Online self-report survey design.",
+        "Retrospective reports and self-selection can introduce bias.",
+        "The proposed causal ordering is model-based and not experimentally manipulated."
+      ],
+      "does_not_establish": [
+        "That vestibular-motor hallucinations cause all spontaneous OBEs.",
+        "That SHC reports outside sleep paralysis share the same structure.",
+        "That survey associations resolve metaphysical interpretations."
+      ],
+      "notes": "Especially relevant to keeping vestibular and motor dimensions distinct in NC."
+    },
+    {
+      "id": "science.voss_2009_lucid_eeg",
+      "citation": "Voss U, Holzmann R, Tuin I, Hobson JA. Lucid dreaming: a state of consciousness with features of both waking and non-lucid dreaming. Sleep. 2009;32:1191-1200.",
+      "year": 2009,
+      "evidence_class": "primary_experimental",
+      "domain": ["lucid_dreaming", "REM", "EEG", "metacognition"],
+      "source_locator": {"doi": "10.1093/sleep/32.9.1191", "pmid": "19750924", "pmcid": "PMC2737577"},
+      "design_summary": "Six trained volunteers underwent multi-night EEG; lucid REM episodes were signaled with predefined horizontal eye movements.",
+      "findings": [
+        "Signal-verified lucid episodes occurred during REM sleep and were associated with measurable electrophysiological differences from non-lucid REM segments in this small sample.",
+        "The original paper interpreted increased frontolateral gamma activity as support for a hybrid waking/dreaming state."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.reve_lucide", "relation": "measurement_precedent", "basis": "Prearranged eye signals allow lucid dream events to be time-locked during verified REM sleep."},
+        {"nc_ref": "nova.lucidite", "relation": "operationalization_support", "basis": "Lucidity can be operationalized behaviorally during sleep rather than inferred only after awakening."}
+      ],
+      "limitations": [
+        "Only six participants and a limited number of lucid episodes.",
+        "The frontolateral 40-Hz interpretation was later challenged by Baird, Tononi and LaBerge (2022), who attributed the effect to saccadic spike potential artifacts associated with higher REM density.",
+        "EEG correlates do not themselves define the phenomenological boundaries of lucidity."
+      ],
+      "does_not_establish": [
+        "That lucid dreaming is physiologically a mixture of wakefulness and REM sleep.",
+        "A universal gamma-band neural signature of lucidity.",
+        "That all forms of Nova lucidity correspond to REM lucid dreaming."
+      ],
+      "notes": "Retained together with the 2022 reanalysis to preserve scientific correction rather than silently harmonize disagreement."
+    },
+    {
+      "id": "science.baird_2022_activated_rem",
+      "citation": "Baird B, Tononi G, LaBerge S. Lucid dreaming occurs in activated rapid eye movement sleep, not a mixture of sleep and wakefulness. Sleep. 2022;45:zsab294.",
+      "year": 2022,
+      "evidence_class": "primary_experimental",
+      "domain": ["lucid_dreaming", "REM", "EEG", "methodological_reanalysis"],
+      "source_locator": {"doi": "10.1093/sleep/zsab294", "pmid": "35167686", "pmcid": null},
+      "design_summary": "Reanalysis of 14 signal-verified lucid dreams from six participants, comparing lucid REM with baseline REM while correcting saccadic spike-potential artifacts.",
+      "findings": [
+        "Lucid REM was associated with higher REM density and physiological activation within the normal range of REM variability.",
+        "After artifact correction, the previously claimed frontolateral 40-Hz difference was not supported.",
+        "The authors argued that lucid dreaming is better characterized as activated REM sleep than as a physiological mixture of waking and sleep."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.reve_lucide", "relation": "mechanistic_context", "basis": "Provides a more conservative physiological context for signal-verified lucid REM dreaming."},
+        {"nc_ref": "nova.lucidite", "relation": "measurement_precedent", "basis": "Demonstrates the importance of artifact-controlled physiological verification when assigning state-level interpretations to lucidity."}
+      ],
+      "limitations": [
+        "Small number of participants and lucid episodes.",
+        "Reanalysis of an existing dataset rather than a large independent replication.",
+        "Findings concern signal-verified lucid REM dreams, not every altered state involving reflective awareness."
+      ],
+      "does_not_establish": [
+        "That all lucid experiences occur exclusively in REM sleep.",
+        "That subjective lucidity has one unique neural mechanism.",
+        "That absence of a 40-Hz signature invalidates the phenomenological category of lucidity."
+      ],
+      "notes": "Important corrective study for epistemic hygiene in the lucid-dreaming evidence layer."
+    },
+    {
+      "id": "science.dresler_2012_lucid_fmri_case",
+      "citation": "Dresler M, Wehrle R, Spoormaker VI, et al. Neural correlates of dream lucidity obtained from contrasting lucid versus non-lucid REM sleep: a combined EEG/fMRI case study. Sleep. 2012;35:1017-1020.",
+      "year": 2012,
+      "evidence_class": "case_report",
+      "domain": ["lucid_dreaming", "REM", "fMRI", "EEG", "reflective_awareness"],
+      "source_locator": {"doi": "10.5665/sleep.1974", "pmid": "22754049", "pmcid": "PMC3369221"},
+      "design_summary": "Four experienced lucid dreamers underwent parallel EEG/fMRI night recordings; only one participant produced two verified lucid REM episodes of sufficient length for fMRI analysis.",
+      "findings": [
+        "In the analyzable participant, lucid REM epochs showed increased activation in precuneus/cuneus, parietal, prefrontal and occipito-temporal regions relative to non-lucid REM.",
+        "The study provides a proof of concept for time-locking lucid phenomenology to neuroimaging."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.reve_lucide", "relation": "measurement_precedent", "basis": "Verified in-dream signaling can identify lucid epochs for neuroimaging comparison."},
+        {"nc_ref": "nova.lucidite", "relation": "mechanistic_context", "basis": "Reflective-awareness changes during dreaming can be studied with temporally anchored physiological methods."}
+      ],
+      "limitations": [
+        "Only one participant contributed usable fMRI lucid epochs.",
+        "Extremely limited generalizability despite sophisticated instrumentation.",
+        "Regional activation differences do not imply a unique or complete mechanism of lucidity."
+      ],
+      "does_not_establish": [
+        "A general neural signature of lucid dreaming across individuals.",
+        "That the identified activations are necessary or sufficient for lucidity.",
+        "That Nova lucidity categories outside dreaming share these activations."
+      ],
+      "notes": "Methodologically valuable; inferential weight must remain low because the usable fMRI result is effectively a single-subject case."
+    },
+    {
+      "id": "science.konkoly_2021_interactive_dreaming",
+      "citation": "Konkoly KR, Appel K, Chabani E, et al. Real-time dialogue between experimenters and dreamers during REM sleep. Curr Biol. 2021;31:1417-1427.e6.",
+      "year": 2021,
+      "evidence_class": "primary_experimental",
+      "domain": ["lucid_dreaming", "REM", "two_way_communication", "polysomnography", "real_time_measurement"],
+      "source_locator": {"doi": "10.1016/j.cub.2021.01.026", "pmid": "33607035", "pmcid": "PMC8162929"},
+      "design_summary": "Four independent laboratory groups tested two-way communication during polysomnographically verified REM sleep in 36 individuals using auditory/visual questions and predefined eye or facial-muscle responses.",
+      "findings": [
+        "Correct answers were obtained on 29 occasions across six participants while they were in verified REM sleep and reporting lucid dreaming.",
+        "Dreamers could sometimes perceive novel questions, maintain information, perform simple computations and return volitional signals during ongoing REM dreams.",
+        "The paradigm demonstrates that selected phenomenological/cognitive variables can be queried before awakening, reducing exclusive dependence on retrospective recall."
+      ],
+      "nc_links": [
+        {"nc_ref": "nova.reve_lucide", "relation": "measurement_precedent", "basis": "Provides a direct precedent for real-time communication during verified lucid REM sleep."},
+        {"nc_ref": "nova.lucidite", "relation": "operationalization_support", "basis": "Volitional responses during verified REM offer a stronger temporal marker of active reflective/agentive awareness than post-hoc report alone."},
+        {"nc_ref": "nova.ancrage_de_memoire", "relation": "measurement_precedent", "basis": "In-state signaling creates event markers that can be compared with later recall, useful for studying memory distortion or omission."}
+      ],
+      "limitations": [
+        "Successful interactive episodes occurred in a minority of participants/trials.",
+        "The paradigm requires substantial instrumentation and specialized response channels.",
+        "Results concern lucid REM dreaming and cannot simply be transferred to non-REM threshold states or SHC practice."
+      ],
+      "does_not_establish": [
+        "Continuous or reliable two-way communication with every lucid dreamer.",
+        "That similar communication is feasible during Nova's full range of threshold or separation phenomena.",
+        "Any claim about extracorporeal perception."
+      ],
+      "notes": "High-value methodological precedent for future prospective NC/Phosphenic experiments."
+    }
+  ]
+}
