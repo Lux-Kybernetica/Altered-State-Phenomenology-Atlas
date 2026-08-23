@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/pathway-v0.1.schema.json",
+  "title": "NC × Lux experiential pathway v0.1",
+  "type": "object",
+  "required": ["id", "name", "version", "status", "scope", "stages", "transitions", "constraints", "provenance"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "version": {"type": "string"},
+    "status": {"enum": ["experimental_proposal", "observational_model", "validated_internal", "deprecated"]},
+    "scope": {"type": "string"},
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "role", "term_refs", "required"],
+        "properties": {
+          "id": {"type": "string"},
+          "label": {"type": "string"},
+          "role": {"enum": ["entry", "development", "threshold", "marker_set", "regulation", "transition", "outcome", "integration"]},
+          "term_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"}},
+          "required": {"type": "boolean"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "transitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "kind", "evidence_status", "provenance"],
+        "properties": {
+          "from": {"type": "string"},
+          "to": {"type": "string"},
+          "kind": {"enum": ["proposed_precedes", "observed_precedes", "optional_branch", "may_facilitate", "may_cooccur"]},
+          "evidence_status": {"enum": ["nova_source_explicit", "nova_source_supported", "lux_working_observation", "lux_hypothesis", "external_evidence_pending"]},
+          "provenance": {"type": "string"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "constraints": {"type": "array", "items": {"type": "string"}},
+    "provenance": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
