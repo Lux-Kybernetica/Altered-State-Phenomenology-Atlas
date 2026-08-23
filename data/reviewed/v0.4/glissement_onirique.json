@@ -1,0 +1,10 @@
+{
+  "id":"nova.glissement_onirique","term":"Glissement onirique",
+  "annotation_lux_v0_4":{
+    "types":["transition","obstacle"],"modalities":[],"phases":["experience","sleep_onset"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["meta_awareness","goal_maintenance","executive_control","reality_monitoring"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"perte d'auto-lucidité avec retour à une narration automatique qui emporte le sujet","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Le terme est modélisé comme transition cognitive vers une moindre méta-conscience, pas comme simple changement de décor."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
