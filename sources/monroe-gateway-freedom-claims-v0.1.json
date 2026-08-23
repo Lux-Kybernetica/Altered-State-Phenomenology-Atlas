@@ -1,0 +1,142 @@
+{
+  "id": "lux.sources.monroe_gateway_freedom_claims.v0_1",
+  "source_tradition": "The Monroe Institute / Gateway Experience — Wave III Freedom",
+  "version": "0.1",
+  "claims": [
+    {
+      "id": "monroe.claim.liftoff.procedure",
+      "subject_id": "monroe.liftoff",
+      "claim_type": "procedural_instruction",
+      "statement": "Liftoff trains a floating or rising perspective with awareness displaced relative to the physical body, while the manual explicitly states that the exercise does not necessarily imply actual separation.",
+      "source_basis": ["Gateway Experience Manual — Freedom #1: Liftoff"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The floating/rising phenomenology and the explicit non-equivalence with actual separation are both eligible for NC comparison."
+    },
+    {
+      "id": "monroe.claim.liftoff.nonphysical_centering",
+      "subject_id": "monroe.liftoff",
+      "claim_type": "interpretive_claim",
+      "statement": "The exercise instructs the practitioner to center awareness in a nonphysical-energy self rather than the physical body.",
+      "source_basis": ["Gateway Experience Manual — Freedom #1: Liftoff"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Gateway-specific explanatory framing; the associated floating perspective can be compared without accepting a nonphysical-energy ontology."
+    },
+    {
+      "id": "monroe.claim.vectors.procedure",
+      "subject_id": "monroe.vectors",
+      "claim_type": "procedural_instruction",
+      "statement": "Vectors trains directional control by using body-referenced clock positions and repeatedly moving or extending perception toward and back from those reference points.",
+      "source_basis": ["Gateway Experience Manual — Freedom #3: Vectors"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Direction, reference points and repeatable movement control are eligible for comparison with NC navigation concepts."
+    },
+    {
+      "id": "monroe.claim.vectors.nonphysical_space",
+      "subject_id": "monroe.vectors",
+      "claim_type": "interpretive_claim",
+      "statement": "Gateway frames the Vectors exercise as training perception or movement involving nonphysical energy that is not limited by ordinary spatial concepts.",
+      "source_basis": ["Gateway Experience Manual — Freedom #3: Vectors"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "The spatial-control procedure can be mapped without importing the nonphysical-space interpretation."
+    },
+    {
+      "id": "monroe.claim.first_stage_separation.procedure",
+      "subject_id": "monroe.first_stage_separation",
+      "claim_type": "procedural_instruction",
+      "statement": "First-Stage Separation teaches five distinct methods intended to practice dissociation or separation from ordinary bodily localization, with selection or combination of methods encouraged.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: First-Stage Separation"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The training structure and transition target are eligible for NC comparison."
+    },
+    {
+      "id": "monroe.claim.first_stage_separation.second_body",
+      "subject_id": "monroe.first_stage_separation",
+      "claim_type": "metaphysical_claim",
+      "statement": "The Freedom manual interprets the exercise through physical and nonphysical energies and a second body that can be localized separately from the physical body.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: First-Stage Separation"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Retained as Gateway source ontology only. It must not be used as evidence for an independently existing second body in Nova."
+    },
+    {
+      "id": "monroe.claim.log_rolling.procedure",
+      "subject_id": "monroe.first_stage_log_rolling",
+      "claim_type": "procedural_instruction",
+      "statement": "Log-rolling directs deliberate axial rotation around a head-to-feet axis until a release-like change is perceived, after which the practitioner stops forcing the rotation and allows it to continue before moving outward.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Log-rolling"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Strong procedural comparison candidate for NC Rotation volontaire and Lâcher-prise-like non-forcing after initiation."
+    },
+    {
+      "id": "monroe.claim.log_rolling.out_of_phase",
+      "subject_id": "monroe.first_stage_log_rolling",
+      "claim_type": "interpretive_claim",
+      "statement": "Gateway interprets the stabilized result of log-rolling as an out-of-phase condition between physical and nonphysical energies from which the practitioner can peel outward.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Log-rolling"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "The rotation procedure remains crosswalk-eligible; the energy-phase explanation does not."
+    },
+    {
+      "id": "monroe.claim.pole.procedure",
+      "subject_id": "monroe.first_stage_pole",
+      "claim_type": "procedural_instruction",
+      "statement": "The Pole method stages a progressive head-first displacement through shoulders, chest, waist, abdomen and legs while the feet remain the final pivot/contact point, followed by intended complete separation.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Pole method"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The staged partial-to-complete structure is eligible for comparison with NC Sortie partielle and Décrochage."
+    },
+    {
+      "id": "monroe.claim.pole.second_body",
+      "subject_id": "monroe.first_stage_pole",
+      "claim_type": "interpretive_claim",
+      "statement": "The Pole instructions describe the moving entity as a second or nonphysical body distinct from the physical body.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Pole method"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "The staged embodiment phenomenology does not require importing second-body ontology."
+    },
+    {
+      "id": "monroe.claim.backing_away.procedure",
+      "subject_id": "monroe.first_stage_backing_away",
+      "claim_type": "procedural_instruction",
+      "statement": "Backing away instructs a slow intentional movement backward and away from the physical-body reference before subsequent directional exploration.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Backing away"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Eligible for comparison with directed separation intention and perceived self-location transition."
+    },
+    {
+      "id": "monroe.claim.flowing.procedure",
+      "subject_id": "monroe.first_stage_flowing",
+      "claim_type": "procedural_instruction",
+      "statement": "Flowing uses a cloud, fog or spray-like outflow visualization through the top of the head, followed in Gateway's instructions by re-formation into a body-like representation and continued movement.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Flowing"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The procedure has no direct NC action equivalent but its phenomenology can remain explicitly represented as an external technique."
+    },
+    {
+      "id": "monroe.claim.flowing.energy_entity",
+      "subject_id": "monroe.first_stage_flowing",
+      "claim_type": "metaphysical_claim",
+      "statement": "Gateway frames Flowing as sending nonphysical energies outward and naturally re-forming them into a replica of the physical body.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Flowing"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "The visualization/instruction can be recorded without accepting the energy-entity interpretation."
+    },
+    {
+      "id": "monroe.claim.floating.procedure",
+      "subject_id": "monroe.first_stage_floating",
+      "claim_type": "procedural_instruction",
+      "statement": "The Floating method deliberately evokes pleasant floating or soaring imagery and affect as a means of supporting the intended separation process.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Floating"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Eligible for comparison with NC Flottement as cue and Décrochage as target transition, which remain distinct."
+    },
+    {
+      "id": "monroe.claim.freedom.nonforcing",
+      "subject_id": "monroe.first_stage_separation",
+      "claim_type": "procedural_instruction",
+      "statement": "Freedom recommends repeated practice in a relaxed state and without expectations rather than intense forcing of separation.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: First-Stage Separation"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Supports the broader Gateway-to-NC operational comparison between non-forcing and Lâcher-prise."
+    }
+  ]
+}
