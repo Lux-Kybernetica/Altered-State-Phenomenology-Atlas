@@ -1,0 +1,10 @@
+{
+  "id":"nova.excitation","term":"Excitation",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon","obstacle"],"modalities":["affective","interoceptive"],"phases":["experience","return"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["attention_stability"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"montée rapide de joie, surprise ou euphorie associée dans la fiche à un retour immédiat","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova ; l'association au retour n'est pas élevée en causalité générale."}],
+    "notes":["L'intensité affective et la maîtrise sont explicitement distinguées par Nova."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
