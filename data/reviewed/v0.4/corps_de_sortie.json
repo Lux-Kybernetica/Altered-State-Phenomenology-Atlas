@@ -1,0 +1,13 @@
+{
+  "id":"nova.corps_de_sortie","term":"Corps de sortie",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["proprioceptive","somatosensory"],"phases":["separation","experience"],
+    "selfhood_dimensions":["body_ownership","body_boundaries"],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"perception d'un corps différent, plus léger ou plus fluide, avec sensations inhabituelles","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"corps subtil / psychossoma","epistemic_status":"interpretation","basis":"Ces équivalents figurent dans la fiche source et sont séparés ici de la description phénoménologique."}
+    ],
+    "notes":["Nova précise explicitement qu'il s'agit d'une perception et non d'une preuve ontologique."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
