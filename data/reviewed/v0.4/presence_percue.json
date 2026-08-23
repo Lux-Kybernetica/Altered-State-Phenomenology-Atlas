@@ -1,0 +1,13 @@
+{
+  "id":"nova.presence_percue","term":"Présence perçue",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["social_presence","affective","interoceptive"],"phases":[],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"impression nette qu'une présence est là sans preuve sensorielle ordinaire","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."},
+      {"kind":"source_statement","predicate":"distinguish_from","value":"entité","epistemic_status":"source_explicit","basis":"Nova précise qu'« entité » est un terme interprétatif et conserve ici le phénomène brut."}
+    ],
+    "notes":["La catégorie social_presence est volontairement phénoménologique : elle ne présuppose ni agent externe ni ontologie particulière."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
