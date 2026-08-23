@@ -1,0 +1,10 @@
+{
+  "id":"nova.point_focal","term":"Point focal",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["threshold","experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["attention_stability","executive_control"],"action_functions":["attention_regulation","stabilization"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"fixer légèrement l'attention sur un élément simple pour limiter la dispersion","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["L'action est attentionnelle ; elle ne doit pas être confondue avec effort musculaire ou contrôle crispé."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
