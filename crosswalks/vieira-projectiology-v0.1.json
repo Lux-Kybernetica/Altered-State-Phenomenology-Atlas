@@ -1,0 +1,135 @@
+{
+  "id": "lux.crosswalk.vieira_projectiology.v0_1",
+  "source_tradition": "Waldo Vieira / Projeciologia / IIPC",
+  "version": "0.1",
+  "policy": [
+    "Nova's existing '(Vieira)' equivalence labels are treated as search clues, not crosswalk evidence.",
+    "Projeciologia framework entities such as psicossoma and energossoma remain external constructs and are not imported into Nova ontology.",
+    "Phenomenological resemblance can be mapped independently of the framework explanation offered for that phenomenon.",
+    "No Vieira concept is mapped with an identity relation.",
+    "Institutional descriptions by IIPC are treated as primary-adjacent statements of the Vieira framework, not independent scientific validation."
+  ],
+  "concepts": [
+    {
+      "id": "vieira.estado_vibracional",
+      "label": "Estado vibracional",
+      "kind": "phenomenon",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional", "Vieira, Projeciologia"],
+      "notes": "Framework describes a vibration condition involving energossoma/psicossoma; crosswalk uses only the reported vibration phenomenology."
+    },
+    {
+      "id": "vieira.decolagem_psicossoma",
+      "label": "Decolagem do psicossoma",
+      "kind": "transition",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional", "Vieira, Projeciologia"],
+      "notes": "Framework transition in which the psychosome is said to leave the physical-body coincidence state."
+    },
+    {
+      "id": "vieira.psicossoma",
+      "label": "Psicossoma",
+      "kind": "interpretive_construct",
+      "source_basis": ["Vieira, Projeciologia", "IIPC — Projeciologia / Veículos de Manifestação"],
+      "notes": "Source framework treats psychosome as an emotional/extraphysical vehicle of manifestation."
+    },
+    {
+      "id": "vieira.semiprojection",
+      "label": "Semiprojeção / projeção parcial",
+      "kind": "transition",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada"],
+      "notes": "Partial exteriorization in which only part of the framework-defined psychosome is described as displaced."
+    },
+    {
+      "id": "vieira.projecao_semiconsciente",
+      "label": "Projeção semiconsciente",
+      "kind": "state",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada", "Vieira framework glossaries"],
+      "notes": "Described as a projection condition with discontinuous/partial lucidity; source literature also compares it with lucid dreaming."
+    },
+    {
+      "id": "vieira.catalepsia_projetiva",
+      "label": "Catalepsia projetiva",
+      "kind": "phenomenon",
+      "source_basis": ["Vieira, Projeciologia — Catalepsia Projetiva", "IIPC — Fenômenos Parapsíquicos"],
+      "notes": "Temporary inability to move the physical body while awareness is present; Vieira's causal vehicle explanation remains external."
+    },
+    {
+      "id": "vieira.ballonnement",
+      "label": "Ballonnement / balonamento",
+      "kind": "phenomenon",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "notes": "Reported sensation of bodily swelling/expansion before or around takeoff in the Projectiology framework."
+    }
+  ],
+  "mappings": [
+    {
+      "external_id": "vieira.estado_vibracional",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.etat_vibratoire"],
+      "status": "crosswalk_inference",
+      "confidence": 0.95,
+      "basis": "Both systems describe a subjectively perceived whole-body or intense vibration condition associated with a separation/threshold context. The Projectiology explanation in terms of energossoma and psicossoma is not part of the NC mapping.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "warning": "Phenomenological similarity only; no import of vehicle ontology."
+    },
+    {
+      "external_id": "vieira.decolagem_psicossoma",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.87,
+      "basis": "Both denote a transition away from ordinary bodily localization rather than the later destination/outcome. Vieira describes psychosome takeoff; Nova models a perceived shift of the center of perception.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional", "IIPC — Projeciologia overview"],
+      "warning": "The external concept presupposes a psychosome; Nova Décrochage does not."
+    },
+    {
+      "external_id": "vieira.psicossoma",
+      "relation": "partial_overlap",
+      "nc_refs": ["nova.corps_de_sortie"],
+      "status": "crosswalk_inference",
+      "confidence": 0.58,
+      "basis": "Nova Corps de sortie records the perception of a different/light/fluid body, while the Vieira framework treats Psicossoma as an actual vehicle of manifestation. The overlap is experiential imagery/body-ownership phenomenology, not ontology.",
+      "source_basis": ["IIPC — Projeciologia / Veículos de Manifestação", "Vieira, Projeciologia"],
+      "warning": "Never encode Psicossoma = Corps de sortie. Nova explicitly keeps Corps de sortie at the level of perception."
+    },
+    {
+      "external_id": "vieira.semiprojection",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.sortie_partielle"],
+      "status": "crosswalk_inference",
+      "confidence": 0.94,
+      "basis": "IIPC describes semiprojection as partial exteriorization and gives limb-by-limb examples; Nova Sortie partielle likewise models an incomplete exit-like transition affecting only part of the perceived body.",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada"],
+      "warning": "The phenomenological structure aligns strongly, but the explanatory ontology differs."
+    },
+    {
+      "external_id": "vieira.projecao_semiconsciente",
+      "relation": "partial_overlap",
+      "nc_refs": ["nova.semi_lucidite", "nova.reve_lucide"],
+      "status": "crosswalk_inference",
+      "confidence": 0.79,
+      "basis": "Projectiology describes semiconscious projection through discontinuous/partial lucidity and sometimes glosses it as lucid-dream-like. Nova separates the degree of lucidity from the dream-environment category, so the external concept overlaps two NC nodes rather than one.",
+      "source_basis": ["IIPC — Técnica da Projeção Consciente Fragmentada", "IIPC educational glossary derived from Vieira framework"],
+      "warning": "Do not collapse Semi-lucidité and Rêve lucide into one NC state."
+    },
+    {
+      "external_id": "vieira.catalepsia_projetiva",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.paralysie_du_sommeil"],
+      "status": "crosswalk_inference",
+      "confidence": 0.93,
+      "basis": "Both describe temporary inability to move the physical body while awareness is present around sleep/transition states. The Vieira framework adds a vehicle-coincidence explanation that is not imported into Nova.",
+      "source_basis": ["Vieira, Projeciologia — Catalepsia Projetiva", "IIPC — Fenômenos Parapsíquicos"],
+      "warning": "Operational overlap is strong; causal explanations and clinical terminology remain distinct."
+    },
+    {
+      "external_id": "vieira.ballonnement",
+      "relation": "no_direct_equivalent",
+      "nc_refs": [],
+      "status": "rejected_identity",
+      "confidence": 0.94,
+      "basis": "Nova currently has no canonical node specifically describing the bodily swelling/inflation sensation named ballonnement in the Projectiology material.",
+      "source_basis": ["IIPC — Técnica da Projeção da Consciência pelo Estado Vibracional"],
+      "warning": "Do not force-map this to Flottement or Dissolution des frontières merely because all concern altered embodiment."
+    }
+  ]
+}
