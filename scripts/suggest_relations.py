@@ -50,10 +50,28 @@ def mentions(source: dict, target_name: str) -> list[dict]:
     return found
 
 
+def confusion_labels(text: str) -> list[str]:
+    """Return outer confusion labels, excluding explanatory parentheses."""
+    stripped = strip_parenthetical(text or "")
+    return [segment.strip(" ;:.") for segment in stripped.split(",") if segment.strip()]
+
+
 def direct_confusion(source: dict, target_name: str) -> bool:
-    # Parenthetical explanations can mention many unrelated terms. Only the
-    # outer confusion labels are treated as direct distinction evidence.
-    return norm(target_name) in norm(strip_parenthetical(source.get("confusions", "") or ""))
+    """Detect an actual confusion label, not a substring in explanatory prose.
+
+    This deliberately avoids treating `lucidité` inside `semi-lucidité` or
+    `lucidité intermittente` as a direct confusion with the generic term.
+    """
+    target = norm(target_name).strip()
+    for label in confusion_labels(source.get("confusions", "") or ""):
+        candidate = norm(label).strip()
+        if candidate == target:
+            return True
+        if candidate.startswith(target + " "):
+            suffix = candidate[len(target) + 1:]
+            if suffix.startswith(("confondu", "involontaire", "ordinaire", "totale", "total")):
+                return True
+    return False
 
 
 def main() -> int:
