@@ -20,11 +20,15 @@ The original source material is preserved separately from Lux annotations.
 
 - Nova source extracted: **92 terms / 6 families**.
 - Full heuristic pre-annotation: **92 terms**.
-- Manual review: **52 terms reviewed**, **40 remaining**.
-- **Transitions complete: 15 / 15.**
-- **États & lucidité complete: 11 / 11.**
-- **Phénomènes perceptifs complete: 25 / 25.**
-- Knowledge graph generation is intentionally postponed until the semantic model is stable enough.
+- Manual semantic review: **92 / 92 complete**. ✅
+- **États & lucidité: 11 / 11.**
+- **Transitions: 15 / 15.**
+- **Phénomènes perceptifs: 25 / 25.**
+- **Navigation / actions: 19 / 19.**
+- **Obstacles: 13 / 13.**
+- **Sécurité: 9 / 9.**
+
+Knowledge-graph generation remains intentionally postponed until relation review is complete.
 
 ## Current model
 
@@ -35,10 +39,11 @@ Each concept can be represented through several independent axes:
 - `phases[]`
 - `selfhood_dimensions[]`
 - `cognitive_dimensions[]`
+- `action_functions[]`
 - `motor_states[]`
 - `assertions[]`
 
-Assertions can carry their own epistemic status so that a phenomenological observation is not accidentally treated as an interpretation or causal claim.
+Assertions carry epistemic status so that phenomenological observation, operational definition, interpretation and proposal are not silently conflated.
 
 ## Repository map
 
@@ -47,23 +52,21 @@ Assertions can carry their own epistemic status so that a phenomenological obser
 ├── data/          # extracted and enriched structured datasets
 ├── schemas/       # JSON schemas and controlled vocabularies
 ├── docs/          # method, decisions, roadmap, status
-├── audit/         # human review reports and queues
+├── audit/         # human review reports
 ├── third_party/   # provenance / third-party notes
 └── archive/       # superseded working artifacts when needed
 ```
 
-## Immediate next step
+## Next phase — v0.5
 
-Continue the manual semantic review by conceptual group:
+The semantic classification pass is finished. Next:
 
-1. ~~Transitions~~ ✅
-2. ~~States & lucidity~~ ✅
-3. ~~Perceptual phenomena~~ ✅
-4. **Actions / navigation** ← next
-5. Obstacles
-6. Safety
-
-Only then should we generate the first consolidated typed relation graph.
+1. consolidate the 92 reviewed records;
+2. validate the normalized dataset;
+3. review typed relations systematically;
+4. distinguish source-explicit, source-supported and proposed links;
+5. export the first knowledge graph;
+6. model pathways separately, beginning with the Phosphenic Pathway.
 
 ## Attribution / third-party material
 
