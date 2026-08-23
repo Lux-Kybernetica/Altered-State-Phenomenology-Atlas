@@ -1,0 +1,240 @@
+{
+  "id": "lux.crosswalk.monroe_gateway.v0_1",
+  "source_tradition": "The Monroe Institute / Gateway Experience",
+  "version": "0.1",
+  "policy": [
+    "No Monroe term is treated as identical to a Nova concept by default.",
+    "Focus levels are program-specific operational labels, not universal consciousness phases.",
+    "Monroe metaphysical language is preserved as source framing and is not imported into the Nova ontology.",
+    "Only phenomenological or procedural overlap is mapped here.",
+    "A perceived vibration may map to Nova État vibratoire; generic Monroe language about vibrational energy does not automatically do so."
+  ],
+  "concepts": [
+    {
+      "id": "monroe.focus10",
+      "label": "Focus 10 — mind awake, body asleep",
+      "kind": "state",
+      "source_basis": ["Gateway Experience Manual, Discovery #2: Introduction to Focus 10"],
+      "notes": "Program-defined Focus state characterized by maintained mental alertness during deep bodily relaxation/sleep-like condition."
+    },
+    {
+      "id": "monroe.click_out",
+      "label": "Click-out",
+      "kind": "phenomenon",
+      "source_basis": ["Gateway Experience Manual, Wave I / FAQ"],
+      "notes": "Reported gap in immediate recall with little or no perceived passage of time; explicitly distinguished in the manual from ordinary falling asleep."
+    },
+    {
+      "id": "monroe.kinesthetic_motion_cues",
+      "label": "Kinesthetic motion cues",
+      "kind": "phenomenon",
+      "source_basis": ["Gateway Entry guidance"],
+      "notes": "Includes rising/falling, rocking, sliding and tipping-like sensations."
+    },
+    {
+      "id": "monroe.perceived_vibrations",
+      "label": "Perceived vibrations / electric sensations",
+      "kind": "phenomenon",
+      "source_basis": ["Gateway Entry guidance", "Questions & Answers"],
+      "notes": "Restricted here to subjectively perceived vibration/tingling/shaking, not Monroe's broader energy vocabulary."
+    },
+    {
+      "id": "monroe.buzzing",
+      "label": "Buzzing / rushing auditory cues",
+      "kind": "phenomenon",
+      "source_basis": ["Gateway Entry guidance", "Questions & Answers"],
+      "notes": "Auditory or head-localized buzzing is reported as one possible perceptual cue."
+    },
+    {
+      "id": "monroe.hypnagogic_imagery",
+      "label": "Dream-like imagery during sleep transition",
+      "kind": "phenomenon",
+      "source_basis": ["Gateway Questions & Answers", "Discovery #5: Exploration, Sleep"],
+      "notes": "Images or dream-like thoughts can appear while the practitioner attempts to remain aware near sleep."
+    },
+    {
+      "id": "monroe.nonattachment_to_results",
+      "label": "Release attachment to results / expectations",
+      "kind": "practice",
+      "source_basis": ["Gateway Entry", "Discovery #5", "OBE Questions & Answers"],
+      "notes": "The manuals repeatedly warn that monitoring for success or trying too hard can interfere with the process."
+    },
+    {
+      "id": "monroe.point_of_departure_rotation",
+      "label": "Point of Departure — 180-degree rotation",
+      "kind": "technique",
+      "source_basis": ["Odyssey 3 — Point of Departure"],
+      "notes": "A deliberate rotation technique used after establishing an expanded energy-body framework."
+    },
+    {
+      "id": "monroe.separation_goal",
+      "label": "Separation / projection goal",
+      "kind": "transition",
+      "source_basis": ["Odyssey 3 — Point of Departure", "Gateway OBE guidance"],
+      "notes": "The source frames this as projecting consciousness out of phase with the physical body; that interpretation remains Monroe-specific."
+    },
+    {
+      "id": "monroe.return_to_c1",
+      "label": "Voluntary return to C-1",
+      "kind": "technique",
+      "source_basis": ["Discovery #1 / return instructions"],
+      "notes": "The manual instructs normal breathing, opening the eyes, or finger movement as simple return cues."
+    },
+    {
+      "id": "monroe.grounding",
+      "label": "Grounding after an exercise",
+      "kind": "practice",
+      "source_basis": ["Gateway FAQ: not quite awake and alert after an exercise"],
+      "notes": "Includes counting, cool water, walking and other methods intended to re-establish ordinary waking orientation."
+    },
+    {
+      "id": "monroe.journaling",
+      "label": "Experience journaling",
+      "kind": "practice",
+      "source_basis": ["Gateway recommendations for use / tape-taking recommendations"],
+      "notes": "The manuals encourage documenting experience details and contextual variables."
+    }
+  ],
+  "mappings": [
+    {
+      "external_id": "monroe.focus10",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.endormissement_conscient"],
+      "status": "crosswalk_inference",
+      "confidence": 0.82,
+      "basis": "Focus 10 maintains mental wakefulness while the body is deeply relaxed/asleep; Nova Endormissement conscient models preserved awareness during bodily sleep onset. The units differ: Monroe describes a program state, Nova a transition/process concept.",
+      "source_basis": ["Gateway Experience Manual, Discovery #2"],
+      "warning": "Do not encode Focus 10 = Endormissement conscient."
+    },
+    {
+      "external_id": "monroe.click_out",
+      "relation": "partial_overlap",
+      "nc_refs": ["nova.amnesie_de_retour"],
+      "status": "crosswalk_inference",
+      "confidence": 0.48,
+      "basis": "Both involve absent immediate recall, but Monroe click-out can occur during an exercise and is explicitly distinguished from ordinary sleep; Nova Amnésie de retour concerns memory loss around return. The overlap is only mnemonic.",
+      "source_basis": ["Gateway Wave I / FAQ"],
+      "warning": "Temporal placement differs substantially."
+    },
+    {
+      "external_id": "monroe.kinesthetic_motion_cues",
+      "relation": "may_manifest_as",
+      "nc_refs": ["nova.balancement", "nova.flottement", "nova.chute_interne"],
+      "status": "crosswalk_inference",
+      "confidence": 0.74,
+      "basis": "Rocking, sliding, tipping and rising/falling sensations overlap phenomenologically with several Nova vestibular/proprioceptive motion concepts.",
+      "source_basis": ["Gateway Entry guidance"],
+      "warning": "The manual presents a broad cue family; no one-to-one mapping is justified."
+    },
+    {
+      "external_id": "monroe.perceived_vibrations",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.etat_vibratoire"],
+      "status": "crosswalk_inference",
+      "confidence": 0.90,
+      "basis": "Both describe subjectively perceived vibration/electric-tingling or shaking sensations in altered-state transitions.",
+      "source_basis": ["Gateway Entry guidance", "Gateway Questions & Answers"],
+      "warning": "Only perceived vibrations are mapped. Monroe's general 'vibrational energy' language is excluded."
+    },
+    {
+      "external_id": "monroe.buzzing",
+      "relation": "may_manifest_as",
+      "nc_refs": ["nova.bourdonnement", "nova.bourdonnement_intracranien"],
+      "status": "crosswalk_inference",
+      "confidence": 0.88,
+      "basis": "Gateway describes buzzing/rushing sounds and sometimes forehead/head pressure; Nova separates generic buzzing from specifically intracranial buzzing.",
+      "source_basis": ["Gateway Entry guidance", "Gateway Questions & Answers"],
+      "warning": "Localization determines which Nova node is more appropriate."
+    },
+    {
+      "external_id": "monroe.hypnagogic_imagery",
+      "relation": "may_manifest_as",
+      "nc_refs": ["nova.images_hypnagogiques", "nova.hypnagogie"],
+      "status": "crosswalk_inference",
+      "confidence": 0.92,
+      "basis": "Gateway discusses images and dream-like thoughts appearing while awareness approaches sleep; Nova explicitly models hypnagogic imagery and hypnagogia at sleep onset.",
+      "source_basis": ["Gateway Questions & Answers", "Discovery #5"],
+      "warning": "Gateway does not require these images as a stage."
+    },
+    {
+      "external_id": "monroe.nonattachment_to_results",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.lacher_prise"],
+      "status": "crosswalk_inference",
+      "confidence": 0.94,
+      "basis": "Gateway repeatedly advises releasing expectations, avoiding monitoring for separation, and not trying too hard; Nova Lâcher-prise is the closest operational regulation concept.",
+      "source_basis": ["Discovery #5", "Gateway OBE Q&A", "Gateway Entry"],
+      "warning": "This is a practice-level similarity, not proof of identical mechanism."
+    },
+    {
+      "external_id": "monroe.nonattachment_to_results",
+      "relation": "distinguish_from",
+      "nc_refs": ["nova.hypercontrole"],
+      "status": "crosswalk_inference",
+      "confidence": 0.86,
+      "basis": "Gateway describes intense effort and result-monitoring as interference; this contrasts operationally with Nova Hypercontrôle.",
+      "source_basis": ["Gateway OBE Q&A", "Discovery #5"],
+      "warning": "Gateway does not use the Nova term Hypercontrôle."
+    },
+    {
+      "external_id": "monroe.point_of_departure_rotation",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.rotation_volontaire"],
+      "status": "crosswalk_inference",
+      "confidence": 0.96,
+      "basis": "Odyssey 3 instructs a deliberate 180-degree rotation as a technique; Nova Rotation volontaire denotes deliberately amplifying/using a rotation sensation.",
+      "source_basis": ["Odyssey 3 — Point of Departure"],
+      "warning": "The surrounding Monroe energy-body theory is not imported by this mapping."
+    },
+    {
+      "external_id": "monroe.point_of_departure_rotation",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.82,
+      "basis": "The Monroe rotation exercise is intended to produce a shift/projection away from ordinary bodily localization; Nova Décrochage models the transition in point of perception.",
+      "source_basis": ["Odyssey 3 — Point of Departure"],
+      "warning": "Technique goal and experienced transition must remain separate in data."
+    },
+    {
+      "external_id": "monroe.separation_goal",
+      "relation": "partial_overlap",
+      "nc_refs": ["nova.decrochage", "nova.sortie_partielle", "nova.sortie_complete"],
+      "status": "crosswalk_inference",
+      "confidence": 0.72,
+      "basis": "Monroe's separation/projection language spans transition and outcome concepts that Nova divides into Décrochage, Sortie partielle and Sortie complète.",
+      "source_basis": ["Odyssey 3", "Gateway OBE guidance"],
+      "warning": "No metaphysical equivalence is asserted."
+    },
+    {
+      "external_id": "monroe.return_to_c1",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.retour_volontaire"],
+      "status": "crosswalk_inference",
+      "confidence": 0.91,
+      "basis": "Both describe intentionally terminating the altered-state episode and restoring ordinary waking orientation.",
+      "source_basis": ["Discovery #1 return instructions"],
+      "warning": "C-1 is Monroe terminology, not a Nova phase."
+    },
+    {
+      "external_id": "monroe.grounding",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.ancrage_post_experience", "nova.orientation"],
+      "status": "crosswalk_inference",
+      "confidence": 0.89,
+      "basis": "Gateway grounding methods aim to restore ordinary alertness/orientation after an exercise; Nova separates post-experience anchoring and orientation concepts.",
+      "source_basis": ["Gateway FAQ: grounding"],
+      "warning": "Specific grounding techniques remain Monroe-source practices."
+    },
+    {
+      "external_id": "monroe.journaling",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.debrief_structure", "nova.ancrage_de_memoire"],
+      "status": "crosswalk_inference",
+      "confidence": 0.84,
+      "basis": "Gateway recommends recording details and contextual variables; Nova Debrief structuré and Ancrage de mémoire cover adjacent post-experience functions.",
+      "source_basis": ["Gateway recommendations for use / tape-taking recommendations"],
+      "warning": "Journaling is broader than either Nova node individually."
+    }
+  ]
+}
