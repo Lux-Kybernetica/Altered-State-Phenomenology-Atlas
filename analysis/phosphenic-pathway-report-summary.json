@@ -3,20 +3,55 @@
     "pathway_id": "lux.phosphenic_pathway.v0_1",
     "pathway_version": "0.1",
     "report_files_total": 1,
+    "source_type_counts": {"synthetic_test": 1},
     "synthetic_reports_excluded": 1,
-    "empirical_reports": 0,
-    "warning": "Synthetic fixtures are validation-only and never contribute to empirical counts."
+    "participant_reports": 0,
+    "literature_cases": 0,
+    "non_synthetic_reports": 0,
+    "semantic_exposure_strata": {"not_recorded_v0.1": 1},
+    "warning": "Synthetic fixtures never contribute to evidence counts. Participant reports and literature cases are also reported separately rather than being silently pooled."
   },
-  "stage_occurrence": [
-    {"stage_id":"p0_phosphene_entry","stage_label":"Phosphene entry","report_count":0},
-    {"stage_id":"p1_hypnagogic_structuring","stage_label":"Hypnagogic structuring","report_count":0},
-    {"stage_id":"p2_immersive_scene","stage_label":"Immersive scene formation","report_count":0},
-    {"stage_id":"p3_threshold","stage_label":"Threshold / zone de bascule","report_count":0},
-    {"stage_id":"p4_transition_markers","stage_label":"Optional transition markers","report_count":0},
-    {"stage_id":"p4b_regulation","stage_label":"Non-interruption / lâcher-prise","report_count":0},
-    {"stage_id":"p5_decrochage","stage_label":"Décrochage","report_count":0},
-    {"stage_id":"p6_outcome","stage_label":"Partial or complete exit-like outcome","report_count":0}
-  ],
-  "ordered_stage_pairs": [],
-  "report_stage_sequences": []
+  "participant_reports": {
+    "stage_occurrence": [
+      {"stage_id":"p0_phosphene_entry","stage_label":"Phosphene entry","report_count":0},
+      {"stage_id":"p1_hypnagogic_structuring","stage_label":"Hypnagogic structuring","report_count":0},
+      {"stage_id":"p2_immersive_scene","stage_label":"Immersive scene formation","report_count":0},
+      {"stage_id":"p3_threshold","stage_label":"Threshold / zone de bascule","report_count":0},
+      {"stage_id":"p4_transition_markers","stage_label":"Optional transition markers","report_count":0},
+      {"stage_id":"p4b_regulation","stage_label":"Non-interruption / lâcher-prise","report_count":0},
+      {"stage_id":"p5_decrochage","stage_label":"Décrochage","report_count":0},
+      {"stage_id":"p6_outcome","stage_label":"Partial or complete exit-like outcome","report_count":0}
+    ],
+    "ordered_stage_pairs": [],
+    "report_stage_sequences": []
+  },
+  "literature_cases": {
+    "stage_occurrence": [
+      {"stage_id":"p0_phosphene_entry","stage_label":"Phosphene entry","report_count":0},
+      {"stage_id":"p1_hypnagogic_structuring","stage_label":"Hypnagogic structuring","report_count":0},
+      {"stage_id":"p2_immersive_scene","stage_label":"Immersive scene formation","report_count":0},
+      {"stage_id":"p3_threshold","stage_label":"Threshold / zone de bascule","report_count":0},
+      {"stage_id":"p4_transition_markers","stage_label":"Optional transition markers","report_count":0},
+      {"stage_id":"p4b_regulation","stage_label":"Non-interruption / lâcher-prise","report_count":0},
+      {"stage_id":"p5_decrochage","stage_label":"Décrochage","report_count":0},
+      {"stage_id":"p6_outcome","stage_label":"Partial or complete exit-like outcome","report_count":0}
+    ],
+    "ordered_stage_pairs": [],
+    "report_stage_sequences": []
+  },
+  "combined_non_synthetic_exploratory": {
+    "stage_occurrence": [
+      {"stage_id":"p0_phosphene_entry","stage_label":"Phosphene entry","report_count":0},
+      {"stage_id":"p1_hypnagogic_structuring","stage_label":"Hypnagogic structuring","report_count":0},
+      {"stage_id":"p2_immersive_scene","stage_label":"Immersive scene formation","report_count":0},
+      {"stage_id":"p3_threshold","stage_label":"Threshold / zone de bascule","report_count":0},
+      {"stage_id":"p4_transition_markers","stage_label":"Optional transition markers","report_count":0},
+      {"stage_id":"p4b_regulation","stage_label":"Non-interruption / lâcher-prise","report_count":0},
+      {"stage_id":"p5_decrochage","stage_label":"Décrochage","report_count":0},
+      {"stage_id":"p6_outcome","stage_label":"Partial or complete exit-like outcome","report_count":0}
+    ],
+    "ordered_stage_pairs": [],
+    "report_stage_sequences": [],
+    "warning": "Combined counts are exploratory only; source-type strata remain authoritative for interpretation."
+  }
 }
