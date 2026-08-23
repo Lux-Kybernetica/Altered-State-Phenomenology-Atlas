@@ -1,6 +1,8 @@
-# Structured experience-report protocol v0.1
+# Structured experience-report protocol v0.2
 
-The purpose of the report layer is to make experiential sequences **comparable without flattening testimony into interpretation**.
+The purpose of the report layer is to make experiential sequences **comparable without flattening testimony into interpretation or learned vocabulary**.
+
+The canonical machine-readable format for new reports is now `schemas/experience-report-v0.2.schema.json`. The v0.1 schema remains supported for legacy/synthetic fixtures.
 
 ## Three distinct layers inside a report
 
@@ -11,6 +13,8 @@ What the participant says happened, as close as practical to their own wording.
 Example:
 
 > "I felt as if I were rotating while my physical body seemed still."
+
+The raw report should be frozen before Nova labels are assigned.
 
 ### 2. NC mapping
 
@@ -58,9 +62,68 @@ plus a numeric confidence from 0 to 1.
 
 This prevents later statistics from treating an analyst's weak inference as if the participant had named the phenomenon directly.
 
+## Semantic-contamination variables — new in v0.2
+
+A vocabulary convergence is less independent if the participant already knows the terms being tested. New reports therefore record:
+
+- prior framework exposure and level;
+- whether that exposure occurred before the experience;
+- whether terminology was supplied before the report;
+- elicitation mode;
+- whether Nova terms were shown before raw description;
+- whether Monroe/Vieira/other external terms were shown before raw description;
+- whether raw text was frozen before coding.
+
+Exposure does not invalidate a report. It changes the kind of inference we can make from vocabulary/phenomenology convergence.
+
+See `docs/BLIND_REPORTING_PROTOCOL.md`.
+
+## Elicitation classes
+
+v0.2 distinguishes:
+
+- `spontaneous_free_report`
+- `open_interview`
+- `structured_neutral_prompts`
+- `term_prompted`
+
+Term-prompted reports remain useful for trained-practice research but should not be treated as independent lexical convergence.
+
+## Provenance and memory delay
+
+New reports record:
+
+- delay between experience and capture when known;
+- original language;
+- literature/source reference when applicable;
+- whether the report was transcribed from audio.
+
+A fresh report and a reconstruction years later may both be informative, but they should never silently carry identical memory assumptions.
+
+## Coding method
+
+v0.2 records whether mapping was:
+
+- single analyst;
+- independent double coding;
+- consensus/adjudication;
+- participant self-coding.
+
+For high-value convergence cases, independent double coding is preferred. Disagreement is preserved before consensus.
+
+## Evidence classes
+
+The analysis pipeline now separates:
+
+1. direct participant reports (`self_report`, `interview`);
+2. `literature_case` records;
+3. `synthetic_test` fixtures.
+
+Synthetic fixtures never enter evidence counts. Literature cases are not silently pooled with direct participant reports. A combined view is explicitly exploratory only.
+
 ## Report quality
 
-Three minimum fields are tracked:
+Three minimum fields remain tracked:
 
 - recall confidence;
 - temporal-order confidence;
@@ -79,13 +142,7 @@ Reports carry an explicit scope:
 
 Personally identifying details should not be required for pathway analysis.
 
-## Synthetic fixtures
-
-Files with `source_type: synthetic_test` exist only to test schemas and analysis code.
-
-They **must be excluded** from empirical counts. A synthetic report becoming a supporting data point because somebody forgot a filter would be an almost perfect parody of bad consciousness research, so the software will guard against it explicitly.
-
-## Future aggregation
+## Aggregation goals
 
 Once genuine reports exist, the analysis layer should calculate at minimum:
 
@@ -95,6 +152,12 @@ Once genuine reports exist, the analysis layer should calculate at minimum:
 - A-without-B / B-without-A counts;
 - branch frequencies;
 - transition frequency by induction context;
-- weighted counts using mapping and temporal-order confidence.
+- source-type-stratified counts;
+- semantic-exposure-stratified counts;
+- weighted sensitivity analyses using mapping and temporal-order confidence.
 
 No threshold for "proof" is defined at this stage.
+
+## Core rule
+
+**Raw phenomenology first. Vocabulary second. Theory last.**
