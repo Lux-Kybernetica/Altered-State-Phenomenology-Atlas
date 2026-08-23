@@ -16,6 +16,7 @@
         "phases": {"type": "array", "uniqueItems": true, "items": {"enum": ["wake","sleep_onset","awakening","threshold","separation","experience","return","post_experience"]}},
         "selfhood_dimensions": {"type": "array", "uniqueItems": true, "items": {"enum": ["self_location","body_ownership","first_person_perspective","agency","body_boundaries"]}},
         "cognitive_dimensions": {"type": "array", "uniqueItems": true, "items": {"enum": ["meta_awareness","reasoning_clarity","memory_continuity","goal_maintenance","executive_control","attention_stability","temporal_continuity","reality_monitoring"]}},
+        "action_functions": {"type": "array", "uniqueItems": true, "items": {"enum": ["stabilization","affect_regulation","attention_regulation","intention_control","separation","navigation","interaction","epistemic_monitoring","return","memory_consolidation","integration"]}},
         "motor_states": {"type": "array", "uniqueItems": true, "items": {"enum": ["normal","reduced","immobility","atonia","perceived_paralysis","involuntary_movement","motor_effort"]}},
         "assertions": {
           "type": "array",
