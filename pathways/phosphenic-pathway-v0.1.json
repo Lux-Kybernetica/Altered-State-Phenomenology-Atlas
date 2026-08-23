@@ -1,0 +1,167 @@
+{
+  "id": "lux.phosphenic_pathway.v0_1",
+  "name": "Phosphenic Pathway",
+  "version": "0.1",
+  "status": "experimental_proposal",
+  "scope": "Working sequence model for phosphene-led conscious sleep-transition exploration toward separation-related experiences. Not a universal sequence and not part of the Nova v1 ontology.",
+  "stages": [
+    {
+      "id": "p0_phosphene_entry",
+      "label": "Phosphene entry",
+      "role": "entry",
+      "term_refs": ["nova.phosphenes"],
+      "required": true,
+      "notes": "Defines this pathway specifically: visual phosphene activity is used as the entry phenomenon."
+    },
+    {
+      "id": "p1_hypnagogic_structuring",
+      "label": "Hypnagogic structuring",
+      "role": "development",
+      "term_refs": ["nova.images_hypnagogiques", "nova.hypnagogie"],
+      "required": false,
+      "notes": "Structured imagery and broader hypnagogic content may emerge from the initial visual field."
+    },
+    {
+      "id": "p2_immersive_scene",
+      "label": "Immersive scene formation",
+      "role": "development",
+      "term_refs": ["nova.scene_immersive"],
+      "required": false,
+      "notes": "Optional visual branch: imagery may become spatially immersive rather than remain image-like."
+    },
+    {
+      "id": "p3_threshold",
+      "label": "Threshold / zone de bascule",
+      "role": "threshold",
+      "term_refs": ["nova.zone_de_bascule"],
+      "required": true,
+      "notes": "Operational threshold stage. Nova wording and Lux pathway interpretation remain distinct."
+    },
+    {
+      "id": "p4_transition_markers",
+      "label": "Optional transition markers",
+      "role": "marker_set",
+      "term_refs": [
+        "nova.etat_vibratoire",
+        "nova.bourdonnement_intracranien",
+        "nova.flottement",
+        "nova.rotation",
+        "nova.traction",
+        "nova.stase"
+      ],
+      "required": false,
+      "notes": "This is a set of alternative/possibly co-occurring markers. The pathway does not require all or any particular marker."
+    },
+    {
+      "id": "p4b_regulation",
+      "label": "Non-interruption / lâcher-prise",
+      "role": "regulation",
+      "term_refs": ["nova.lacher_prise"],
+      "required": false,
+      "notes": "Optional regulatory action represented separately from perceptual markers."
+    },
+    {
+      "id": "p5_decrochage",
+      "label": "Décrochage",
+      "role": "transition",
+      "term_refs": ["nova.decrochage"],
+      "required": true,
+      "notes": "Represents the separation-related transition in the current working model, not an ontological claim about what separates."
+    },
+    {
+      "id": "p6_outcome",
+      "label": "Partial or complete exit-like outcome",
+      "role": "outcome",
+      "term_refs": ["nova.sortie_partielle", "nova.sortie_complete"],
+      "required": false,
+      "notes": "Possible continuation after Décrochage. The pathway may terminate or return before this stage."
+    }
+  ],
+  "transitions": [
+    {
+      "from": "p0_phosphene_entry",
+      "to": "p1_hypnagogic_structuring",
+      "kind": "proposed_precedes",
+      "evidence_status": "lux_working_observation",
+      "provenance": "Lux Phosphenic Pathway working notes",
+      "notes": "Not encoded as a Nova graph law; frequency and exceptions remain to be measured."
+    },
+    {
+      "from": "p1_hypnagogic_structuring",
+      "to": "p2_immersive_scene",
+      "kind": "optional_branch",
+      "evidence_status": "lux_working_observation",
+      "provenance": "Lux Phosphenic Pathway working notes",
+      "notes": "Structured imagery may deepen into an immersive scene, but this stage can be skipped."
+    },
+    {
+      "from": "p1_hypnagogic_structuring",
+      "to": "p3_threshold",
+      "kind": "proposed_precedes",
+      "evidence_status": "lux_hypothesis",
+      "provenance": "Lux Phosphenic Pathway working model",
+      "notes": "Working sequence hypothesis pending structured report counts."
+    },
+    {
+      "from": "p2_immersive_scene",
+      "to": "p3_threshold",
+      "kind": "optional_branch",
+      "evidence_status": "lux_hypothesis",
+      "provenance": "Lux Phosphenic Pathway working model",
+      "notes": "Visual immersion is treated as one possible route into/through threshold phenomena, not a requirement."
+    },
+    {
+      "from": "p3_threshold",
+      "to": "p4_transition_markers",
+      "kind": "may_cooccur",
+      "evidence_status": "nova_source_supported",
+      "provenance": "Nova v1 reviewed semantic relations",
+      "notes": "Nova places several marker phenomena in or near the threshold; not all markers have identical source support."
+    },
+    {
+      "from": "p3_threshold",
+      "to": "p4b_regulation",
+      "kind": "optional_branch",
+      "evidence_status": "lux_hypothesis",
+      "provenance": "Lux Phosphenic Pathway working model",
+      "notes": "Regulatory stance/action may become relevant at the threshold without being a mandatory stage."
+    },
+    {
+      "from": "p4_transition_markers",
+      "to": "p5_decrochage",
+      "kind": "proposed_precedes",
+      "evidence_status": "nova_source_supported",
+      "provenance": "Nova v1 reviewed semantic relations",
+      "notes": "Some markers (notably Bourdonnement intracrânien, Flottement, État vibratoire) have source support for preceding Décrochage; the entire marker set is not asserted to do so universally."
+    },
+    {
+      "from": "p4b_regulation",
+      "to": "p5_decrochage",
+      "kind": "may_facilitate",
+      "evidence_status": "nova_source_supported",
+      "provenance": "Nova v1 reviewed relation: Lâcher-prise facilitates Décrochage",
+      "notes": "Operational facilitation claim; not a necessary condition and not strong causality."
+    },
+    {
+      "from": "p5_decrochage",
+      "to": "p6_outcome",
+      "kind": "optional_branch",
+      "evidence_status": "lux_hypothesis",
+      "provenance": "Lux pathway architecture derived from Nova transition vocabulary",
+      "notes": "Décrochage is modeled as passage; partial/complete exit-like states are possible outcomes rather than guaranteed destinations."
+    }
+  ],
+  "constraints": [
+    "No stage order is claimed to be universal.",
+    "Optional marker stages must not be converted into prerequisites.",
+    "Temporal order does not imply causality.",
+    "Nova source terminology remains separate from Lux pathway hypotheses.",
+    "The pathway does not adjudicate metaphysical interpretations of separation or non-physical experience.",
+    "Future structured reports should be able to confirm, weaken, split, or remove any proposed transition."
+  ],
+  "provenance": [
+    "Nova Conscientia v1 canonical term references",
+    "NC × Lux v0.5 reviewed semantic relation layer",
+    "Lux Phosphenic Pathway working observations and hypotheses"
+  ]
+}
