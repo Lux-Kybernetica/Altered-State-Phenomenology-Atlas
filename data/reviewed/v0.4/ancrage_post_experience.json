@@ -1,0 +1,10 @@
+{
+  "id":"nova.ancrage_post_experience","term":"Ancrage post-expérience",
+  "annotation_lux_v0_4":{
+    "types":["safety","action"],"modalities":[],"phases":["post_experience"],"selfhood_dimensions":["self_location","body_boundaries","agency"],
+    "cognitive_dimensions":["reality_monitoring","attention_stability"],"action_functions":["integration","affect_regulation"],"motor_states":["normal"],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"revenir volontairement aux repères corporels et quotidiens après une expérience forte","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Cette entrée concerne la réorientation vers le quotidien et non l'ancrage mnésique, qui est un autre concept."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
