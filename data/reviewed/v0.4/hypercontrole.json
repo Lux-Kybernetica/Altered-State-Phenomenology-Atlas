@@ -1,0 +1,10 @@
+{
+  "id":"nova.hypercontrole","term":"Hypercontrôle",
+  "annotation_lux_v0_4":{
+    "types":["obstacle","state"],"modalities":[],"phases":["threshold","separation"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["executive_control","attention_stability"],"action_functions":[],"motor_states":["motor_effort"],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"surveillance et contrôle crispés de chaque étape, associés à tension et impatience","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Ce terme décrit un excès de contrôle, pas l'absence d'executive control ; l'axe cognitif indique la fonction impliquée, pas sa valence."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
