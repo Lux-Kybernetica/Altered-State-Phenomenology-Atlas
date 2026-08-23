@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/experience-report-v0.2.schema.json",
+  "title": "NC × Lux structured experience report v0.2",
+  "type": "object",
+  "required": ["id", "schema_version", "source_type", "context", "exposure", "elicitation", "provenance", "events", "quality", "coding", "consent_scope"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
+    "schema_version": {"const": "0.2"},
+    "source_type": {"enum": ["self_report", "interview", "literature_case", "synthetic_test"]},
+    "participant_ref": {"type": ["string", "null"]},
+    "context": {
+      "type": "object",
+      "required": ["timing", "induction", "intentional"],
+      "properties": {
+        "timing": {"enum": ["sleep_onset", "awakening", "night_awakening", "nap", "daytime", "unknown"]},
+        "induction": {"type": "array", "items": {"type": "string"}},
+        "intentional": {"type": "boolean"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "exposure": {
+      "type": "object",
+      "required": ["framework_exposure", "terminology_exposure_before_report"],
+      "properties": {
+        "framework_exposure": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["framework", "level", "before_experience"],
+            "properties": {
+              "framework": {"type": "string"},
+              "level": {"enum": ["none", "minimal", "familiar", "trained", "practitioner"]},
+              "before_experience": {"type": "boolean"},
+              "notes": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "terminology_exposure_before_report": {"type": "boolean"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "elicitation": {
+      "type": "object",
+      "required": ["mode", "nc_terms_shown_before_raw_report", "external_terms_shown_before_raw_report"],
+      "properties": {
+        "mode": {"enum": ["spontaneous_free_report", "open_interview", "structured_neutral_prompts", "term_prompted"]},
+        "nc_terms_shown_before_raw_report": {"type": "boolean"},
+        "external_terms_shown_before_raw_report": {"type": "boolean"},
+        "prompt_text_or_protocol_ref": {"type": ["string", "null"]},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["capture_delay_minutes", "original_language", "source_reference"],
+      "properties": {
+        "capture_delay_minutes": {"type": ["number", "null"], "minimum": 0},
+        "original_language": {"type": "string"},
+        "source_reference": {"type": ["string", "null"]},
+        "transcribed_from_audio": {"type": "boolean"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["sequence", "raw_description", "term_refs", "mapping_status", "confidence"],
+        "properties": {
+          "sequence": {"type": "integer", "minimum": 0},
+          "relative_time_seconds": {"type": ["number", "null"], "minimum": 0},
+          "raw_description": {"type": "string", "minLength": 1},
+          "term_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"}},
+          "mapping_status": {"enum": ["reported_explicitly", "analyst_mapped", "uncertain"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "interpretation": {"type": ["string", "null"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "quality": {
+      "type": "object",
+      "required": ["recall_confidence", "temporal_order_confidence", "completeness"],
+      "properties": {
+        "recall_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "temporal_order_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "completeness": {"enum": ["fragmentary", "partial", "substantial", "near_complete"]},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "coding": {
+      "type": "object",
+      "required": ["method", "raw_report_frozen_before_mapping"],
+      "properties": {
+        "method": {"enum": ["single_analyst", "independent_double", "consensus", "participant_self_coded"]},
+        "raw_report_frozen_before_mapping": {"type": "boolean"},
+        "coder_refs": {"type": "array", "items": {"type": "string"}},
+        "adjudication_notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "outcome_term_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"}},
+    "consent_scope": {"enum": ["private_research", "anonymized_analysis", "publication_allowed", "synthetic_only"]},
+    "free_notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
