@@ -1,0 +1,10 @@
+{
+  "id":"nova.musique_hypnagogique","term":"Musique hypnagogique",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["auditory"],"phases":["threshold"],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"musique interne claire, mélodies, chœurs ou sons perçus surtout dans la zone de bascule","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["L'association à un déclenchement de bascule reste une relation source à documenter, pas une causalité."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
