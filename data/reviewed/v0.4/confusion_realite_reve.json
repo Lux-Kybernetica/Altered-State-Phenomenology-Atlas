@@ -1,0 +1,10 @@
+{
+  "id":"nova.confusion_realite_reve","term":"Confusion réalité/rêve",
+  "annotation_lux_v0_4":{
+    "types":["safety","condition"],"modalities":[],"phases":["wake","post_experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["reality_monitoring","reasoning_clarity","meta_awareness"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"frontières réalité/rêve devenues suffisamment floues pour perturber l'orientation quotidienne","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Nova l'emploie comme signal d'alerte ; le modèle n'en déduit aucune étiologie ni diagnostic."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
