@@ -1,0 +1,13 @@
+{
+  "id":"nova.peur_de_la_zone_de_bascule","term":"Peur de la zone de bascule",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon","obstacle"],"modalities":["affective","interoceptive"],"phases":["threshold"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["reality_monitoring","attention_stability"],"action_functions":[],"motor_states":["motor_effort"],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"peur déclenchée par des phénomènes du seuil et pouvant conduire à interrompre l'expérience","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"les phénomènes sont bénins et ne constituent pas un danger réel","epistemic_status":"interpretation","basis":"Cette affirmation globale apparaît dans la rubrique confusions de Nova et n'est pas encodée comme fait universel."}
+    ],
+    "notes":["Séparation explicite entre l'observation de peur et l'évaluation générale de danger proposée par la source."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
