@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/experience-report-v0.1.schema.json",
+  "title": "NC × Lux structured experience report v0.1",
+  "type": "object",
+  "required": ["id", "source_type", "context", "events", "quality", "consent_scope"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9._-]+$"},
+    "source_type": {"enum": ["self_report", "interview", "literature_case", "synthetic_test"]},
+    "participant_ref": {"type": ["string", "null"]},
+    "context": {
+      "type": "object",
+      "required": ["timing", "induction", "intentional"],
+      "properties": {
+        "timing": {"enum": ["sleep_onset", "awakening", "night_awakening", "nap", "daytime", "unknown"]},
+        "induction": {"type": "array", "items": {"type": "string"}},
+        "intentional": {"type": "boolean"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["sequence", "raw_description", "term_refs", "mapping_status", "confidence"],
+        "properties": {
+          "sequence": {"type": "integer", "minimum": 0},
+          "relative_time_seconds": {"type": ["number", "null"], "minimum": 0},
+          "raw_description": {"type": "string", "minLength": 1},
+          "term_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"}},
+          "mapping_status": {"enum": ["reported_explicitly", "analyst_mapped", "uncertain"]},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "interpretation": {"type": ["string", "null"]},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "quality": {
+      "type": "object",
+      "required": ["recall_confidence", "temporal_order_confidence", "completeness"],
+      "properties": {
+        "recall_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "temporal_order_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "completeness": {"enum": ["fragmentary", "partial", "substantial", "near_complete"]},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "outcome_term_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"}},
+    "consent_scope": {"enum": ["private_research", "anonymized_analysis", "publication_allowed", "synthetic_only"]},
+    "free_notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
