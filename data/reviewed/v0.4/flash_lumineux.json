@@ -1,0 +1,10 @@
+{
+  "id":"nova.flash_lumineux","term":"Flash lumineux",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["visual"],"phases":["threshold"],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"éclairs ou lumières soudaines perçus dans la zone de bascule","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Nova met explicitement en garde contre l'interprétation mystique obligatoire ; cette séparation est conservée."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
