@@ -1,0 +1,10 @@
+{
+  "id":"nova.test_de_coherence","term":"Test de cohérence",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["reality_monitoring","meta_awareness","reasoning_clarity"],"action_functions":["epistemic_monitoring"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"soumettre l'environnement perçu à une épreuve afin d'en examiner la stabilité locale","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Le test renseigne la cohérence de l'environnement tel qu'il est vécu ; il ne constitue pas à lui seul une preuve ontologique."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
