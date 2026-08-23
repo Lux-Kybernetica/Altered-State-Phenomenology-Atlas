@@ -1,0 +1,10 @@
+{
+  "id":"nova.clarification","term":"Clarification",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["reasoning_clarity","attention_stability","executive_control"],"action_functions":["stabilization","intention_control"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"intention volontaire visant à augmenter netteté, stabilité ou lucidité","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["L'efficacité décrite est un usage opératoire de la nomenclature, pas une causalité établie."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
