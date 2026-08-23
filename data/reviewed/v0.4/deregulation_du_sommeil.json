@@ -1,0 +1,13 @@
+{
+  "id":"nova.deregulation_du_sommeil","term":"Dérégulation du sommeil",
+  "annotation_lux_v0_4":{
+    "types":["safety","condition"],"modalities":["interoceptive","affective"],"phases":["wake","sleep_onset","awakening"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["attention_stability","reasoning_clarity"],"action_functions":[],"motor_states":[],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"perturbation durable du sommeil associée dans la fiche à fatigue, anxiété nocturne ou réveils anxieux","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"si cela dure plus d'une semaine, faire une pause","epistemic_status":"interpretation","basis":"Recommandation pratique propre à Nova ; elle n'est pas encodée comme seuil clinique universel."}
+    ],
+    "notes":["Signal de prudence du système Nova, pas diagnostic médical."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
