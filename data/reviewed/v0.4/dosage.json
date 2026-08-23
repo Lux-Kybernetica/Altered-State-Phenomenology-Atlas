@@ -1,0 +1,10 @@
+{
+  "id":"nova.dosage","term":"Dosage",
+  "annotation_lux_v0_4":{
+    "types":["safety","action","concept"],"modalities":[],"phases":["wake"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["reasoning_clarity","executive_control"],"action_functions":["integration"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"ajuster fréquence et intensité de pratique aux contraintes, à la fatigue et au stress","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Le terme formalise un principe d'ajustement, pas un dosage numérique universel."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
