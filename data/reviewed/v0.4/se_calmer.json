@@ -1,0 +1,10 @@
+{
+  "id":"nova.se_calmer","term":"Se calmer",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["threshold","experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["executive_control","meta_awareness"],"action_functions":["affect_regulation","stabilization"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"ramener l'activation émotionnelle à un niveau gérable afin de limiter le retour brusque","epistemic_status":"operational_definition","basis":"Paraphrase de l'objectif pratique décrit par Nova."}],
+    "notes":["La fiche distingue régulation émotionnelle et suppression de la peur."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
