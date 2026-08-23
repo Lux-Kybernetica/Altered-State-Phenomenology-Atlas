@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "version": "0.5",
+    "decision_count": 5,
+    "status": "manually_reviewed",
+    "meaning": "Nova v1 lexical resonance pairs deliberately rejected as semantic graph edges"
+  },
+  "decisions": [
+    {
+      "pair": ["nova.clarte_mentale", "nova.endormissement_conscient"],
+      "decision": "no_semantic_edge",
+      "reason": "The lexical hit comes from the phrase 'clarté mentale ordinaire' inside a meditation confusion note. It does not define a relation between the NC concepts Clarté mentale and Endormissement conscient."
+    },
+    {
+      "pair": ["nova.confusion_mentale", "nova.lucidite"],
+      "decision": "no_semantic_edge",
+      "reason": "The lexical resonance is produced by the substring 'lucidité' inside 'semi-lucidité'. Nova directly distinguishes Confusion mentale from Semi-lucidité, but this source line does not independently relate Confusion mentale to the generic Lucidité node."
+    },
+    {
+      "pair": ["nova.dissolution_des_frontieres", "nova.lucidite"],
+      "decision": "no_semantic_edge",
+      "reason": "The confusion text refers to 'dissolution de lucidité', not the NC concept Lucidité as a distinct comparison target. The original lexical mechanism over-links the generic word."
+    },
+    {
+      "pair": ["nova.lacher_prise", "nova.zone_de_bascule"],
+      "decision": "no_semantic_edge",
+      "reason": "The source says the Zone de bascule is traversed more easily. The operational relation is already better represented as Lâcher-prise facilitates Décrochage; connecting the action directly to the zone would blur context with effect."
+    },
+    {
+      "pair": ["nova.lucidite", "nova.rotation_volontaire"],
+      "decision": "no_semantic_edge",
+      "reason": "The lexical hit comes from a warning about possible loss of lucidity during Rotation volontaire. This is conditional failure language, not a stable semantic relation between the concepts."
+    }
+  ]
+}
