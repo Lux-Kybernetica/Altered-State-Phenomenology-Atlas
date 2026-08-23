@@ -1,0 +1,10 @@
+{
+  "id":"nova.bourdonnement","term":"Bourdonnement",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["auditory"],"phases":["threshold","experience"],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"son interne continu, parfois intracrânien, survenant en zone de bascule ou pendant l'expérience","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["À distinguer du terme 'Bourdonnement intracrânien' de la famille Transitions, plus spécifiquement lié au seuil et au décrochage."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
