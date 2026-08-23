@@ -85,17 +85,45 @@ Current report status:
 
 The empirical baseline is therefore correctly **zero**.
 
+## Monroe / Gateway crosswalk v0.1 — BOOTSTRAPPED
+
+External terminology is now modeled without importing Monroe's ontology into Nova.
+
+Current crosswalk:
+
+- external Monroe/Gateway concepts: **12**
+- crosswalk mappings: **14**
+- identity/equivalence mappings: **0**
+- unresolved canonical NC references after manual audit: **0**
+
+Strong operational comparisons currently include perceived vibrations, buzzing, hypnagogic imagery, non-forcing/lâcher-prise, deliberate rotation, intentional return, grounding and journaling.
+
+Important weak/partial mappings remain explicitly weak:
+
+- Focus 10 ↔ Endormissement conscient: operational similarity, not identity;
+- Click-out ↔ Amnésie de retour: partial mnemonic overlap only;
+- Monroe separation/projection spans several NC transition/outcome concepts.
+
+Files:
+
+- `schemas/external-crosswalk-v0.1.schema.json`
+- `crosswalks/monroe-gateway-v0.1.json`
+- `scripts/validate_crosswalks.py`
+- `docs/MONROE_CROSSWALK.md`
+- `audit/monroe-crosswalk-v0.1.md`
+
 ## Build automation
 
-The repository contains reproducible builders for:
+The repository contains reproducible builders/validators for:
 
 - normalized v0.5 consolidation (`scripts/build_v05.py`);
 - conservative lexical-resonance candidate generation (`scripts/suggest_relations.py`);
 - graph export + QA (`scripts/build_graph_v05.py`);
 - pathway validation (`scripts/validate_pathways.py`);
-- structured-report aggregation (`scripts/analyze_pathway_reports.py`).
+- structured-report aggregation (`scripts/analyze_pathway_reports.py`);
+- external crosswalk validation (`scripts/validate_crosswalks.py`).
 
-A GitHub Actions workflow is configured to regenerate derived `data/v0.5`, `graph/v0.5`, `analysis`, and QA artifacts. The connected GitHub interface has not yet exposed a successful bot-generated artifact commit, so generated-export execution remains to be verified. Reviewed semantic/relationship data is already committed and does not depend on that unresolved CI visibility.
+GitHub Actions is configured for push, pull request, and manual dispatch, but no workflow run is currently exposed even after an explicit diagnostic PR. This points to the Actions execution layer not starting rather than a known script failure. Reviewed semantic, relationship, pathway and crosswalk data remain committed independently of CI.
 
 ## Open work
 
@@ -103,7 +131,8 @@ A GitHub Actions workflow is configured to regenerate derived `data/v0.5`, `grap
 
 - verify generated consolidated 92-node export;
 - verify GraphML/JSON export from the reviewed 96-edge relation layer;
-- close when CI/generated artifacts are confirmed.
+- resolve why GitHub Actions produces no visible run;
+- close when generated artifacts are confirmed.
 
 ### Issue #3 — empiricalize Phosphenic Pathway
 
@@ -111,9 +140,14 @@ A GitHub Actions workflow is configured to regenerate derived `data/v0.5`, `grap
 - calculate actual stage/transition frequencies;
 - allow evidence to confirm, weaken, branch, or falsify v0.1.
 
+### Monroe expansion
+
+- model Focus 3 / 10 / 12 / 15 / 21 / 27 as external program concepts;
+- classify source statements as program definition, procedural instruction, participant-report generalization, or interpretive/metaphysical claim;
+- expand exercise-technique mappings without introducing identity edges.
+
 ## Later layers
 
 - scientific-source mapping;
-- Monroe / Gateway crosswalk;
-- Vieira / Conscientiology crosswalk;
+- Vieira / Projectiology / Conscientiology crosswalk, only from actual source material;
 - public/interactive application only after provenance and reuse boundaries are settled.
