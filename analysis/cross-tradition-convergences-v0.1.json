@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "id": "lux.analysis.cross_tradition_convergences.v0_1",
+    "version": "0.1",
+    "title": "Nova × Monroe × Vieira convergence matrix",
+    "not_truth_vote": true,
+    "rule": "Independent or semi-independent vocabularies mapping toward the same NC node identify comparison targets, not proof of the phenomenon's mechanism or ontology.",
+    "included_crosswalks": [
+      "crosswalks/monroe-gateway-v0.1.json",
+      "crosswalks/monroe-focus-ladder-v0.1.json",
+      "crosswalks/monroe-freedom-techniques-v0.1.json",
+      "crosswalks/vieira-projectiology-v0.1.json"
+    ]
+  },
+  "clusters": [
+    {
+      "nc_ref": "nova.etat_vibratoire",
+      "nc_label": "État vibratoire",
+      "coverage_status": "multi_tradition",
+      "convergence_kind": "phenomenological",
+      "external_alignments": [
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.perceived_vibrations",
+          "relation": "operationally_similar_to",
+          "confidence": 0.90,
+          "source_file": "crosswalks/monroe-gateway-v0.1.json"
+        },
+        {
+          "tradition": "Vieira/Projectiology",
+          "external_id": "vieira.estado_vibracional",
+          "relation": "operationally_similar_to",
+          "confidence": 0.95,
+          "source_file": "crosswalks/vieira-projectiology-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "A subjectively perceived internal or body-wide vibration/electric/oscillatory condition occurring around altered-state or separation-oriented transitions.",
+      "theoretical_divergence": "Gateway embeds the cue in nonphysical-energy training language; Projectiology explains it through energossoma/psychosome dynamics; Nova keeps the canonical node at the level of reported vibration phenomenology and transition context.",
+      "research_value": "high",
+      "evidence_note": "Strong lexical and phenomenological convergence across two external traditions, but agreement does not independently validate either energetic explanation."
+    },
+    {
+      "nc_ref": "nova.decrochage",
+      "nc_label": "Décrochage",
+      "coverage_status": "multi_tradition",
+      "convergence_kind": "transition",
+      "external_alignments": [
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.first_stage_separation",
+          "relation": "technique_targets",
+          "confidence": 0.97,
+          "source_file": "crosswalks/monroe-freedom-techniques-v0.1.json"
+        },
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.separation_goal",
+          "relation": "partial_overlap",
+          "confidence": 0.72,
+          "source_file": "crosswalks/monroe-gateway-v0.1.json"
+        },
+        {
+          "tradition": "Vieira/Projectiology",
+          "external_id": "vieira.decolagem_psicossoma",
+          "relation": "operationally_similar_to",
+          "confidence": 0.87,
+          "source_file": "crosswalks/vieira-projectiology-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "A transition away from ordinary bodily localization toward a separation-like or displaced-point-of-view condition, distinguished from the later destination or outcome.",
+      "theoretical_divergence": "Gateway commonly describes physical/nonphysical energies or second-body separation; Projectiology names psychosome takeoff; Nova formalizes a perceptual/self-location transition without requiring either external vehicle ontology.",
+      "research_value": "high",
+      "evidence_note": "The cross-tradition overlap is strongest at the transition-structure level, not at the level of what is claimed to separate."
+    },
+    {
+      "nc_ref": "nova.sortie_partielle",
+      "nc_label": "Sortie partielle",
+      "coverage_status": "multi_tradition",
+      "convergence_kind": "transition_pattern",
+      "external_alignments": [
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.first_stage_pole",
+          "relation": "technique_targets",
+          "confidence": 0.89,
+          "source_file": "crosswalks/monroe-freedom-techniques-v0.1.json"
+        },
+        {
+          "tradition": "Vieira/Projectiology",
+          "external_id": "vieira.semiprojection",
+          "relation": "operationally_similar_to",
+          "confidence": 0.94,
+          "source_file": "crosswalks/vieira-projectiology-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "An incomplete separation-like configuration in which only part of the experienced body representation is displaced or free before a possible more complete transition.",
+      "theoretical_divergence": "Gateway's Pole method instructs a staged second-body maneuver; Projectiology interprets semiprojection as partial psychosome exteriorization; Nova records incomplete exit-like body phenomenology without committing to a vehicle ontology.",
+      "research_value": "high",
+      "evidence_note": "Especially useful for structured reports because the partial-body pattern is concrete enough to compare without accepting either external mechanism."
+    },
+    {
+      "nc_ref": "nova.rotation_volontaire",
+      "nc_label": "Rotation volontaire",
+      "coverage_status": "single_external_tradition_multiple_methods",
+      "convergence_kind": "procedure",
+      "external_alignments": [
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.point_of_departure_rotation",
+          "relation": "operationally_similar_to",
+          "confidence": 0.96,
+          "source_file": "crosswalks/monroe-gateway-v0.1.json"
+        },
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.first_stage_log_rolling",
+          "relation": "operationally_similar_to",
+          "confidence": 0.98,
+          "source_file": "crosswalks/monroe-freedom-techniques-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "Deliberately induce, amplify or use axial/whole-body rotation as a maneuver intended to support a separation transition.",
+      "theoretical_divergence": "Both external alignments currently come from Gateway, so this is procedural redundancy inside one tradition rather than cross-tradition convergence.",
+      "research_value": "medium_high",
+      "evidence_note": "Strong operational match, but it should not be counted as two independent traditions."
+    },
+    {
+      "nc_ref": "nova.flottement",
+      "nc_label": "Flottement",
+      "coverage_status": "single_external_tradition_multiple_methods",
+      "convergence_kind": "phenomenology_and_induction",
+      "external_alignments": [
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.kinesthetic_motion_cues",
+          "relation": "may_manifest_as",
+          "confidence": 0.74,
+          "source_file": "crosswalks/monroe-gateway-v0.1.json"
+        },
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.liftoff",
+          "relation": "technique_targets",
+          "confidence": 0.91,
+          "source_file": "crosswalks/monroe-freedom-techniques-v0.1.json"
+        },
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.first_stage_floating",
+          "relation": "technique_targets",
+          "confidence": 0.88,
+          "source_file": "crosswalks/monroe-freedom-techniques-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "A floating, rising, gliding or suspended-body sensation that may be spontaneous or deliberately evoked during transition-oriented practice.",
+      "theoretical_divergence": "Gateway techniques interpret the cue inside its energy-body training model; Nova separates the floating phenomenon from Décrochage and does not treat it as proof of actual separation.",
+      "research_value": "medium",
+      "evidence_note": "Useful as a cue/induction cluster, but only one external tradition is currently represented."
+    },
+    {
+      "nc_ref": "nova.paralysie_du_sommeil",
+      "nc_label": "Paralysie du sommeil",
+      "coverage_status": "single_external_tradition",
+      "convergence_kind": "phenomenological",
+      "external_alignments": [
+        {
+          "tradition": "Vieira/Projectiology",
+          "external_id": "vieira.catalepsia_projetiva",
+          "relation": "operationally_similar_to",
+          "confidence": 0.93,
+          "source_file": "crosswalks/vieira-projectiology-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "Temporary inability to move the physical body while awareness is present around a sleep/transition state.",
+      "theoretical_divergence": "Projectiology adds a vehicle-coincidence explanation; Nova records the immobility/awareness phenomenon without adopting that mechanism.",
+      "research_value": "medium_high",
+      "evidence_note": "Gateway manuals also mention temporary stiffness/immobility in separation practice, but no dedicated Gateway concept has yet been formalized for this node, so it is not counted as a second external alignment."
+    },
+    {
+      "nc_ref": "nova.corps_de_sortie",
+      "nc_label": "Corps de sortie",
+      "coverage_status": "single_external_tradition_ontologically_divergent",
+      "convergence_kind": "embodiment",
+      "external_alignments": [
+        {
+          "tradition": "Vieira/Projectiology",
+          "external_id": "vieira.psicossoma",
+          "relation": "partial_overlap",
+          "confidence": 0.58,
+          "source_file": "crosswalks/vieira-projectiology-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "Experience or representation of a body-like form distinct from ordinary physical-body ownership or localization.",
+      "theoretical_divergence": "Nova explicitly defines Corps de sortie as a perception and not ontological proof; Projectiology treats Psicossoma as a real vehicle of manifestation within its framework.",
+      "research_value": "high_epistemic",
+      "evidence_note": "The low-confidence partial overlap is scientifically useful precisely because the two systems diverge sharply on ontology."
+    },
+    {
+      "nc_ref": "nova.lacher_prise",
+      "nc_label": "Lâcher-prise",
+      "coverage_status": "single_external_tradition_multiple_sources",
+      "convergence_kind": "regulation_strategy",
+      "external_alignments": [
+        {
+          "tradition": "Monroe/Gateway",
+          "external_id": "monroe.nonattachment_to_results",
+          "relation": "operationally_similar_to",
+          "confidence": 0.94,
+          "source_file": "crosswalks/monroe-gateway-v0.1.json"
+        }
+      ],
+      "shared_minimum_description": "Maintain awareness while reducing effort, expectation-monitoring or active interference once the transition process is underway.",
+      "theoretical_divergence": "The operational strategy can be compared independently of Gateway's energy-body interpretation or Nova's internal transition vocabulary.",
+      "research_value": "medium_high",
+      "evidence_note": "The Freedom source-claim layer independently repeats relaxed practice without expectations, but because it belongs to the same Gateway tradition it is not counted as another tradition."
+    }
+  ]
+}
