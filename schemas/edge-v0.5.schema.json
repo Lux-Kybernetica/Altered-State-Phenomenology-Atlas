@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://luxkybernetica.org/schemas/edge-v0.5.schema.json",
+  "title": "NC × Lux typed edge v0.5",
+  "type": "object",
+  "required": ["source", "target", "relation_type", "epistemic_status", "provenance"],
+  "properties": {
+    "source": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"},
+    "target": {"type": "string", "pattern": "^nova\\.[a-z0-9_]+$"},
+    "relation_type": {
+      "enum": ["is_a", "part_of", "precedes", "follows", "co_occurs_with", "facilitates", "inhibits", "distinguish_from", "may_trigger", "may_contain", "associated_with"]
+    },
+    "epistemic_status": {"enum": ["source_explicit", "source_supported", "proposed"]},
+    "basis": {"type": "string"},
+    "provenance": {"type": "string", "minLength": 1},
+    "review_required": {"type": "boolean"}
+  },
+  "additionalProperties": false
+}
