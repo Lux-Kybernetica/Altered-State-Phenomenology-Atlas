@@ -1,0 +1,10 @@
+{
+  "id":"nova.changement_de_scene","term":"Changement de scène",
+  "annotation_lux_v0_4":{
+    "types":["action","transition"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency","first_person_perspective"],
+    "cognitive_dimensions":["executive_control","attention_stability"],"action_functions":["navigation","intention_control"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"modifier volontairement le décor en changeant de focus ou de repère","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Entrée mixte : c'est une action dont le résultat attendu est une transition de décor."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
