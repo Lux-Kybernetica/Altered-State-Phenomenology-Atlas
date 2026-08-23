@@ -1,0 +1,117 @@
+{
+  "id": "lux.crosswalk.monroe_focus_ladder.v0_1",
+  "source_tradition": "The Monroe Institute / Gateway Focus ladder",
+  "version": "0.1",
+  "policy": [
+    "Focus levels are retained as Gateway program concepts, not promoted to universal consciousness phases.",
+    "No Focus level receives an identity mapping to Nova.",
+    "Metaphysical descriptions attached to a Focus level do not justify an NC mapping.",
+    "Only a narrow phenomenological overlap is mapped when the source wording supports it."
+  ],
+  "concepts": [
+    {
+      "id": "monroe.focus3",
+      "label": "Focus 3 — coherent/synchronized/balanced mind-brain condition",
+      "kind": "state",
+      "source_basis": ["Wave I Discovery instructions — Orientation / Focus 3"],
+      "notes": "Early Gateway training state described in program terms."
+    },
+    {
+      "id": "monroe.focus10",
+      "label": "Focus 10 — mind awake, body asleep",
+      "kind": "state",
+      "source_basis": ["Gateway Experience Manual — Discovery #2/#3"],
+      "notes": "Maintained mental alertness with deeply relaxed/sleeping body."
+    },
+    {
+      "id": "monroe.focus12",
+      "label": "Focus 12 — expanded awareness",
+      "kind": "state",
+      "source_basis": ["Gateway Experience Manual — Focus 12 Overview", "Exploring #1"],
+      "notes": "Broad Gateway exploration state; its program definition does not collapse to one NC concept."
+    },
+    {
+      "id": "monroe.focus15",
+      "label": "Focus 15 — no time",
+      "kind": "state",
+      "source_basis": ["Exploring #4 — Intro to Focus 15", "Exploring #5 — Mission 15"],
+      "notes": "Gateway describes this as a no-time state and a state of stillness/simply being."
+    },
+    {
+      "id": "monroe.focus21",
+      "label": "Focus 21 — bridge to other energy/reality systems",
+      "kind": "interpretive_construct",
+      "source_basis": ["Odyssey #5/#6", "Voyager #1"],
+      "notes": "Program concept strongly bound to Gateway's nonphysical-system cosmology."
+    },
+    {
+      "id": "monroe.focus27",
+      "label": "Focus 27 — reception center between physical lives",
+      "kind": "interpretive_construct",
+      "source_basis": ["Wave VII Voyager — Intro to Focus 27"],
+      "notes": "Program/cosmological construct in Voyager."
+    }
+  ],
+  "mappings": [
+    {
+      "external_id": "monroe.focus3",
+      "relation": "no_direct_equivalent",
+      "nc_refs": [],
+      "status": "rejected_identity",
+      "confidence": 0.92,
+      "basis": "Nova currently has no canonical node corresponding to Gateway's program-defined coherent/synchronized/balanced Focus 3 condition.",
+      "source_basis": ["Wave I Discovery instructions — Focus 3"],
+      "warning": "Do not manufacture an NC state merely to complete the ladder."
+    },
+    {
+      "external_id": "monroe.focus10",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.endormissement_conscient"],
+      "status": "crosswalk_inference",
+      "confidence": 0.82,
+      "basis": "Both retain awareness while the body enters a sleep-like/deeply relaxed condition, but Focus 10 is a program state and NC Endormissement conscient is a transition/process concept.",
+      "source_basis": ["Gateway Experience Manual — Discovery #2/#3"],
+      "warning": "Focus 10 is not identical to Endormissement conscient."
+    },
+    {
+      "external_id": "monroe.focus12",
+      "relation": "no_direct_equivalent",
+      "nc_refs": [],
+      "status": "rejected_identity",
+      "confidence": 0.90,
+      "basis": "Gateway's 'expanded awareness' is intentionally broad and combines program state, exploratory stance and source-specific interpretations. No single NC concept captures that unit.",
+      "source_basis": ["Gateway Experience Manual — Focus 12 Overview", "Exploring #1"],
+      "warning": "Do not map Focus 12 to generic Lucidité simply because both involve awareness."
+    },
+    {
+      "external_id": "monroe.focus15",
+      "relation": "partial_overlap",
+      "nc_refs": ["nova.distorsion_du_temps"],
+      "status": "crosswalk_inference",
+      "confidence": 0.58,
+      "basis": "Gateway defines Focus 15 through a subjective 'no time' framing; NC Distorsion du temps models subjective temporal alteration. The overlap is limited to temporal phenomenology, not Gateway's claims about being beyond time and space.",
+      "source_basis": ["Exploring #4 — Intro to Focus 15"],
+      "warning": "The metaphysical claim that an energy body is not limited by time and space is excluded from this mapping."
+    },
+    {
+      "external_id": "monroe.focus21",
+      "relation": "no_direct_equivalent",
+      "nc_refs": [],
+      "status": "rejected_identity",
+      "confidence": 0.97,
+      "basis": "Focus 21 is defined by Gateway as a bridge to other energy/reality systems. Nova has phenomenological transition and projection concepts but no canonical cosmological 'bridge' node.",
+      "source_basis": ["Odyssey #5/#6", "Voyager #1"],
+      "warning": "Do not map a source-specific cosmological location/state to Zone de bascule or Projection lucide."
+    },
+    {
+      "external_id": "monroe.focus27",
+      "relation": "no_direct_equivalent",
+      "nc_refs": [],
+      "status": "rejected_identity",
+      "confidence": 0.99,
+      "basis": "Focus 27 is described as a reception center between physical lives; this is outside the current Nova phenomenological ontology and is source-specific metaphysical framing.",
+      "source_basis": ["Wave VII Voyager — Intro to Focus 27"],
+      "warning": "No NC equivalent should be created absent a separate, explicitly interpretive/cosmological layer."
+    }
+  ]
+}
