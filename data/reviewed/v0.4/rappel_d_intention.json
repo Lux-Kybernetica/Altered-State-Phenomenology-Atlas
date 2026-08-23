@@ -1,0 +1,10 @@
+{
+  "id":"nova.rappel_d_intention","term":"Rappel d'intention",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["goal_maintenance","meta_awareness","executive_control"],"action_functions":["intention_control","stabilization"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"ramener volontairement l'objectif ou l'intention de l'expérience","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Cette entrée montre nettement la différence entre lucidité et maintien actif d'un but."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
