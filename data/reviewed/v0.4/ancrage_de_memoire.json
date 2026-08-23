@@ -1,0 +1,13 @@
+{
+  "id":"nova.ancrage_de_memoire","term":"Ancrage de mémoire",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["post_experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["memory_continuity","attention_stability"],"action_functions":["memory_consolidation"],"motor_states":["immobility"],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"rester immobile au réveil puis rembobiner mentalement l'expérience pour en préserver le rappel","epistemic_status":"operational_definition","basis":"Paraphrase de la procédure Nova."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"l'activation motrice efface les traces mémorielles","epistemic_status":"interpretation","basis":"Cette causalité est affirmée dans la fiche source mais n'est pas traitée ici comme fait établi."}
+    ],
+    "notes":["La procédure pratique et son explication causale sont volontairement séparées."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
