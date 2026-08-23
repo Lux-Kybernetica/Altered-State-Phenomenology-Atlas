@@ -22,10 +22,11 @@
 - Used as a review aid only, not as authoritative classification.
 
 ### Manual review v0.4
-- 35 terms manually reviewed in total.
-- 57 remain.
+- **52 terms manually reviewed in total.**
+- **40 remain.**
 - **Transitions complete: 15 / 15.**
 - **États & lucidité complete: 11 / 11.**
+- **Phénomènes perceptifs complete: 25 / 25.**
 
 Important corrections identified during review:
 
@@ -37,11 +38,15 @@ Important corrections identified during review:
 - treat `Stase` primarily as a state/condition even though Nova places it in Transitions;
 - distinguish phenomenological descriptions from operational claims such as direct access to a sortie;
 - model return phenomena with explicit self-location/body-boundary dimensions where justified;
-- added `cognitive_dimensions[]` to distinguish meta-awareness, reasoning clarity, memory continuity, goal maintenance, executive control, attention stability, temporal continuity and reality monitoring.
+- added `cognitive_dimensions[]` to distinguish meta-awareness, reasoning clarity, memory continuity, goal maintenance, executive control, attention stability, temporal continuity and reality monitoring;
+- confirmed vestibular and proprioceptive modalities as essential for movement-like phenomena;
+- confirmed that some phenomena are primarily selfhood reorganizations rather than sensory events;
+- source category mismatches are preserved but not propagated into Lux classifications;
+- absence of content (for example `Écran noir`) can still be represented as a state of a perceptual modality.
 
 ## Next review target
 
-**Phénomènes perceptifs** (`data/source/terms-phenomenes.json`).
+**Navigation / actions** (`data/source/terms-actions.json`).
 
 ## Not done yet
 
