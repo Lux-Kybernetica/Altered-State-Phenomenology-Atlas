@@ -1,0 +1,10 @@
+{
+  "id":"nova.dissolution_des_frontieres","term":"Dissolution des frontières",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":[],"phases":[],
+    "selfhood_dimensions":["self_location","body_boundaries"],"cognitive_dimensions":["meta_awareness"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"expérience sans localisation précise où la conscience est vécue comme un champ sans bords","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Aucune modalité sensorielle unique n'est imposée : le phénomène est avant tout une modification de self-location et des frontières du soi."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
