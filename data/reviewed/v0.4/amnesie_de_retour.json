@@ -1,0 +1,13 @@
+{
+  "id":"nova.amnesie_de_retour","term":"Amnésie de retour",
+  "annotation_lux_v0_4":{
+    "types":["state","obstacle"],"modalities":[],"phases":["return","post_experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["memory_continuity","temporal_continuity"],"action_functions":[],"motor_states":[],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"perte rapide du souvenir au retour malgré l'impression d'avoir vécu une expérience","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova."},
+      {"kind":"source_statement","predicate":"interpreted_as","value":"bouger trop vite ou se distraire provoque la perte mnésique","epistemic_status":"interpretation","basis":"La fiche source propose cette explication ; elle n'est pas encodée comme causalité établie."}
+    ],
+    "notes":["L'observation de perte mnésique et son explication pratique sont séparées."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
