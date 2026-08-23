@@ -1,0 +1,10 @@
+{
+  "id":"nova.stabilisation","term":"Stabilisation",
+  "annotation_lux_v0_4":{
+    "types":["action","concept"],"modalities":[],"phases":["experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["attention_stability","meta_awareness"],"action_functions":["stabilization"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"ensemble d'actions visant à rendre l'expérience plus nette, stable et durable","epistemic_status":"operational_definition","basis":"Définition opératoire fournie par Nova."}],
+    "notes":["Concept-chapeau : il regroupe plusieurs actions plutôt qu'un geste unique."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
