@@ -8,10 +8,12 @@ on:
       - 'data/reviewed/v0.4/**'
       - 'data/v0.5/typed-edges-reviewed-pass*.json'
       - 'data/v0.5/resonance-no-semantic-edge.json'
+      - 'pathways/**'
       - 'schemas/**'
       - 'scripts/build_v05.py'
       - 'scripts/suggest_relations.py'
       - 'scripts/build_graph_v05.py'
+      - 'scripts/validate_pathways.py'
       - '.github/workflows/build-v05.yml'
   workflow_dispatch:
 
@@ -39,15 +41,18 @@ jobs:
       - name: Build reviewed graph export
         run: python scripts/build_graph_v05.py
 
+      - name: Validate experiential pathways
+        run: python scripts/validate_pathways.py
+
       - name: Commit generated artifacts when changed
         shell: bash
         run: |
-          if git diff --quiet -- data/v0.5 graph/v0.5 audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md; then
+          if git diff --quiet -- data/v0.5 graph/v0.5 audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md; then
             echo 'Generated v0.5 artifacts are already current.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/v0.5 graph/v0.5 audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md
+          git add data/v0.5 graph/v0.5 audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md
           git commit -m 'build: regenerate NC v0.5 artifacts'
           git push
