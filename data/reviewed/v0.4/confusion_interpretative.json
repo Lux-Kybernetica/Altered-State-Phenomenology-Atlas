@@ -1,0 +1,10 @@
+{
+  "id":"nova.confusion_interpretative","term":"Confusion interprétative",
+  "annotation_lux_v0_4":{
+    "types":["state","obstacle"],"modalities":[],"phases":["threshold","experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["reasoning_clarity","reality_monitoring","meta_awareness"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"tirer des conclusions trop vite au détriment de la description de ce qui est observable","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Entrée centrale pour la séparation observation/interprétation qui structure tout le projet NC × Lux."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
