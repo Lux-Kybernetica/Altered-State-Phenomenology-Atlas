@@ -1,0 +1,13 @@
+{
+  "id":"nova.distorsion_du_temps","term":"Distorsion du temps",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["temporal"],"phases":["experience"],
+    "selfhood_dimensions":[],"cognitive_dimensions":["temporal_continuity"],"motor_states":[],
+    "assertions":[
+      {"kind":"source_statement","predicate":"described_as","value":"impression subjective que le temps s'étire ou se contracte pendant l'expérience","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."},
+      {"kind":"source_statement","predicate":"distinguish_from","value":"mesure objective du temps","epistemic_status":"source_explicit","basis":"Nova précise que cette distorsion est subjective et ne constitue pas une mesure fiable."}
+    ],
+    "notes":["La catégorie source 'présence perçue' est logiquement inadéquate ici ; elle est conservée dans la couche source mais remplacée analytiquement par temporal."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
