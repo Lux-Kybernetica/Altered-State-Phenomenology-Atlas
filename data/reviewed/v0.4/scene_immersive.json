@@ -1,0 +1,10 @@
+{
+  "id":"nova.scene_immersive","term":"Scène immersive",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["visual"],"phases":["threshold","separation"],
+    "selfhood_dimensions":["self_location","first_person_perspective"],"cognitive_dimensions":["meta_awareness"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"passage d'images observées à un décor vécu de l'intérieur avec profondeur et perspective stable","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Le point discriminant n'est pas seulement visuel : Nova décrit un changement de perspective et de localisation dans la scène."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
