@@ -1,0 +1,10 @@
+{
+  "id":"nova.somnolence","term":"Somnolence",
+  "annotation_lux_v0_4":{
+    "types":["state","obstacle"],"modalities":[],"phases":["sleep_onset","threshold"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["attention_stability","reasoning_clarity","meta_awareness"],"action_functions":[],"motor_states":["reduced"],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"conscience encore présente mais trop instable pour maintenir lucidité et attention","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova."}],
+    "notes":["La somnolence est ici un état de faible stabilité attentionnelle, pas simplement de relaxation."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
