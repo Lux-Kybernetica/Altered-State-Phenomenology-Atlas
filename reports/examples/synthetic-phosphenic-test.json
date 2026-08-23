@@ -1,0 +1,72 @@
+{
+  "id": "synthetic.phosphenic.001",
+  "source_type": "synthetic_test",
+  "participant_ref": null,
+  "context": {
+    "timing": "sleep_onset",
+    "induction": ["closed-eye observation", "sustained non-forcing attention"],
+    "intentional": true,
+    "notes": "Synthetic report used only to validate schema and analysis code. It is not empirical evidence."
+  },
+  "events": [
+    {
+      "sequence": 0,
+      "relative_time_seconds": 0,
+      "raw_description": "Diffuse moving luminous forms are noticed with the eyes closed.",
+      "term_refs": ["nova.phosphenes"],
+      "mapping_status": "analyst_mapped",
+      "confidence": 1.0,
+      "interpretation": null,
+      "notes": "Synthetic event."
+    },
+    {
+      "sequence": 1,
+      "relative_time_seconds": 90,
+      "raw_description": "The luminous field begins to organize into brief faces and short visual fragments.",
+      "term_refs": ["nova.images_hypnagogiques", "nova.hypnagogie"],
+      "mapping_status": "analyst_mapped",
+      "confidence": 1.0,
+      "interpretation": null,
+      "notes": "Synthetic event."
+    },
+    {
+      "sequence": 2,
+      "relative_time_seconds": 180,
+      "raw_description": "Ordinary bodily position becomes less obvious while awareness remains present; an internal buzzing is noticed.",
+      "term_refs": ["nova.zone_de_bascule", "nova.bourdonnement_intracranien"],
+      "mapping_status": "analyst_mapped",
+      "confidence": 1.0,
+      "interpretation": null,
+      "notes": "Synthetic event."
+    },
+    {
+      "sequence": 3,
+      "relative_time_seconds": 205,
+      "raw_description": "The subject deliberately avoids physical movement and allows the transition to continue.",
+      "term_refs": ["nova.lacher_prise"],
+      "mapping_status": "analyst_mapped",
+      "confidence": 1.0,
+      "interpretation": null,
+      "notes": "Synthetic event."
+    },
+    {
+      "sequence": 4,
+      "relative_time_seconds": 220,
+      "raw_description": "A distinct shift in perceived point of view is reported.",
+      "term_refs": ["nova.decrochage"],
+      "mapping_status": "analyst_mapped",
+      "confidence": 1.0,
+      "interpretation": "Synthetic representation of a separation-related transition; no metaphysical claim is encoded.",
+      "notes": "Synthetic event."
+    }
+  ],
+  "quality": {
+    "recall_confidence": 1.0,
+    "temporal_order_confidence": 1.0,
+    "completeness": "near_complete",
+    "notes": "Artificial certainty because this is a deliberately constructed test fixture."
+  },
+  "outcome_term_refs": ["nova.decrochage"],
+  "consent_scope": "synthetic_only",
+  "free_notes": "Never include this fixture in empirical pathway frequency calculations."
+}
