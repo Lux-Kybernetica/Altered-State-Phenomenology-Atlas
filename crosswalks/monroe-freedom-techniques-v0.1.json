@@ -1,0 +1,171 @@
+{
+  "id": "lux.crosswalk.monroe_freedom_techniques.v0_1",
+  "source_tradition": "The Monroe Institute / Gateway Experience — Wave III Freedom",
+  "version": "0.1",
+  "policy": [
+    "Technique descriptions are mapped separately from claimed outcomes.",
+    "Gateway references to nonphysical energy or a second body remain program/framework language and are not imported into Nova ontology.",
+    "A technique may target an NC transition without being equivalent to that transition.",
+    "Where Gateway explicitly says an exercise does not necessarily imply actual separation, the crosswalk preserves that distinction."
+  ],
+  "concepts": [
+    {
+      "id": "monroe.liftoff",
+      "label": "Freedom #1 — Liftoff",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #1: Liftoff"],
+      "notes": "Floating-perspective exercise in Focus 10; manual explicitly says this does not necessarily imply actual physical-body separation."
+    },
+    {
+      "id": "monroe.vectors",
+      "label": "Freedom #3 — Vectors",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #3: Vectors"],
+      "notes": "Uses body-referenced clock positions to train directional control and repeatable movement/orientation."
+    },
+    {
+      "id": "monroe.first_stage_separation",
+      "label": "Freedom #6 — First-Stage Separation",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: First-Stage Separation"],
+      "notes": "Umbrella exercise teaching five methods described as dissociation/separation methods."
+    },
+    {
+      "id": "monroe.first_stage_log_rolling",
+      "label": "First-Stage Separation — Log-rolling",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Log-rolling"],
+      "notes": "Deliberate rotation around a head-to-feet axis, followed by allowing the rotation and moving outward."
+    },
+    {
+      "id": "monroe.first_stage_pole",
+      "label": "First-Stage Separation — Pole",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Pole method"],
+      "notes": "Sequentially moves the described second-body representation out head-first while feet remain the pivot until intended full separation."
+    },
+    {
+      "id": "monroe.first_stage_backing_away",
+      "label": "First-Stage Separation — Backing away",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Backing away"],
+      "notes": "Imagined/perceived backward movement away from the physical body before directional movement."
+    },
+    {
+      "id": "monroe.first_stage_flowing",
+      "label": "First-Stage Separation — Flowing",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Flowing"],
+      "notes": "Describes sending nonphysical-energy imagery out through the head as cloud/fog/spray before re-forming into a body-like shape."
+    },
+    {
+      "id": "monroe.first_stage_floating",
+      "label": "First-Stage Separation — Floating",
+      "kind": "technique",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Floating"],
+      "notes": "Uses emotional association with floating/soaring to support the intended separation process."
+    }
+  ],
+  "mappings": [
+    {
+      "external_id": "monroe.liftoff",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.flottement"],
+      "status": "crosswalk_inference",
+      "confidence": 0.91,
+      "basis": "Liftoff trains a floating/rising perspective while awareness is experienced as displaced relative to the physical body; Nova Flottement models the corresponding light/suspended/rising sensation.",
+      "source_basis": ["Gateway Experience Manual — Freedom #1: Liftoff"],
+      "warning": "Gateway explicitly states that Liftoff does not necessarily imply actual separation."
+    },
+    {
+      "external_id": "monroe.liftoff",
+      "relation": "distinguish_from",
+      "nc_refs": ["nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.88,
+      "basis": "The manual distinguishes the perspective/movement exercise from necessary actual separation; Nova Décrochage is the transition itself rather than a floating cue or rehearsal.",
+      "source_basis": ["Gateway Experience Manual — Freedom #1: Liftoff"],
+      "warning": "Do not count Liftoff practice as a reported Décrochage event."
+    },
+    {
+      "external_id": "monroe.vectors",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.orientation"],
+      "status": "crosswalk_inference",
+      "confidence": 0.94,
+      "basis": "Vectors trains choosing and reproducing directional reference points and controlled movement; Nova Orientation is the action of selecting a direction, target or intentional reference.",
+      "source_basis": ["Gateway Experience Manual — Freedom #3: Vectors"],
+      "warning": "Gateway's nonphysical-space theory is not required for the operational mapping."
+    },
+    {
+      "external_id": "monroe.first_stage_separation",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.97,
+      "basis": "Freedom #6 explicitly teaches methods intended to move from ordinary bodily localization into a separated/out-of-phase condition; Nova Décrochage is the modeled transition rather than the destination.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: First-Stage Separation"],
+      "warning": "Training objective and actually reported transition remain separate data fields."
+    },
+    {
+      "external_id": "monroe.first_stage_log_rolling",
+      "relation": "operationally_similar_to",
+      "nc_refs": ["nova.rotation_volontaire"],
+      "status": "crosswalk_inference",
+      "confidence": 0.98,
+      "basis": "Both procedures deliberately use/amplify axial rotation as a separation method rather than treating rotation as a merely spontaneous sensation.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Log-rolling"],
+      "warning": "Gateway's second-body/nonphysical-energy explanation remains source framing."
+    },
+    {
+      "external_id": "monroe.first_stage_pole",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.sortie_partielle", "nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.89,
+      "basis": "The pole procedure explicitly stages a head/shoulders/chest/waist/legs progression while the feet remain the last contact point, closely resembling Nova's partial-exit transition before complete separation.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Pole method"],
+      "warning": "The technique sequence is not evidence that all spontaneous partial exits follow this order."
+    },
+    {
+      "external_id": "monroe.first_stage_backing_away",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.intention_de_separation", "nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.84,
+      "basis": "Backing away converts a simple directional intention into a separation maneuver; Nova Intention de séparation explicitly models simple directed movement-away intent and Décrochage the transition it may precede/facilitate.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Backing away"],
+      "warning": "This is procedural alignment, not a claim that the same mechanism is operating."
+    },
+    {
+      "external_id": "monroe.first_stage_flowing",
+      "relation": "no_direct_equivalent",
+      "nc_refs": [],
+      "status": "rejected_identity",
+      "confidence": 0.96,
+      "basis": "Nova currently has no canonical action concept matching Gateway's cloud/fog/spray-outflow visualization and re-formation procedure.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Flowing"],
+      "warning": "Do not force this unique imagery technique into a generic separation node merely for vocabulary completeness."
+    },
+    {
+      "external_id": "monroe.first_stage_flowing",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.82,
+      "basis": "Although the procedure has no NC action equivalent, its explicit Gateway purpose is separation/dissociation, which aligns with Décrochage as the target transition.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Flowing"],
+      "warning": "No-equivalent procedure and shared target are not contradictory."
+    },
+    {
+      "external_id": "monroe.first_stage_floating",
+      "relation": "technique_targets",
+      "nc_refs": ["nova.flottement", "nova.decrochage"],
+      "status": "crosswalk_inference",
+      "confidence": 0.88,
+      "basis": "The Floating method intentionally evokes floating/soaring sensations to support separation; Nova distinguishes Flottement as a cue/phenomenon from Décrochage as the transition.",
+      "source_basis": ["Gateway Experience Manual — Freedom #6: Floating"],
+      "warning": "The crosswalk intentionally keeps cue and transition as two NC targets."
+    }
+  ]
+}
