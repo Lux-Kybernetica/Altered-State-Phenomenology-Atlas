@@ -1,0 +1,10 @@
+{
+  "id":"nova.silence_soudain","term":"Silence soudain",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["auditory"],"phases":["threshold","separation"],
+    "selfhood_dimensions":[],"cognitive_dimensions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"coupure brutale de tout son, parfois après amplification, avec impression de basculement","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["Le fait que ce silence 'marque le passage' est conservé comme association source, pas comme mécanisme établi."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
