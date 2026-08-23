@@ -1,0 +1,10 @@
+{
+  "id":"nova.pause_strategique","term":"Pause stratégique",
+  "annotation_lux_v0_4":{
+    "types":["safety","action"],"modalities":[],"phases":["wake","post_experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["reasoning_clarity","executive_control"],"action_functions":["integration","affect_regulation"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"décider volontairement de ralentir la pratique pendant quelques jours afin de récupérer et stabiliser","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["La pause est modélisée comme ajustement volontaire et non comme échec de pratique."],
+    "annotation_method":"manual_review_batch7","annotation_confidence":1.0,"review_status":"reviewed_batch7"
+  }
+}
