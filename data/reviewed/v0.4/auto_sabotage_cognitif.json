@@ -1,0 +1,10 @@
+{
+  "id":"nova.auto_sabotage_cognitif","term":"Auto-sabotage cognitif",
+  "annotation_lux_v0_4":{
+    "types":["state","obstacle"],"modalities":[],"phases":["threshold","experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["meta_awareness","reasoning_clarity","attention_stability","executive_control"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"jugement négatif ou doute auto-dirigé pendant l'expérience, associé à une perte de stabilité","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Nova distingue explicitement auto-observation neutre et auto-critique ; le terme est donc cognitif/affectif mais principalement modélisé par les fonctions cognitives impliquées."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
