@@ -1,0 +1,10 @@
+{
+  "id":"nova.rotation_volontaire","term":"Rotation volontaire",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["separation"],"selfhood_dimensions":["agency","self_location"],
+    "cognitive_dimensions":["executive_control","attention_stability"],"action_functions":["separation"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"amplifier volontairement une sensation de rotation pour favoriser ou compléter la séparation","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova ; l'effet causal reste une proposition opératoire."}],
+    "notes":["La rotation perçue et l'action de l'amplifier sont deux objets distincts dans le modèle."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
