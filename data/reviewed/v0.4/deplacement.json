@@ -1,0 +1,10 @@
+{
+  "id":"nova.deplacement","term":"Déplacement",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["experience"],"selfhood_dimensions":["agency","self_location"],
+    "cognitive_dimensions":["executive_control"],"action_functions":["navigation"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"se déplacer par intention plutôt que par effort physique","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Le modèle distingue l'intention de mouvement de la motricité corporelle ordinaire."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
