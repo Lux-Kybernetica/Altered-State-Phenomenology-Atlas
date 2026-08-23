@@ -49,15 +49,38 @@ This directory contains the manually reviewed Lux annotations currently consider
 - Rêve lucide
 - Rappel stable
 
-`Projection lucide` was already reviewed in batch 1, so the **États & lucidité** family is now fully covered.
+`Projection lucide` was already reviewed in batch 1, so the **États & lucidité** family is fully covered.
+
+## Reviewed perceptual phenomena batch 4
+
+- Lourdeur
+- Balancement
+- Chute interne
+- Dissociation sensorielle
+- Double localisation
+- Dissolution des frontières
+- Corps de sortie
+- Bourdonnement
+- Silence soudain
+- Voix hypnagogiques
+- Musique hypnagogique
+- Scène immersive
+- Flou perceptif
+- Écran noir
+- Flash lumineux
+- Présence perçue
+- Distorsion du temps
+
+Eight additional phenomena had already been reviewed in earlier batches, so the **Phénomènes perceptifs** family is fully covered.
 
 ## Progress
 
-**35 / 92 terms manually reviewed. 57 remain.**
+**52 / 92 terms manually reviewed. 40 remain.**
 
 Completed source families:
 
 - **Transitions: 15 / 15**
 - **États & lucidité: 11 / 11**
+- **Phénomènes perceptifs: 25 / 25**
 
 The source definitions are not duplicated in these files. They live under `data/source/terms-*.json`, while this directory stores the Lux semantic layer only. This separation is deliberate: source and analysis must never become indistinguishable.
