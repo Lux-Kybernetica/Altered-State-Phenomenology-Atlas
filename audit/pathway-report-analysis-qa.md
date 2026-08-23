@@ -3,21 +3,42 @@
 - Canonical NC IDs available: **92**
 - Report JSON files discovered: **1**
 - Synthetic fixtures: **1**
-- Empirical reports included in statistics: **0**
+- Participant reports (`self_report` / `interview`): **0**
+- Literature cases: **0**
+- Non-synthetic reports: **0**
 - Errors: **0**
 
-## Empirical status
+## Evidence status
 
-**No empirical pathway statistics exist yet. All stage and transition counts are correctly zero.**
+**No non-synthetic pathway evidence exists yet. Participant and literature stage/transition counts are correctly zero.**
 
-The synthetic fixture was parsed and reference-checked but excluded before stage occurrence or temporal-order statistics were calculated.
+The existing synthetic fixture is parsed and reference-checked but excluded before any evidence count.
 
-## Synthetic-data guard
+## Evidence-class guards
 
-`source_type: synthetic_test` is a hard exclusion criterion for empirical aggregation.
+The report pipeline now keeps three evidence classes separate:
 
-This prevents schema/test fixtures from becoming accidental supporting evidence for the pathway.
+1. participant reports (`self_report`, `interview`);
+2. literature cases;
+3. synthetic fixtures.
+
+Literature cases are never silently pooled with direct participant reports. A combined non-synthetic view may exist only as an explicitly exploratory output.
+
+## Semantic-exposure guard
+
+Experience-report schema v0.2 records:
+
+- prior framework exposure;
+- terminology exposure before the report;
+- elicitation mode;
+- whether NC/external labels were shown before raw description;
+- whether the raw report was frozen before mapping;
+- capture delay.
+
+This allows later convergence analyses to stratify reports by semantic-contamination risk rather than pretending that trained vocabulary and spontaneous description are equally independent.
+
+The current synthetic v0.1 fixture is classified as `not_recorded_v0.1`; it remains excluded regardless.
 
 ## Result
 
-**PASS — report pipeline preserves the synthetic/empirical boundary.**
+**PASS at manual baseline — the current zero-evidence state is preserved while the pipeline now distinguishes synthetic, participant, literature and semantic-exposure strata.**
