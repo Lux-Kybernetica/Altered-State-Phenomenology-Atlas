@@ -1,0 +1,97 @@
+{
+  "id": "lux.sources.monroe_gateway_focus_claims.v0_1",
+  "source_tradition": "The Monroe Institute / Gateway Experience",
+  "version": "0.1",
+  "claims": [
+    {
+      "id": "monroe.claim.focus3.definition",
+      "subject_id": "monroe.focus3",
+      "claim_type": "program_definition",
+      "statement": "Focus 3 is described as a condition in which brain and mind are more coherent, synchronized and balanced.",
+      "source_basis": ["Wave I Discovery instructions — Orientation / Focus 3"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Program terminology. This does not establish a scientific physiological state by itself."
+    },
+    {
+      "id": "monroe.claim.focus10.definition",
+      "subject_id": "monroe.focus10",
+      "claim_type": "program_definition",
+      "statement": "Focus 10 is described as mind awake/alert while the body is deeply asleep or calmly sleeping.",
+      "source_basis": ["Gateway Experience Manual — Discovery #2/#3"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "Useful for operational comparison with NC sleep-transition concepts."
+    },
+    {
+      "id": "monroe.claim.focus12.definition",
+      "subject_id": "monroe.focus12",
+      "claim_type": "program_definition",
+      "statement": "Focus 12 is described as a state of expanded awareness and a high-energy state used for multiple exploratory purposes.",
+      "source_basis": ["Gateway Experience Manual — Focus 12 Overview", "Exploring #1 — Advanced Focus 12"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "The phrase expanded awareness is program-defined and broader than any single NC state."
+    },
+    {
+      "id": "monroe.claim.focus12.nonphysical_perception",
+      "subject_id": "monroe.focus12",
+      "claim_type": "interpretive_claim",
+      "statement": "The manual frames Focus 12 as enabling perception of nonphysical energy and guidance beyond ordinary physical-sense perception.",
+      "source_basis": ["Gateway Experience Manual — Focus 12 Overview", "Exploring Wave V"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Retained as Monroe source framing only."
+    },
+    {
+      "id": "monroe.claim.focus15.definition",
+      "subject_id": "monroe.focus15",
+      "claim_type": "program_definition",
+      "statement": "Focus 15 is described as the state of 'no time' and as a state of stillness or simply being.",
+      "source_basis": ["Exploring #4 — Intro to Focus 15", "Exploring #5 — Mission 15"],
+      "import_policy": "crosswalk_eligible",
+      "notes": "May support only a limited temporal phenomenology comparison."
+    },
+    {
+      "id": "monroe.claim.focus15.energybody_timeless",
+      "subject_id": "monroe.focus15",
+      "claim_type": "metaphysical_claim",
+      "statement": "The Wave V manual states that the energy body is not limited or controlled by time and space.",
+      "source_basis": ["Exploring #4 — Intro to Focus 15"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Not used to justify NC temporal or ontological assertions."
+    },
+    {
+      "id": "monroe.claim.focus21.definition",
+      "subject_id": "monroe.focus21",
+      "claim_type": "program_definition",
+      "statement": "Focus 21 is described by Gateway as the bridge to other energy or reality systems.",
+      "source_basis": ["Odyssey #5 — Movement to Locale 2 / Intro Focus 21", "Voyager #1"],
+      "import_policy": "context_only",
+      "notes": "Program definition is inseparable from source-specific cosmological framing and has no direct NC equivalent in the current ontology."
+    },
+    {
+      "id": "monroe.claim.focus21.other_systems",
+      "subject_id": "monroe.focus21",
+      "claim_type": "metaphysical_claim",
+      "statement": "Gateway treats Focus 21 as access to other nonphysical energy/reality systems.",
+      "source_basis": ["Odyssey #5/#6", "Voyager #1"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Crosswalk must not convert this cosmology into Nova source truth."
+    },
+    {
+      "id": "monroe.claim.focus27.definition",
+      "subject_id": "monroe.focus27",
+      "claim_type": "program_definition",
+      "statement": "Voyager describes Focus 27 as a reception center between physical lives.",
+      "source_basis": ["Wave VII Voyager — Intro to Focus 27"],
+      "import_policy": "context_only",
+      "notes": "Useful for documenting Gateway's own Focus taxonomy, not for NC equivalence."
+    },
+    {
+      "id": "monroe.claim.focus27.afterlife_reception",
+      "subject_id": "monroe.focus27",
+      "claim_type": "metaphysical_claim",
+      "statement": "Voyager frames Focus 27 as a way station where deceased individuals can rest, review life experiences and consider further evolutionary steps.",
+      "source_basis": ["Wave VII Voyager manual"],
+      "import_policy": "do_not_import_as_fact",
+      "notes": "Explicitly excluded from the NC ontology and scientific layer absent independent evidence."
+    }
+  ]
+}
