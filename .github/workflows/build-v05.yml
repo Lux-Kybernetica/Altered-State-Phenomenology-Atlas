@@ -17,6 +17,8 @@ on:
       - 'scripts/validate_pathways.py'
       - 'scripts/analyze_pathway_reports.py'
       - '.github/workflows/build-v05.yml'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -50,6 +52,7 @@ jobs:
         run: python scripts/analyze_pathway_reports.py
 
       - name: Commit generated artifacts when changed
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           if git diff --quiet -- data/v0.5 graph/v0.5 analysis audit/v0.5-qa-report.md audit/v0.5-relation-candidate-pass1.md audit/v0.5-graph-qa.md audit/pathway-qa.md audit/pathway-report-analysis-qa.md; then
