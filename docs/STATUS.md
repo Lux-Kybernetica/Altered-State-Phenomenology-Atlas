@@ -21,37 +21,53 @@
 - 92 concepts heuristically pre-annotated.
 - Used as a review aid only, not as authoritative classification.
 
-### Manual review v0.4
-- **52 terms manually reviewed in total.**
-- **40 remain.**
-- **Transitions complete: 15 / 15.**
-- **États & lucidité complete: 11 / 11.**
-- **Phénomènes perceptifs complete: 25 / 25.**
+### Manual review v0.4 — COMPLETE
 
-Important corrections identified during review:
+- **92 / 92 terms manually reviewed.**
+- **États & lucidité: 11 / 11.**
+- **Transitions: 15 / 15.**
+- **Phénomènes perceptifs: 25 / 25.**
+- **Navigation / actions: 19 / 19.**
+- **Obstacles: 13 / 13.**
+- **Sécurité: 9 / 9.**
 
-- added `awakening` phase for hypnopompic material;
-- added `situation` type;
-- added `condition` type;
-- added motor-state axis;
-- reduced lexical overclassification of modalities;
-- treat `Stase` primarily as a state/condition even though Nova places it in Transitions;
-- distinguish phenomenological descriptions from operational claims such as direct access to a sortie;
-- model return phenomena with explicit self-location/body-boundary dimensions where justified;
-- added `cognitive_dimensions[]` to distinguish meta-awareness, reasoning clarity, memory continuity, goal maintenance, executive control, attention stability, temporal continuity and reality monitoring;
-- confirmed vestibular and proprioceptive modalities as essential for movement-like phenomena;
-- confirmed that some phenomena are primarily selfhood reorganizations rather than sensory events;
-- source category mismatches are preserved but not propagated into Lux classifications;
-- absence of content (for example `Écran noir`) can still be represented as a state of a perceptual modality.
+## Model changes discovered during review
 
-## Next review target
+- `awakening` phase added for hypnopompic material;
+- `situation` and `condition` logical types added;
+- motor state separated from perceptual modality;
+- `selfhood_dimensions[]` retained for self-location, body ownership, perspective, agency and body boundaries;
+- `cognitive_dimensions[]` added for meta-awareness, reasoning clarity, memory continuity, goal maintenance, executive control, attention stability, temporal continuity and reality monitoring;
+- `action_functions[]` added to distinguish stabilization, regulation, separation, navigation, interaction, epistemic monitoring, return, memory consolidation and integration;
+- source category mismatches are preserved rather than silently corrected;
+- absence of perceptual content can still be a state of a modality (`Écran noir`);
+- source recommendations and causal claims remain separate from observations, especially in the safety layer.
 
-**Navigation / actions** (`data/source/terms-actions.json`).
+## Current model axes
+
+- `types[]`
+- `modalities[]`
+- `phases[]`
+- `selfhood_dimensions[]`
+- `cognitive_dimensions[]`
+- `action_functions[]`
+- `motor_states[]`
+- `assertions[]` with assertion-level epistemic status
+
+## Next phase — v0.5
+
+1. Consolidate the 92 reviewed annotations into one normalized dataset.
+2. Validate all records against the current schema / controlled vocabularies.
+3. Systematically review typed relation candidates.
+4. Separate explicit-source relations from inferred/proposed relations.
+5. Generate the first knowledge-graph export only after relation review.
+6. Build the first explicit pathway model separately from the ontology.
 
 ## Not done yet
 
-- full manual review of all 92 concepts;
-- consolidated relation graph;
+- consolidated v0.5 dataset;
+- systematic relation review;
+- knowledge-graph export;
 - pathway model;
 - scientific source layer;
 - Monroe/Vieira crosswalks;
