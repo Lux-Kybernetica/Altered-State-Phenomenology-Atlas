@@ -1,0 +1,10 @@
+{
+  "id":"nova.flou_perceptif","term":"Flou perceptif",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon"],"modalities":["visual"],"phases":["experience"],
+    "selfhood_dimensions":[],"cognitive_dimensions":["attention_stability"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"instabilité visuelle avec brouillard, variations de luminosité et difficulté à fixer un détail","epistemic_status":"phenomenological_observation","basis":"Paraphrase fidèle de la définition Nova."}],
+    "notes":["L'association à la stabilisation est fonctionnelle ; le flou n'est pas traité comme un échec."],
+    "annotation_method":"manual_review_batch4","annotation_confidence":1.0,"review_status":"reviewed_batch4"
+  }
+}
