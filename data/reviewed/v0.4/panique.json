@@ -1,0 +1,10 @@
+{
+  "id":"nova.panique","term":"Panique",
+  "annotation_lux_v0_4":{
+    "types":["phenomenon","state","obstacle"],"modalities":["affective","interoceptive"],"phases":["threshold","experience","return"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["reasoning_clarity","attention_stability","executive_control"],"action_functions":[],"motor_states":["motor_effort"],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"escalade rapide de peur occupant l'attention et empêchant les actions jugées utiles","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Nova distingue explicitement la peur initiale de son escalade en panique."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
