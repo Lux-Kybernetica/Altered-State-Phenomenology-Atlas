@@ -1,0 +1,10 @@
+{
+  "id":"nova.fragmentation","term":"Fragmentation",
+  "annotation_lux_v0_4":{
+    "types":["state","obstacle"],"modalities":[],"phases":["experience","post_experience"],"selfhood_dimensions":[],
+    "cognitive_dimensions":["memory_continuity","temporal_continuity"],"action_functions":[],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"expérience remémorée en morceaux avec scènes séparées et transitions manquantes","epistemic_status":"phenomenological_observation","basis":"Paraphrase de la définition Nova."}],
+    "notes":["La fragmentation peut concerner la continuité vécue, la continuité mémorisée, ou les deux ; le modèle ne tranche pas sans données supplémentaires."],
+    "annotation_method":"manual_review_batch6","annotation_confidence":1.0,"review_status":"reviewed_batch6"
+  }
+}
