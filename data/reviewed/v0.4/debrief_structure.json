@@ -1,0 +1,10 @@
+{
+  "id":"nova.debrief_structure","term":"Débrief structuré",
+  "annotation_lux_v0_4":{
+    "types":["action"],"modalities":[],"phases":["post_experience"],"selfhood_dimensions":["agency"],
+    "cognitive_dimensions":["memory_continuity","reasoning_clarity","temporal_continuity"],"action_functions":["integration","memory_consolidation"],"motor_states":[],
+    "assertions":[{"kind":"source_statement","predicate":"described_as","value":"mettre l'expérience en forme selon contexte, transition, phénomènes, actions, fin et apprentissage","epistemic_status":"operational_definition","basis":"Paraphrase de la définition Nova."}],
+    "notes":["Cette entrée est surtout méthodologique : elle transforme le récit en donnée plus comparable et transmissible."],
+    "annotation_method":"manual_review_batch5","annotation_confidence":1.0,"review_status":"reviewed_batch5"
+  }
+}
